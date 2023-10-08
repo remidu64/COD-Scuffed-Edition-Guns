@@ -1,0 +1,67 @@
+
+ 
+    test:
+        Item_Information:
+            Item_Name: "&etesttoo"
+            Item_Lore: "&eur mom"
+            Item_Type: 417
+            Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Shooting:
+            Recoil_Amount: 80000
+            Right_Click_To_Shoot: true
+            Cancel_Left_Click_Block_Damage: true
+            Cancel_Right_Click_Interactions: true
+            Dual_Wield: false
+            Projectile_Amount: 62
+            Projectile_Type: snowball
+            Remove_Bullet_Drop: true
+            Projectile_Speed: 70
+            Projectile_Damage: 50154645465
+            Projectile_Flames: true
+            Projectile_Incendiary:
+                Enable: true
+                Duration: 505
+            Bullet_Spread: 0.54
+            Sounds_Shoot: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+        Fully_Automatic:
+            Enable: true
+            Fire_Rate: 1
+        Burstfire:
+            Enable: false
+            Shots_Per_Burst: 0
+            Delay_Between_Shots_In_Burst: 0
+        Reload:
+            Enable: true
+            Reload_Amount: 70
+            Reload_Duration: 1
+            Reload_Bullets_Individually: true
+            Sounds_Out_Of_Ammo: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+            Sounds_Reloading: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+        Scope:
+            Enable: false
+            Zoom_Amount: 1
+            Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Headshot:
+            Enable: true
+            Bonus_Damage: 5
+            Sounds_Shooter: NOTE_PLING-1-2-0
+            Sounds_Victim: VILLAGER_DEATH-1-1-0
+        Fireworks:
+            Enable: true
+            Firework_Headshot: STAR-TRUE-TRUE-250-0-0
+        Backstab
+:            Enable: true
+            Bonus_Damage: 549
+            Sounds_Shooter: NOTE_PLING-1-2-0
+            Sounds_Victim: VILLAGER_DEATH-1-1-0
+        Explosions:
+            Enable: false
+            Knockback: 1
+            Damage_Multiplier: 0
+            Enable_Owner_Immunity: true
+            Explosion_No_Grief: true
+            Explosion_Radius: 1
+            On_Impact_With_Anything: true
+        Abilities:
+            Reset_Hit_Cooldown: true
+            Knockback: 50
