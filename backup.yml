@@ -1606,38 +1606,6 @@
             Enable: true
             Sounds_Shooter: SHOOT_ARROW-1-2-0
             
-    Bravado:
-        Item_Information:
-            Item_Name: "&eM4A1 'Bravado'"
-            Item_Type: 417
-            Item_Lore: "&eAssault Rifle"
-            Sounds_Acquired: BAT_TAKEOFF-1-1-0
-        Shooting:
-            Right_Click_To_Shoot: true
-            Recoil_Amount: 2
-            Cancel_Left_Click_Block_Damage: true
-            Cancel_Right_Click_Interactions: true
-            Projectile_Amount: 1
-            Projectile_Type: snowball
-            Projectile_Speed: 70
-            Projectile_Damage: 8
-            Bullet_Spread: 0.03
-            Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
-        Fully_Automatic:
-            Enable: true
-            Fire_Rate: 10
-        Reload:
-            Enable: true
-            Reload_Amount: 30
-            Reload_Duration: 30
-            Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-            Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
-        Abilities:
-            Reset_Hit_Cooldown: true
-        Hit_Events:
-            Enable: true
-            Sounds_Shooter: SHOOT_ARROW-1-2-0
-            
     Marco5:
         Item_Information:
             Item_Name: "&eMarco 5"
@@ -2593,7 +2561,7 @@
         Item_Information:
             Item_Name: "&eFTAC Siege"
             Item_Type: 417
-            Item_Lore: "&eSMG"
+            Item_Lore: "&ePistol"
             Sounds_Acquired: BAT_TAKEOFF-1-1-0
         Shooting:
             Recoil_Amount: 1
@@ -4593,6 +4561,267 @@
             Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
         Abilities:
             Reset_Hit_Cooldown: true
+        Hit_Events:
+            Enable: true
+            Sounds_Shooter: SHOOT_ARROW-1-2-0
+            
+    swissk31:
+        Item_Information:
+            Item_Name: "&eSwiss K31"
+            Item_Type: 417
+            Item_Lore: "&eSniper Rifle"
+            Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Shooting:
+            Cancel_Left_Click_Block_Damage: true
+            Cancel_Right_Click_Interactions: true
+            Recoil_Amount: 2
+            Projectile_Amount: 1
+            Projectile_Type: snowball
+            Projectile_Speed: 1000
+            Projectile_Damage: 13
+            Sounds_Shoot: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+        Reload:
+            Enable: true
+            Reload_Amount: 6
+            Reload_Duration: 40
+            Sounds_Reloading: NOTE_STICKS-1-1-0
+        Firearm_Action:
+            Type: bolt
+            Open_Duration: 7
+            Close_Duration: 9
+            Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2
+            Sound_Close: PISTON_EXTEND-1-2-0
+        Headshot:
+            Enable: true
+            Bonus_Damage: 8
+            Sounds_Shooter: NOTE_PLING-1-2-0
+            Sounds_Victim: VILLAGER_DEATH-1-1-0
+        Abilities:
+            Reset_Hit_Cooldown: true
+            Knockback: 5
+        Particles:
+            Enable: true
+            Particle_Player_Shoot: BLOCK_BREAK-1
+            Particle_Terrain: true
+        Fireworks:
+            Enable: true
+            Firework_Headshot: STAR-TRUE-TRUE-250-0-0
+        Scope:
+            Enable: true
+            Zoom_Amount: 6
+            Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Hit_Events:
+            Enable: true
+            Sounds_Shooter: SHOOT_ARROW-1-2-0
+            
+    cr-56amax:
+        Item_Information:
+            Item_Name: "&eCR-56 AMAX"
+            Item_Type: 417
+            Item_Lore: "&eAssault Rifle"
+            Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Shooting:
+            Right_Click_To_Shoot: true
+            Cancel_Left_Click_Block_Damage: true
+            Cancel_Right_Click_Interactions: true
+            Recoil_Amount: 1
+            Projectile_Amount: 1
+            Projectile_Type: snowball
+            Projectile_Speed: 70
+            Projectile_Damage: 5
+            Bullet_Spread: 0.013
+            Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Reload:
+            Enable: true
+            Reload_Amount: 30
+            Reload_Duration: 24
+            Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+            Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Abilities:
+            Reset_Hit_Cooldown: true
+        Hit_Events:
+            Enable: true
+            Sounds_Shooter: SHOOT_ARROW-1-2-0
+            Burstfire:
+            Enable: true
+        Fully_Automatic:
+            Enable: true
+            Fire_Rate: 6
+            
+    adminastolfo-47:
+        Item_Information:
+            Item_Name: "&eAstolfo-47"
+            Item_Type: 417
+            Item_Lore: "&eCyanActSus' favorite weapon  &d&lDEV ITEM DONT SPAM"
+            Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Shooting:
+            Right_Click_To_Shoot: true
+            Recoil_Amount: 0
+            Cancel_Left_Click_Block_Damage: true
+            Cancel_Right_Click_Interactions: true
+            Projectile_Amount: 10
+            Projectile_Type: snowball
+            Projectile_Speed: 20
+            Remove_Bullet_Drop: true
+            Projectile_Damage: 2
+            Bullet_Spread: 0.15
+            Sounds_Shoot: MUSIC_DISC_FAR-1-3-0
+        Fully_Automatic:
+            Enable: true
+            Fire_Rate: 16
+        Abilities:
+            Reset_Hit_Cooldown: true
+        Hit_Events:
+            Enable: true
+            Sounds_Shooter: SHOOT_ARROW-1-2-0
+            
+    ppsh-41:
+        Item_Information:
+            Item_Name: "&ePPSh-41"
+            Item_Type: 417
+            Item_Lore: "&eSMG"
+            Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Shooting:
+            Recoil_Amount: 1
+            Right_Click_To_Shoot: true
+            Cancel_Left_Click_Block_Damage: true
+            Cancel_Right_Click_Interactions: true
+            Projectile_Amount: 1
+            Projectile_Type: snowball
+            Projectile_Speed: 70
+            Projectile_Damage: 4
+            Bullet_Spread: 0.018
+            Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Fully_Automatic:
+            Enable: true
+            Fire_Rate: 11
+        Reload:
+            Enable: true
+            Reload_Amount: 65
+            Reload_Duration: 54
+            Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+            Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Abilities:
+            Reset_Hit_Cooldown: true
+        Hit_Events:
+            Enable: true
+            Sounds_Shooter: SHOOT_ARROW-1-2-0
+            
+    m134minigun:
+        Item_Information:
+            Item_Name: "&eM134 Minigun"
+            Item_Lore: "&eLMG"
+            Item_Type: 417
+            Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Shooting:
+            Recoil_Amount: 1
+            Right_Click_To_Shoot: true
+            Cancel_Left_Click_Block_Damage: true
+            Cancel_Right_Click_Interactions: true
+            Dual_Wield: false
+            Projectile_Amount: 3
+            Projectile_Type: snowball
+            Remove_Bullet_Drop: true
+            Projectile_Speed: 70
+            Projectile_Damage: 3
+            Projectile_Flames: false
+            Projectile_Incendiary:
+                Enable: false
+                Duration: 0
+            Bullet_Spread: 0.08
+            Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Fully_Automatic:
+            Enable: true
+            Fire_Rate: 15
+        Burstfire:
+            Enable: false
+            Shots_Per_Burst: 0
+            Delay_Between_Shots_In_Burst: 0
+        Reload:
+            Enable: true
+            Reload_Amount: 4000
+            Reload_Duration: 750
+            Reload_Bullets_Individually: false
+            Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+            Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Scope:
+            Enable: false
+            Zoom_Amount: 1
+            Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Headshot:
+            Enable: false
+            Bonus_Damage: 0
+            Sounds_Shooter: NOTE_PLING-1-2-0
+            Sounds_Victim: VILLAGER_DEATH-1-1-0
+        Fireworks:
+            Enable: true
+            Firework_Headshot: STAR-TRUE-TRUE-250-0-0
+        Backstab:
+            Enable: false
+            Bonus_Damage: 0
+            Sounds_Shooter: NOTE_PLING-1-2-0
+            Sounds_Victim: VILLAGER_DEATH-1-1-0
+        Explosions:
+            Enable: false
+            Knockback: 1
+            Damage_Multiplier: 0
+            Enable_Owner_Immunity: true
+            Explosion_No_Grief: true
+            Explosion_Radius: 1
+            On_Impact_With_Anything: true
+        Abilities:
+            Reset_Hit_Cooldown: true
+            Knockback: 3
+            
+    InfernalFlight:
+        Item_Information:
+            Item_Name: "&eHDR 'Infernal Flight'"
+            Item_Type: 417
+            Item_Lore: "&eSniper Rifle"
+            Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Shooting:
+            Cancel_Left_Click_Block_Damage: true
+            Cancel_Right_Click_Interactions: true
+            Recoil_Amount: 2
+            Projectile_Amount: 1
+            Projectile_Type: snowball
+            Projectile_Speed: 1000
+            Projectile_Damage: 25
+            Projectile_Flames: true
+            Projectile_Incendiary:
+                Enable: true
+                Duration: 60
+            Sounds_Shoot: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+        Reload:
+            Enable: true
+            Reload_Amount: 9
+            Reload_Duration: 70
+            Sounds_Reloading: NOTE_STICKS-1-1-0
+        Firearm_Action:
+            Type: bolt
+            Open_Duration: 10
+            Close_Duration: 20
+            Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2
+            Sound_Close: PISTON_EXTEND-1-2-0
+        Headshot:
+            Enable: true
+            Bonus_Damage: 46
+            Sounds_Shooter: NOTE_PLING-1-2-0
+            Sounds_Victim: VILLAGER_DEATH-1-1-0
+        Abilities:
+            Reset_Hit_Cooldown: true
+            Knockback: 11
+        Particles:
+            Enable: true
+            Particle_Player_Shoot: BLOCK_BREAK-1
+            Particle_Terrain: true
+        Fireworks:
+            Enable: true
+            Firework_Headshot: STAR-TRUE-TRUE-250-0-0
+        Scope:
+            Enable: true
+            Zoom_Amount: 10
+            Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Hit_Events:
             Enable: true
             Sounds_Shooter: SHOOT_ARROW-1-2-0
