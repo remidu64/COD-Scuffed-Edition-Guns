@@ -4859,3 +4859,32 @@
             Sounds_Shooter: SHOOT_ARROW-1-2-0
         Extras:
             Run_Console_Command: "effect give <victim> slowness 3 1 true"
+            
+    BuckledLupara:
+        Item_Information:
+            Item_Name: "&eBuckled Lupara"
+            Item_Type: 417
+            Item_Lore: "&eShotgun"
+            Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Shooting:
+            Cancel_Right_Click_Interactions: true
+            Recoil_Amount: 2
+            Projectile_Amount: 7
+            Projectile_Type: snowball
+            Projectile_Speed: 13
+            Projectile_Damage: 3
+            Bullet_Spread: 0.12
+            Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0,ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+        Reload:
+            Enable: true
+            Reload_Amount: 2
+            Reload_Bullets_Individually: true
+            Reload_Duration: 15
+            Sounds_Out_Of_Ammo: CLICK-1-1-0
+            Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+        Firearm_Action:
+            Type: break
+            Open_Duration: 5
+            Close_Duration: 10
+        Abilities:
+            Reset_Hit_Cooldown: true
