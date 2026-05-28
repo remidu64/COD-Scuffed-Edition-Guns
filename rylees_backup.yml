@@ -2934,3 +2934,76 @@ MARBLEFOUNDATION:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
+
+
+
+LachmannShroud:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Lachmann Shroud «<ammo_left>/30»<reload>
+    Weapon_Item:
+      Name: <gold>Lachmann Shroud
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>SMG
+      Custom_Model_Data: 4
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+      Break_Blocks: true
+
+  Trail:
+    Distance_Between_Particles: 0.1
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+
+  Shoot:
+    Spread:
+      Base_Spread: 0.12
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 85
+    Fully_Automatic_Shots_Per_Second: 12
+    Mechanics:
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=0.5, pitch=2}
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=0.5, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=0.5, pitch=2}
+    - Leap{speed=-0.08} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.105 0.275
+        Left_Hand: ~0.0 0.105 0.275
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 6
+    Mechanics:
+        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 30
+    Reload_Duration: 35
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=7}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
