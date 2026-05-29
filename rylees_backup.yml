@@ -1450,7 +1450,7 @@ Doshinegun:
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#008000, fadeColor=#00674F, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#00FF00, fadeColor=#153814 , repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
       
   Shoot:
     Trigger:
