@@ -1,4 +1,3 @@
 # **ALWAYS UPDATE YOUR GUN FILES BEFORE DOING ANYTHING, EVEN IF YOU THINK THEY'RE ALREADY UP-TO-DATE**
 
 this is a test uwu
-i am inside your home
