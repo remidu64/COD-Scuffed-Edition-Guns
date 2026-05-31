@@ -12037,6 +12037,7 @@ MP5:
       
   Damage:
     Base_Damage: 5
+    Armor_Damage: 3.0
     Mechanics:
         - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
         - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
