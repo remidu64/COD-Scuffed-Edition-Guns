@@ -18,8 +18,8 @@ M200Intervention:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
-      
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+
   Shoot:
     Trigger:
       Main_Hand: right_click
@@ -119,11 +119,11 @@ OTS9:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.25, count=1}"
 
   Shoot:
     Spread:
@@ -859,7 +859,7 @@ GORENKO:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -1032,7 +1032,7 @@ DLQ33:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
 
   Shoot:
     Trigger:
@@ -2627,7 +2627,7 @@ SIGNAL50:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -3070,7 +3070,7 @@ FJXImperium:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
   
   Projectile:
     Projectile_Settings:
@@ -3155,7 +3155,7 @@ LotusFlames:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
   
   Shoot:
     Trigger:
@@ -3513,7 +3513,7 @@ DeadCenter:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
   
   Shoot:
     Trigger:
@@ -4474,7 +4474,7 @@ AX50:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
   
   Shoot:
     Trigger:
@@ -5512,7 +5512,7 @@ YELLOWALPHA:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
    
   Shoot:
     Trigger:
@@ -5707,7 +5707,7 @@ KAR98K:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
     
   Projectile:
     Projectile_Settings:
@@ -6007,7 +6007,7 @@ Carrack300:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -6320,7 +6320,7 @@ BREATHTAKER:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -6626,7 +6626,7 @@ PELINGTON703:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -6929,7 +6929,7 @@ SPRA5M:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -7163,7 +7163,7 @@ FUELROD:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -7485,7 +7485,7 @@ HDR:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -7630,7 +7630,7 @@ TOWERKEY:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -8954,7 +8954,7 @@ intimidatingfish:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -9635,7 +9635,7 @@ swissk31:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -9989,7 +9989,7 @@ InfernalFlight:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -10250,7 +10250,7 @@ ZRG20mm:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -10946,7 +10946,7 @@ CyberUnicorn:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -11501,7 +11501,7 @@ THEVOICES:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -11696,7 +11696,7 @@ CHEMTHREAT:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
     
   Projectile:
     Projectile_Settings:
@@ -11831,7 +11831,7 @@ ADMINRADIOGUN:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -13035,7 +13035,7 @@ MORS:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -13150,7 +13150,7 @@ LEECHEDPOISON:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -13347,7 +13347,7 @@ Ensanguined:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -13831,7 +13831,7 @@ HavelinaAA50:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -14089,7 +14089,7 @@ DM7:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
     
   Projectile:
     Projectile_Settings:
@@ -14385,7 +14385,7 @@ RSAInterdiction:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -15237,7 +15237,7 @@ KATTAMR:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -15353,7 +15353,7 @@ MP18:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
     
   Projectile:
     Projectile_Settings:
@@ -16305,7 +16305,7 @@ Type63:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
     
   Projectile:
     Projectile_Settings:
@@ -16383,7 +16383,7 @@ deadlybotany:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
     
   Projectile:
     Projectile_Settings:
@@ -16894,7 +16894,7 @@ SSK950:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -17669,7 +17669,7 @@ AWP:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -18938,7 +18938,7 @@ GEOTHERMALLINE:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -19271,7 +19271,7 @@ M82A1:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
@@ -19900,7 +19900,7 @@ M1GARAND:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
     
   Projectile:
     Projectile_Settings:
@@ -19967,7 +19967,7 @@ DOOM1PISTOL:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
     
   Shoot:
     Trigger:
@@ -20099,7 +20099,7 @@ CRYSTALCHANDELIER:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
   Shoot:
     Trigger:
       Main_Hand: right_click
@@ -20368,7 +20368,7 @@ SO14:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#515151, fadeColor=#515151, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
 
   Projectile:
     Projectile_Settings:
