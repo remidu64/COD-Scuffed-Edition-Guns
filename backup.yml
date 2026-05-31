@@ -192,7 +192,7 @@ FAMASG2:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -268,7 +268,7 @@ FP45:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -344,7 +344,7 @@ P890:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -409,7 +409,7 @@ MODM:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -476,7 +476,7 @@ AS44:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -638,7 +638,7 @@ SAKINMG38:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -711,7 +711,7 @@ FAMASF1:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -784,7 +784,7 @@ MB47:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -961,7 +961,7 @@ GORENKO:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -1129,7 +1129,7 @@ KVBROADSIDE:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -1202,7 +1202,7 @@ X12:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -2091,7 +2091,7 @@ NAILGUN:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -2299,7 +2299,7 @@ RPG14:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -2383,7 +2383,7 @@ LOCKWOOD300:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -2541,7 +2541,7 @@ FINNLMG:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -2785,7 +2785,7 @@ Basilisk:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -2874,7 +2874,7 @@ Ignition:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -3439,7 +3439,7 @@ Dignity:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -3616,7 +3616,7 @@ M4A1:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -3689,7 +3689,7 @@ Marco5:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -3852,7 +3852,7 @@ Grau556:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -3997,7 +3997,7 @@ Alabaster:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4070,7 +4070,7 @@ Alabaster:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4221,7 +4221,7 @@ CQBoom:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4328,7 +4328,7 @@ ATLAS45:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4399,7 +4399,7 @@ NIKITAAVT:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4576,7 +4576,7 @@ VALOISREVOLVER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4657,7 +4657,7 @@ PRIVATEEYE:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4739,7 +4739,7 @@ KILO141:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4815,7 +4815,7 @@ SILENTSTALKER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4890,7 +4890,7 @@ SILENTSTALKER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -4961,7 +4961,7 @@ Diamatti:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -5035,7 +5035,7 @@ AMPEDUP:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -5117,7 +5117,7 @@ KLAUSER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -5276,7 +5276,7 @@ Bren:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -5349,7 +5349,7 @@ FULLMETALVENGEANCE:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -5614,7 +5614,7 @@ KUROMAKU:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -5785,7 +5785,7 @@ FTACSIEGE:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -5858,7 +5858,7 @@ M13:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -5931,7 +5931,7 @@ SPLENDOR:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -6098,7 +6098,7 @@ PINKSTRAIN:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -6171,7 +6171,7 @@ ARMAGUERRA43:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -6244,7 +6244,7 @@ SA87:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -6408,7 +6408,7 @@ SULFURIC:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -6479,7 +6479,7 @@ CRONENSQUALL:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -6552,7 +6552,7 @@ X13AUTO:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -6716,7 +6716,7 @@ Marshal:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -6797,7 +6797,7 @@ KASTOV545:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -7031,7 +7031,7 @@ SPRA5M:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -7264,7 +7264,7 @@ SOVIETRED:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -7809,7 +7809,7 @@ LIENNA57:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -7953,7 +7953,7 @@ AK117:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8026,7 +8026,7 @@ SCHOOLSOUT:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8099,7 +8099,7 @@ SCHOOLSOUT:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8170,7 +8170,7 @@ HAUER77:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8254,7 +8254,7 @@ PUNCTUREWOUND:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8387,7 +8387,7 @@ GLAZEMATIC:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8537,7 +8537,7 @@ biomechatronic:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8611,7 +8611,7 @@ biomechatronic:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8682,7 +8682,7 @@ ISOHEMLOCK:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8796,7 +8796,7 @@ Milano821:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -8869,7 +8869,7 @@ matchlock:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9052,7 +9052,7 @@ ARCHONTYPEB:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9121,7 +9121,7 @@ ARCHONTYPEB:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9194,7 +9194,7 @@ delacremodele1936:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9324,7 +9324,7 @@ baddog:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9408,7 +9408,7 @@ krig6:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9486,7 +9486,7 @@ pkm:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9559,7 +9559,7 @@ sunsethue:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9731,7 +9731,7 @@ cr56amax:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9840,7 +9840,7 @@ ppsh_41:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -9913,7 +9913,7 @@ m134minigun:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10088,7 +10088,7 @@ WEBSPINNER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10162,7 +10162,7 @@ BuckledLupara:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10348,7 +10348,7 @@ CX_9:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10421,7 +10421,7 @@ Schwarzwald:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10494,7 +10494,7 @@ loggerhead:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10578,7 +10578,7 @@ saki:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10651,7 +10651,7 @@ pureindica:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10724,7 +10724,7 @@ deathlylight:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10797,7 +10797,7 @@ M4:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -10870,7 +10870,7 @@ CyberUnicorn:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -11044,7 +11044,7 @@ AK_47:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -11117,7 +11117,7 @@ PumpkinHead:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -11190,7 +11190,7 @@ IceDrake:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -11339,7 +11339,7 @@ RENETTI:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -11414,7 +11414,7 @@ HEATSTROKE:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -11599,7 +11599,7 @@ M16:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -11675,7 +11675,7 @@ CHEMTHREAT:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -11932,7 +11932,7 @@ PULEMYOT762:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12006,7 +12006,7 @@ MP5:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12080,7 +12080,7 @@ ADMIRALSPRIDE:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12263,7 +12263,7 @@ PHOTONPHANTOM:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12341,7 +12341,7 @@ GALAXYCLUSTER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12421,7 +12421,7 @@ BP50:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12494,7 +12494,7 @@ GROZA:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12634,7 +12634,7 @@ WALKINGCONTRADICTION:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12707,7 +12707,7 @@ DP27:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12780,7 +12780,7 @@ GildedRose:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12864,7 +12864,7 @@ EnhancedRisk:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -12944,7 +12944,7 @@ WELROD:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -13263,7 +13263,7 @@ ELECTRICLOLLIPOP:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -13448,7 +13448,7 @@ SUBKELVIN:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -13530,7 +13530,7 @@ superi46:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -13603,7 +13603,7 @@ cognizantrebel:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -13675,7 +13675,7 @@ IMR:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -13751,7 +13751,7 @@ EOKA:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -13922,7 +13922,7 @@ burnedsoul:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -13995,7 +13995,7 @@ ioneruption:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -14162,7 +14162,7 @@ XM4:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -14235,7 +14235,7 @@ Fennec:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -14308,7 +14308,7 @@ R70Ajax:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -14487,7 +14487,7 @@ MTS255:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -14563,7 +14563,7 @@ HOSER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -14758,7 +14758,7 @@ NONCONFORMIST:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15015,7 +15015,7 @@ aegisflux:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15088,7 +15088,7 @@ FAL:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15161,7 +15161,7 @@ QUARKASER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15431,7 +15431,7 @@ MAC10:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15505,7 +15505,7 @@ ATCFirefly:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15578,7 +15578,7 @@ Specterstrike:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15651,7 +15651,7 @@ NuclearFusion:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15726,7 +15726,7 @@ Bechowiec1:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -15973,7 +15973,7 @@ AKS_47:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -16046,7 +16046,7 @@ mak90:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -16211,7 +16211,7 @@ TEC9:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -16599,7 +16599,7 @@ CrimsonDozer:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -16672,7 +16672,7 @@ MG42:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -16745,7 +16745,7 @@ CHOPPER:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -16818,7 +16818,7 @@ PU21:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -17008,7 +17008,7 @@ firestrike:
       Left_Hand: ~0 0 0
     
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Hide_Trail_For: 2
     Particles:
@@ -17087,7 +17087,7 @@ raygun:
       Left_Hand: ~0 0 0
     
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Hide_Trail_For: 2
     Particles:
@@ -17290,7 +17290,7 @@ JackalPDW:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -17520,7 +17520,7 @@ TaschenpistoleM1914:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -17593,7 +17593,7 @@ american180:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -17765,7 +17765,7 @@ argentserpent:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -17845,7 +17845,7 @@ NZ41:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -17918,7 +17918,7 @@ M2Browning:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18070,7 +18070,7 @@ RPK:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18143,7 +18143,7 @@ COR45:
       Drop_Item: true
       
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18215,7 +18215,7 @@ ASVAL:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18288,7 +18288,7 @@ Malphas:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18368,7 +18368,7 @@ M60:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18441,7 +18441,7 @@ M1689_Blunderbuss:
       Drop_Item: true
       
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18514,7 +18514,7 @@ VLKRogue:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18782,7 +18782,7 @@ yeet_mega_dart:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -18855,7 +18855,7 @@ valleyoutlaw:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -19115,7 +19115,7 @@ STG44:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -19188,7 +19188,7 @@ ALLSMILES:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -19535,7 +19535,7 @@ bananablaster:
       Break_Blocks: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -19603,7 +19603,7 @@ herotypepower:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -19870,7 +19870,7 @@ M1GARAND:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -20195,7 +20195,7 @@ AKITA:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -20267,7 +20267,7 @@ holiday_workshop:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -20340,7 +20340,7 @@ SO14:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
@@ -20429,7 +20429,7 @@ delicate_demise:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:

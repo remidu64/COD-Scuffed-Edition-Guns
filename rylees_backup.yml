@@ -1446,7 +1446,7 @@ Doshinegun:
       Drop_Item: true
 
   Trail:
-    Distance_Between_Particles: 0.1
+    Distance_Between_Particles: 1.0
     Hide_Trail_For: 0.5
     Particle_Chooser: LOOP
     Particles:
