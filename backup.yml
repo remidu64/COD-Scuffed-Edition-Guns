@@ -11347,7 +11347,7 @@ RENETTI:
       
   Shoot:
     Spread:
-      Base_Spread: 0
+      Base_Spread: 0.25
     Trigger:
       Main_Hand: right_click
     Delay_Between_Shots: 9
