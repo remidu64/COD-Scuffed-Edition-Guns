@@ -417,7 +417,7 @@ MODM:
       
   Shoot:
     Spread:
-      Base_Spread: 1.8
+      Base_Spread: 0.7
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
