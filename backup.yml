@@ -1307,7 +1307,6 @@ STIM:
   Shoot:
     Trigger:
       Main_Hand: right_click
-    Delay_Between_Shots: 100
     Projectiles_Per_Shot: 1
     Projectile_Speed: 0
     Mechanics:
@@ -8460,7 +8459,6 @@ Panzerfaust30:
   Shoot:
     Trigger:
       Main_Hand: right_click
-    Delay_Between_Shots: 100
     Projectiles_Per_Shot: 1
     Projectile_Speed: 120
     Mechanics:
