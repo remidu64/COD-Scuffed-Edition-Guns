@@ -19020,13 +19020,13 @@ GEOTHERMALLINE:
     
     
     
-ADMINarandomnigga:
+ADMINarandom:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>a random nigga
+        Message: <gold>a random
     Weapon_Item:
-      Name: <gold>a random nigga
+      Name: <gold>a random
       Type: IRON_HORSE_ARMOR
       Lore:
       - <light_purple><bold>DEV ITEM DONT SPAM
