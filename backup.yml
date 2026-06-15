@@ -3451,7 +3451,7 @@ Dignity:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-      Base_Spread: 0.0
+      Base_Spread: 0.19
     Mechanics:
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=0.5}
