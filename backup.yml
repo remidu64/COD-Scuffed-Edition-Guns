@@ -200,7 +200,7 @@ FAMASG2:
       
   Shoot:
     Spread:
-      Base_Spread: 1.5
+      Base_Spread: 0.75
     Trigger:
       Main_Hand: right_click
     Delay_Between_Shots: 7
@@ -719,7 +719,7 @@ FAMASF1:
       
   Shoot:
     Spread:
-      Base_Spread: 1.1
+      Base_Spread: 0.55
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
