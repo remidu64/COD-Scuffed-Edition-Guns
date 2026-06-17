@@ -573,7 +573,7 @@ ESSEXMODEL07:
     Magazine_Size: 8
     Reload_Duration: 12
     Ammo_Per_Reload: 1
-    Start_Mechanics:
+    Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2}
     
   Firearm_Action:
@@ -586,7 +586,7 @@ ESSEXMODEL07:
     Close:
       Time: 13
       Mechanics:
-      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=12}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
