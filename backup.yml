@@ -316,7 +316,7 @@ FP45:
     Magazine_Size: 5
     Ammo_Per_Reload: 1
     Reload_Duration: 10
-    Start_Mechanics:
+    Finish_Mechanics:
     - Sound{sound=BLOCK_CHAIN_HIT, volume=1, pitch=2, delayBeforePlay=9}
 
 
@@ -2132,7 +2132,7 @@ NAILGUN:
     Magazine_Size: 150
     Ammo_Per_Reload: 1
     Reload_Duration: 1
-    Start_Mechanics:
+    Finish_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_BASEDRUM, volume=0.3, pitch=2.0}
 
   WeaponMechanicsAdditions:
@@ -2793,7 +2793,7 @@ Basilisk:
   Shoot:
     Trigger:
       Main_Hand: right_click
-    Delay_Between_Shots: 25
+    Delay_Between_Shots: 10
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
@@ -2832,10 +2832,11 @@ Basilisk:
       Main_Hand: drop_item
     Magazine_Size: 5
     Ammo_Per_Reload: 1
-    Reload_Duration: 15
+    Reload_Duration: 12
     Start_Mechanics:
-    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=4}
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=6}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=10}
+    Finish_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2}
     
   Firearm_Action:
     Type: revolver
@@ -2847,7 +2848,7 @@ Basilisk:
     Close:
       Time: 5
       Mechanics:
-      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=4}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2882,7 +2883,7 @@ Ignition:
   Shoot:
     Trigger:
       Main_Hand: right_click
-    Delay_Between_Shots: 25
+    Delay_Between_Shots: 10
     Projectiles_Per_Shot: 1
     Projectile_Speed: 110.0
     Spread:
@@ -2923,8 +2924,9 @@ Ignition:
     Ammo_Per_Reload: 1
     Reload_Duration: 10
     Start_Mechanics:
-    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=4}
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=6}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=8}
+    Finish_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2}
     
   Firearm_Action:
     Type: revolver
@@ -4112,7 +4114,7 @@ Alabaster:
     Magazine_Size: 6
     Ammo_Per_Reload: 1
     Reload_Duration: 10
-    Start_Mechanics:
+    Finish_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1}
     - Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=2.0, delayBeforePlay=1}
     
@@ -4126,7 +4128,7 @@ Alabaster:
     Close:
       Time: 5
       Mechanics:
-      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=4}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4619,7 +4621,7 @@ VALOISREVOLVER:
     Magazine_Size: 6
     Ammo_Per_Reload: 1
     Reload_Duration: 6
-    Start_Mechanics:
+    Finish_Mechanics:
     - Sound{sound=BLOCK_CHAIN_HIT, volume=1, pitch=2}
     
   Firearm_Action:
@@ -4631,7 +4633,7 @@ VALOISREVOLVER:
     Close:
       Time: 5
       Mechanics:
-      - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2}
+      - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=4}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4701,7 +4703,7 @@ PRIVATEEYE:
     Magazine_Size: 8
     Ammo_Per_Reload: 1
     Reload_Duration: 4
-    Start_Mechanics:
+    Finish_Mechanics:
     - Sound{sound=BLOCK_CHAIN_HIT, volume=1, pitch=2}
     
   Firearm_Action:
@@ -4713,7 +4715,7 @@ PRIVATEEYE:
     Close:
       Time: 5
       Mechanics:
-      - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2}
+      - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=4}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6671,7 +6673,7 @@ PELINGTON703:
     Magazine_Size: 5
     Ammo_Per_Reload: 1
     Reload_Duration: 10
-    Start_Mechanics:
+    Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2}
     
   Firearm_Action:
@@ -6684,7 +6686,7 @@ PELINGTON703:
     Close:
       Time: 10
       Mechanics:
-      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=9}
       
   Scope:
     Trigger:
@@ -8215,8 +8217,9 @@ HAUER77:
     Ammo_Per_Reload: 1
     Reload_Duration: 18
     Start_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=16}
+    Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=2}
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=6}
     
   Firearm_Action:
     Type: pump
@@ -8228,7 +8231,7 @@ HAUER77:
     Close:
       Time: 8
       Mechanics:
-      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=7}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -11724,7 +11727,7 @@ CHEMTHREAT:
     Magazine_Size: 5
     Reload_Duration: 9
     Ammo_Per_Reload: 1
-    Start_Mechanics:
+    Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2}
     
   Firearm_Action:
@@ -11737,7 +11740,7 @@ CHEMTHREAT:
     Close:
       Time: 10
       Mechanics:
-      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=9}
       
   Scope:
     Trigger:
@@ -12824,8 +12827,9 @@ GildedRose:
     Ammo_Per_Reload: 1
     Reload_Duration: 18
     Start_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=16}
+    Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=2}
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=6}
     
   Firearm_Action:
     Type: pump
@@ -12837,7 +12841,7 @@ GildedRose:
     Close:
       Time: 8
       Mechanics:
-      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=7}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -16572,7 +16576,7 @@ strongarm:
     Close:
       Time: 8
       Mechanics:
-      - CustomSound{sound=strongarm.cylinder.end, noise=0.1, volume=1}
+      - CustomSound{sound=strongarm.cylinder.end, noise=0.1, volume=1, delayBeforePlay=4}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -17259,7 +17263,6 @@ covert:
       Main_Hand: drop_item
     Magazine_Size: 1
     Reload_Duration: 9
-    Ammo_Per_Reload: 1
     Start_Mechanics:
     - CustomSound{sound=covert.reload, noise=0.1, volume=1, delayBeforePlay=3}
     - CustomSound{sound=covert.pump, noise=0.1, volume=1, delayBeforePlay=8}
@@ -17410,7 +17413,7 @@ guardian:
     Trigger:
       Main_Hand: drop_item
     Magazine_Size: 6
-    Reload_Duration: 35
+    Reload_Duration: 20
     Ammo_Per_Reload: 1
     Finish_Mechanics:
     - CustomSound{sound=guardian.reload, noise=0.1, volume=1}
@@ -17489,7 +17492,6 @@ hotshock:
       Main_Hand: drop_item
     Magazine_Size: 1
     Reload_Duration: 102
-    Ammo_Per_Reload: 1
     Start_Mechanics:
     - CustomSound{sound=hotshock.reload, noise=0.07, volume=1.5, delayBeforePlay=10}
     - CustomSound{sound=hotshock.pump, noise=0.07, volume=1.5, delayBeforePlay=97}
