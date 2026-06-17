@@ -352,7 +352,7 @@ P890:
       
   Shoot:
     Spread:
-      Base_Spread: 0
+      Base_Spread: 0.23
     Trigger:
       Main_Hand: right_click
     Delay_Between_Shots: 12
@@ -379,10 +379,10 @@ P890:
     Magazine_Size: 8
     Reload_Duration: 20
     Start_Mechanics:
-    - Sound{sound=BLOCK_GRASS_HIT, volume=1, pitch=1}
-    - Sound{sound=BLOCK_GRASS_HIT, volume=1, pitch=2}
-    - Sound{sound=BLOCK_GRASS_HIT, volume=1, pitch=2, delayBeforePlay=1}
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=1}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=2}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=7}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=11}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=15}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=19}
 
   WeaponMechanicsAdditions:
@@ -3451,7 +3451,7 @@ Dignity:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-      Base_Spread: 0.0
+      Base_Spread: 0.19
     Mechanics:
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=0.5}
@@ -3480,9 +3480,10 @@ Dignity:
     Magazine_Size: 10
     Reload_Duration: 25
     Start_Mechanics:
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=1}
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=8}
-    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=16}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=4}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=9}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=14}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
   WeaponMechanicsAdditions:
