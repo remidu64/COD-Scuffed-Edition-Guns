@@ -16160,7 +16160,7 @@ r1roughcut:
         Default_Speed_Multiplier: 0.8
       
   Damage:
-    Base_Damage: 15
+    Base_Damage: 29
     Armor_Damage: 3.0
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
