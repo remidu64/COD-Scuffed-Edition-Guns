@@ -20721,7 +20721,7 @@ Yahar_gul_1521:
   Shoot:
     Trigger:
       Main_Hand: right_click
-    Projectiles_Per_Shot: 25000
+    Projectiles_Per_Shot: 40
     Projectile_Speed: 20
     Spread:
       Base_Spread: 20
@@ -20730,7 +20730,7 @@ Yahar_gul_1521:
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=0.5}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=0.5}
-    - Leap{speed=-2.5} @Source{offset=~0 0 1}
+    - Leap{speed=-1.5} @Source{offset=~0 0 1}
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.09 0.46
