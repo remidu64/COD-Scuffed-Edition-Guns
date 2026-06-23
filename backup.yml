@@ -17464,7 +17464,7 @@ hotshock:
   Projectile:
     Projectile_Settings:
       Type: ARMOR_STAND
-      Gravity: 7
+      Gravity: 15
       Projectile_Item_Or_Block:
         Type: iron_nugget
         Custom_Model_Data: 13
