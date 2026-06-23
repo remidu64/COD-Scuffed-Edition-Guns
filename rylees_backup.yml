@@ -1778,7 +1778,7 @@ SVCh54:
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
-    - Push{speed=5} @Target{}
+    - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     

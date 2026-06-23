@@ -53,7 +53,7 @@ M200Intervention:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
-    - Push{speed=5} @Target{}
+    - Push{speed=1} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
       
   Reload:
@@ -893,7 +893,7 @@ GORENKO:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=10} @Target{}
+    - Push{speed=2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1061,7 +1061,7 @@ DLQ33:
     Base_Damage: 22
     Armor_Damage: 3.0
     Mechanics:
-    - Push{speed=5} @Target{}
+    - Push{speed=1} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3090,7 +3090,7 @@ FJXImperium:
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
-    - Push{speed=5} @Target{}
+    - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3191,7 +3191,7 @@ LotusFlames:
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
-    - Push{speed=5} @Target{}
+    - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3550,7 +3550,7 @@ DeadCenter:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=6} @Target{}
+    - Push{speed=1.2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4510,7 +4510,7 @@ AX50:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=15} @Target{}
+    - Push{speed=3} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -5548,7 +5548,7 @@ YELLOWALPHA:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=15} @Target{}
+    - Push{speed=3} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -6044,7 +6044,7 @@ Carrack300:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=6} @Target{}
+    - Push{speed=1.2} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -6356,7 +6356,7 @@ BREATHTAKER:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=8} @Target{}
+    - Push{speed=1.6} @Target{}
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
     
   Reload:
@@ -6662,7 +6662,7 @@ PELINGTON703:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=7} @Target{}
+    - Push{speed=1.4} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -6965,7 +6965,7 @@ SPRA5M:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=10} @Target{}
+    - Push{speed=2} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -7199,7 +7199,7 @@ FUELROD:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=20} @Target{}
+    - Push{speed=3} @Target{}
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
     - "Potion{potion=WITHER, level=3, time=100} @Target{}"
     
@@ -7521,7 +7521,7 @@ HDR:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=11} @Target{}
+    - Push{speed=2.2} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -7666,7 +7666,7 @@ TOWERKEY:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=6} @Target{}
+    - Push{speed=1.2} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -8990,7 +8990,7 @@ intimidatingfish:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=15} @Target{}
+    - Push{speed=3} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -9671,7 +9671,7 @@ swissk31:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=5} @Target{}
+    - Push{speed=1} @Target{}
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
     
   Reload:
@@ -10026,7 +10026,7 @@ InfernalFlight:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=11} @Target{}
+    - Push{speed=2.2} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -10286,7 +10286,7 @@ ZRG20mm:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=7} @Target{}
+    - Push{speed=1.4} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -10982,7 +10982,7 @@ CyberUnicorn:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=7.0} @Target{}
+    - Push{speed=1.4} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -11537,7 +11537,7 @@ THEVOICES:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=7.0} @Target{}
+    - Push{speed=1.4} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -11869,7 +11869,7 @@ ADMINRADIOGUN:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
-    - Push{speed=6} @Target{}
+    - Push{speed=1.2} @Target{}
       
   Reload:
     Trigger:
@@ -13079,10 +13079,10 @@ MORS:
       Mechanics:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
-      - Push{speed=32} @Target{}
+      - Push{speed=3} @Target{}
       - "Potion{potion=SLOW, level=6, time=200} @Target{}"
     Mechanics:
-    - Push{speed=8} @Target{}
+    - Push{speed=1.6} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -13194,10 +13194,10 @@ LEECHEDPOISON:
       Mechanics:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
-      - Push{speed=32} @Target{}
+      - Push{speed=3} @Target{}
       - "Potion{potion=SLOW, level=6, time=200} @Target{}"
     Mechanics:
-    - Push{speed=8} @Target{}
+    - Push{speed=1.6} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -13386,7 +13386,7 @@ Ensanguined:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
-    - Push{speed=7} @Target{}
+    - Push{speed=1.4} @Target{}
       
   Reload:
     Trigger:
@@ -13872,7 +13872,7 @@ HavelinaAA50:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
-    - Push{speed=5} @Target{}
+    - Push{speed=1} @Target{}
       
   Reload:
     Trigger:
@@ -14422,7 +14422,7 @@ RSAInterdiction:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=15} @Target{}
+    - Push{speed=3} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -15274,7 +15274,7 @@ KATTAMR:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=28} @Target{}
+    - Push{speed=3} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -16931,7 +16931,7 @@ SSK950:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
-    - Push{speed=999} @Target{}
+    - Push{speed=5} @Target{}
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
     - Command{command=eco give <source_name> 1, console=true}
     
@@ -17712,7 +17712,7 @@ AWP:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
-    - Push{speed=911} @Target{}
+    - Push{speed=2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
 
   Reload:
@@ -18974,7 +18974,7 @@ GEOTHERMALLINE:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
-    - Push{speed=6} @Target{}
+    - Push{speed=1.2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
       
   Reload:
@@ -19316,7 +19316,7 @@ M82A1:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
-    - Push{speed=10} @Target{}
+    - Push{speed=2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
       
   Reload:
@@ -20128,7 +20128,7 @@ CRYSTALCHANDELIER:
     Base_Damage: 22
     Armor_Damage: 3.0
     Mechanics:
-    - Push{speed=5} @Target{}
+    - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
