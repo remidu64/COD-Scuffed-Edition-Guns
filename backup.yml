@@ -20716,7 +20716,7 @@ Yahar_gul_1521:
     Hide_Trail_For: 3
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.1, noise=0.04 0.04 0.04, count=1}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.04 0.04 0.04, count=4}"
 
   Shoot:
     Trigger:
@@ -20749,32 +20749,6 @@ Yahar_gul_1521:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
 
-  Explosion:
-    Knockback_Multiplier: 2.5
-    Detonation:
-      Impact_When:
-        Entity: true
-        Block: true
-    Explosion_Exposure: OPTIMIZED
-    Explosion_Shape: SPHERE
-    Explosion_Type_Data:
-      Radius: 2
-    Block_Damage:
-      Spawn_Falling_Block_Chance: 0
-      Default_Mode: BREAK
-      Damage_Per_Hit: 1
-      Default_Block_Durability: 3
-      Blocks:
-        - "$WATER cancel"  # stationary_water and moving_water
-        - "$LAVA cancel"  # stationary_lava and moving_lava
-        - "$BEDROCK cancel"
-    Mechanics:
-    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=3}
-    Regeneration:
-      Ticks_Before_Start: 100
-      Max_Blocks_Per_Update: 5
-      Ticks_Between_Updates: 4
-
   Reload:
     Trigger:
       Main_Hand: drop_item
@@ -20792,3 +20766,143 @@ Yahar_gul_1521:
       Only_While_Zooming: false
       Helditem_Modeldata: true
 
+
+
+M2000Intervention:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: "<gold>M2000 Intervention «<ammo_left>/5»<reload><firearm_state>"
+    Weapon_Item:
+      Name: <gold>M2000 Intervention
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 36
+      Lore:
+      - <gold>Sniper Rifle
+      - Price, what is that
+      - Price, where did you get that
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=12}"
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 3500
+    Mechanics:
+    - CustomSound{sound=intervention.shoot, volume=1}
+    - Leap{speed=-0.5} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: 0.0 0.1 0.45
+        Left_Hand: 0.0 0.1 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 50
+      Maximum_Travel_Distance: 400
+      Size: 0.3
+
+  Damage:
+    Base_Damage: 25
+    Base_Explosion_Damage: 25
+    Armor_Damage: 3.0
+    Head:
+      Bonus_Damage: 76
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Push{speed=1} @Target{}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 5
+    Reload_Duration: 250
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=27}
+
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=55}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=83}
+
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=110}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=138}
+
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=166}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=193}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=221}
+
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=249}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 9
+      Mechanics:
+      - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5}
+      - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 8
+      Mechanics:
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+
+  Explosion:
+    Knockback_Multiplier: 2.5
+    Detonation:
+      Impact_When:
+        Entity: true
+        Block: true
+    Explosion_Exposure: OPTIMIZED
+    Explosion_Shape: DEFAULT
+    Explosion_Type_Data:
+      Yield: 2
+      Rays: 16
+    Block_Damage:
+      Spawn_Falling_Block_Chance: 0
+      Default_Mode: BREAK
+      Damage_Per_Hit: 1
+      Default_Block_Durability: 1
+      Blocks:
+        - "$WATER cancel"  # stationary_water and moving_water
+        - "$LAVA cancel"  # stationary_lava and moving_lava
+        - "$BEDROCK cancel"
+    Mechanics:
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=3}
+    Regeneration:
+      Ticks_Before_Start: 100
+      Max_Blocks_Per_Update: 5
+      Ticks_Between_Updates: 4
+
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 4.333333333333334
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
+
+  Show_Time:
+    Reload:
+      Boss_Bar:
+        Message: "<gray>Reload <time><gray>s Left"
+        Color: RED
+        Style: PROGRESS
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
