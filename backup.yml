@@ -17448,7 +17448,7 @@ hotshock:
       Main_Hand: right_click
     Delay_Between_Shots: 0
     Projectiles_Per_Shot: 1
-    Projectile_Speed: 240
+    Projectile_Speed: 450
     Spread:
      Base_Spread: 0
     Mechanics:
