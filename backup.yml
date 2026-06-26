@@ -9210,8 +9210,9 @@ delacremodele1936:
     Spread:
       Base_Spread: 0.3
     Mechanics:
-    - Sound{sound=UI_BUTTON_CLICK, volume=0.4, pitch=2.0}
-    - Sound{sound=BLOCK_NOTE_BLOCK_BASEDRUM, volume=0.4, pitch=2}
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Leap{speed=-0.1} @Source{offset=~0 0 1}
     Fully_Automatic_Shots_Per_Second: 8.0
     Offsets:
