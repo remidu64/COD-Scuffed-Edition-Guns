@@ -2745,7 +2745,7 @@ SpyraTwo:
     water.Projectile
       
   Damage:
-    Base_Damage: 5
+    Base_Damage: 2
     Armor_Damage: 3.0
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
