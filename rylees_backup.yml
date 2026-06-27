@@ -710,12 +710,14 @@ JOKR:
       
   Damage:
     Enable_Owner_Immunity: false
+    Base_Damage: 1
     Base_Explosion_Damage: 5
-    Armor_Damage: 150.0
+    Armor_Damage: 150
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Push{speed=999} @Target{}
       
   Reload:
     Trigger:
@@ -736,7 +738,7 @@ JOKR:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
     
   Explosion:
-    Knockback_Multiplier: 6
+    Knockback_Multiplier: 10000
     Detonation:
       Impact_When:
         Block: true
