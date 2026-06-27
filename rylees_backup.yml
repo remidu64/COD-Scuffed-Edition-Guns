@@ -46,7 +46,7 @@ Lachmann556:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -118,7 +118,7 @@ LC10:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -192,7 +192,7 @@ EINHORNREVOLVING:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -261,7 +261,7 @@ CHROMATICHIVEMIND:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -334,7 +334,7 @@ PPS_43:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -407,7 +407,7 @@ AK_12:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -483,7 +483,7 @@ AN94:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -556,7 +556,7 @@ ESSEXMODEL07:
       
   Damage:
     Base_Damage: 17
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 36
       Mechanics:
@@ -641,7 +641,7 @@ DEGLE:
       
   Damage:
     Base_Damage: 14
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -814,7 +814,7 @@ ANODIZEDALLOY:
       
   Damage:
     Base_Damage: 12
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -886,7 +886,7 @@ HOWELLAUTOMATIC:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -958,7 +958,7 @@ JAGER45:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1030,7 +1030,7 @@ HOMECOMING:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1103,7 +1103,7 @@ SKELIX11:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1178,7 +1178,7 @@ VELOX57:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1251,7 +1251,7 @@ DEEPSPACEEXCAVATOR:
       
   Damage:
     Base_Damage: 12
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1331,7 +1331,7 @@ SG225IE:
 
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Fire_Ticks: 80
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1404,7 +1404,7 @@ HotchkissMKI:
 
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1478,7 +1478,7 @@ Doshinegun:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1550,7 +1550,7 @@ Kompakt92:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1623,7 +1623,7 @@ HALFPIPEHANDLER:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1697,7 +1697,7 @@ STERLINGL2A3:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1770,7 +1770,7 @@ SVCh54:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 40
       Mechanics:
@@ -1863,7 +1863,7 @@ G11:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1936,7 +1936,7 @@ LMG11:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2009,7 +2009,7 @@ LMG11:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -2082,7 +2082,7 @@ A91M:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -2152,7 +2152,7 @@ VSK94:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 5
       Mechanics:
@@ -2237,7 +2237,7 @@ THEUNMAKER:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2310,7 +2310,7 @@ FIATRevelliModello1914:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2383,7 +2383,7 @@ TOZ106:
       
   Damage:
     Base_Damage: 13
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2467,7 +2467,7 @@ WiegerSTG941:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2537,7 +2537,7 @@ ZastavaM76:
       
   Damage:
     Base_Damage: 12
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 8
       Mechanics:
@@ -2621,7 +2621,7 @@ M45A1:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2693,7 +2693,7 @@ CHAMFRON:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2763,7 +2763,7 @@ FarquharHillM1918:
 
   Damage:
     Base_Damage: 11
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2836,7 +2836,7 @@ KRUMMLAUF:
 
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2912,7 +2912,7 @@ MARBLEFOUNDATION:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3058,7 +3058,7 @@ KORD6P67:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3132,7 +3132,7 @@ Kogot7:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
         - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
         - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
@@ -3205,7 +3205,7 @@ KHVOSTOV7G0X:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Backstab:
       Bonus_Damage: 3
       Mechanics:
@@ -3283,7 +3283,7 @@ G3A3:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3355,7 +3355,7 @@ M19:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
