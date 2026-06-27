@@ -11457,8 +11457,8 @@ HEATSTROKE:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 8
-    Fire_Ticks: 60
+    Base_Damage: 6
+    Fire_Ticks: 80
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
