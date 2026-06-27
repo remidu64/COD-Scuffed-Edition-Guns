@@ -44,7 +44,7 @@ M200Intervention:
       
   Damage:
     Base_Damage: 25
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 76
       Mechanics:
@@ -150,7 +150,7 @@ OTS9:
         
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -226,7 +226,7 @@ FAMASG2:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -299,7 +299,7 @@ FP45:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 15
       Mechanics:
@@ -367,7 +367,7 @@ P890:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -434,7 +434,7 @@ MODM:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -507,7 +507,7 @@ AS44:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -586,7 +586,7 @@ Crossbowowo:
       
   Damage:
     Base_Damage: 30
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 49
       Mechanics:
@@ -669,7 +669,7 @@ SAKINMG38:
         
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -742,7 +742,7 @@ FAMASF1:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -815,7 +815,7 @@ MB47:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -886,7 +886,7 @@ GORENKO:
       
   Damage:
     Base_Damage: 28
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 142
       Mechanics:
@@ -988,7 +988,7 @@ GORENKO:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1059,7 +1059,7 @@ DLQ33:
       
   Damage:
     Base_Damage: 22
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Push{speed=1} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
@@ -1160,7 +1160,7 @@ KVBROADSIDE:
       
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1232,7 +1232,7 @@ X12:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -1284,7 +1284,7 @@ ThrowingKnife:
       
   Damage:
     Base_Damage: 60
-    Armor_Damage: 3.0
+    Armor_Damage: 1
 
 
 
@@ -1322,7 +1322,7 @@ STIM:
       
   Damage:
     Base_Damage: 0
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     
   Reload:
     Trigger:
@@ -2120,7 +2120,7 @@ NAILGUN:
       
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2172,7 +2172,7 @@ FLAMINGTHROWINGKNIFE:
       
   Damage:
     Base_Damage: 15
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Fire_Ticks: 80
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
@@ -2329,7 +2329,7 @@ RPG14:
       
   Damage:
     Base_Damage: 11
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2413,7 +2413,7 @@ LOCKWOOD300:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2571,7 +2571,7 @@ FINNLMG:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 8
       Mechanics:
@@ -2656,7 +2656,7 @@ SIGNAL50:
       
   Damage:
     Base_Damage: 27
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 27
       Mechanics:
@@ -2746,7 +2746,7 @@ SpyraTwo:
       
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2816,7 +2816,7 @@ Basilisk:
       
   Damage:
     Base_Damage: 13
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 16
       Mechanics:
@@ -2906,7 +2906,7 @@ Ignition:
       
   Damage:
     Base_Damage: 11
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 10
       Mechanics:
@@ -3082,7 +3082,7 @@ FJXImperium:
       
   Damage:
     Base_Damage: 28
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 60
       Mechanics:
@@ -3183,7 +3183,7 @@ LotusFlames:
       
   Damage:
     Base_Damage: 27
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 54
       Mechanics:
@@ -3277,7 +3277,7 @@ LightArmorPlate:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     
   Reload:
       Trigger:
@@ -3328,7 +3328,7 @@ MediumArmorPlate:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     
   Reload:
       Trigger:
@@ -3379,7 +3379,7 @@ HeavyArmorPlate:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     
   Reload:
       Trigger:
@@ -3415,7 +3415,7 @@ KaliSticks:
     
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3470,7 +3470,7 @@ Dignity:
       
   Damage:
     Base_Damage: 11
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3543,7 +3543,7 @@ DeadCenter:
       
   Damage:
     Base_Damage: 33
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 75
       Mechanics:
@@ -3649,7 +3649,7 @@ M4A1:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3722,7 +3722,7 @@ Marco5:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3885,7 +3885,7 @@ Grau556:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3959,7 +3959,7 @@ EX1:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4030,7 +4030,7 @@ Alabaster:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4102,7 +4102,7 @@ Alabaster:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4184,7 +4184,7 @@ NOCLIP:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4255,7 +4255,7 @@ CQBoom:
   Damage:
     Base_Damage: 13
     Base_Explosion_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     
   Reload:
     Trigger:
@@ -4360,7 +4360,7 @@ ATLAS45:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -4432,7 +4432,7 @@ NIKITAAVT:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4503,7 +4503,7 @@ AX50:
       
   Damage:
     Base_Damage: 37
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 52
       Mechanics:
@@ -4610,7 +4610,7 @@ VALOISREVOLVER:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4691,7 +4691,7 @@ PRIVATEEYE:
       
   Damage:
     Base_Damage: 18
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4772,7 +4772,7 @@ KILO141:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4850,7 +4850,7 @@ SILENTSTALKER:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4922,7 +4922,7 @@ SILENTSTALKER:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -4996,7 +4996,7 @@ Diamatti:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5089,7 +5089,7 @@ AMPEDUP:
       
   Damage:
     Base_Damage: 13
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5149,7 +5149,7 @@ KLAUSER:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5309,7 +5309,7 @@ Bren:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5382,7 +5382,7 @@ FULLMETALVENGEANCE:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Fire_Ticks: 40
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5453,7 +5453,7 @@ ADMINjustno:
     
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5541,7 +5541,7 @@ YELLOWALPHA:
       
   Damage:
     Base_Damage: 33
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 147
       Mechanics:
@@ -5647,7 +5647,7 @@ KUROMAKU:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5720,7 +5720,7 @@ KAR98K:
       
   Damage:
     Base_Damage: 22
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 45
       Mechanics:
@@ -5818,7 +5818,7 @@ FTACSIEGE:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5891,7 +5891,7 @@ M13:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5964,7 +5964,7 @@ SPLENDOR:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6037,7 +6037,7 @@ Carrack300:
       
   Damage:
     Base_Damage: 19
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 30
       Mechanics:
@@ -6131,7 +6131,7 @@ PINKSTRAIN:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6204,7 +6204,7 @@ ARMAGUERRA43:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6277,7 +6277,7 @@ SA87:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6349,7 +6349,7 @@ BREATHTAKER:
       Size: 0.3
   Damage:
     Base_Damage: 22
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 57
       Mechanics:
@@ -6440,7 +6440,7 @@ SULFURIC:
       
   Damage:
     Base_Damage: 12
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6512,7 +6512,7 @@ CRONENSQUALL:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6584,7 +6584,7 @@ X13AUTO:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6655,7 +6655,7 @@ PELINGTON703:
       
   Damage:
     Base_Damage: 24
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 48
       Mechanics:
@@ -6748,7 +6748,7 @@ Marshal:
       
   Damage:
     Base_Damage: 12
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6830,7 +6830,7 @@ KASTOV545:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6887,7 +6887,7 @@ ADMINkaboom1k:
       
   Damage:
     Base_Damage: 28
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     
   Explosion:
     Explosion_Exposure: "DISTANCE"
@@ -6958,7 +6958,7 @@ SPRA5M:
       
   Damage:
     Base_Damage: 25
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 64
       Mechanics:
@@ -7064,7 +7064,7 @@ SPRA5M:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -7121,7 +7121,7 @@ ADMINkaboom1ks:
       
   Damage:
     Base_Damage: 28
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     
   Explosion:
     Explosion_Exposure: "DISTANCE"
@@ -7192,7 +7192,7 @@ FUELROD:
       
   Damage:
     Base_Damage: 34
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 46
       Mechanics:
@@ -7297,7 +7297,7 @@ SOVIETRED:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -7355,7 +7355,7 @@ ADMINkill:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=kill <victim>, console=true}
 
@@ -7415,7 +7415,7 @@ STABISTOR:
         
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -7514,7 +7514,7 @@ HDR:
       
   Damage:
     Base_Damage: 31
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 63
       Mechanics:
@@ -7608,7 +7608,7 @@ ADMINBFG10000:
         
   Damage:
     Base_Damage: 15
-    Armor_Damage: 3.0
+    Armor_Damage: 1
 
 
 
@@ -7659,7 +7659,7 @@ TOWERKEY:
       
   Damage:
     Base_Damage: 19
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 39
       Mechanics:
@@ -7842,7 +7842,7 @@ LIENNA57:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -7986,7 +7986,7 @@ AK117:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8059,7 +8059,7 @@ SCHOOLSOUT:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8131,7 +8131,7 @@ SCHOOLSOUT:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8204,7 +8204,7 @@ HAUER77:
       
   Damage:
     Base_Damage: 16
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8288,7 +8288,7 @@ PUNCTUREWOUND:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8341,7 +8341,7 @@ ADMINFULLAUTOSHOTGUNLOL:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
 
 
 
@@ -8367,7 +8367,7 @@ ADMINTrue189diamondsword:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Sound{sound=ENTITY_PLAYER_ATTACK_STRONG, volume=1, pitch=1}
 
@@ -8420,7 +8420,7 @@ GLAZEMATIC:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8570,7 +8570,7 @@ biomechatronic:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Fire_Ticks: 40
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8643,7 +8643,7 @@ biomechatronic:
       
   Damage:
     Base_Damage: 13
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8715,7 +8715,7 @@ ISOHEMLOCK:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8770,7 +8770,7 @@ ADMINtheyiffinator:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Message{message=OwO i-is this youw phone ow awe you happy to see me}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8829,7 +8829,7 @@ Milano821:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8910,7 +8910,7 @@ matchlock:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Fire_Ticks: 60
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8983,7 +8983,7 @@ intimidatingfish:
       
   Damage:
     Base_Damage: 34
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 69
       Mechanics:
@@ -9082,7 +9082,7 @@ ARCHONTYPEB:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -9150,7 +9150,7 @@ ARCHONTYPEB:
       
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 70
       Mechanics:
@@ -9228,7 +9228,7 @@ delacremodele1936:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -9292,7 +9292,7 @@ adminyeet:
         
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Leap{speed=400.0} @Target{}
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
@@ -9358,7 +9358,7 @@ baddog:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -9442,7 +9442,7 @@ krig6:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 3
       Mechanics:
@@ -9520,7 +9520,7 @@ pkm:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -9593,7 +9593,7 @@ sunsethue:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -9665,7 +9665,7 @@ swissk31:
       
   Damage:
     Base_Damage: 19
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 12
       Mechanics:
@@ -9765,7 +9765,7 @@ cr56amax:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -9820,7 +9820,7 @@ adminastolfo_47:
       
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
 
@@ -9874,7 +9874,7 @@ ppsh_41:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -9947,7 +9947,7 @@ m134minigun:
       
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10019,7 +10019,7 @@ InfernalFlight:
       
   Damage:
     Base_Damage: 37
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Fire_Ticks: 60
     Head:
       Bonus_Damage: 69
@@ -10122,7 +10122,7 @@ WEBSPINNER:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10196,7 +10196,7 @@ BuckledLupara:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10280,7 +10280,7 @@ ZRG20mm:
       
   Damage:
     Base_Damage: 31
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 15
       Mechanics:
@@ -10382,7 +10382,7 @@ CX_9:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10455,7 +10455,7 @@ Schwarzwald:
       
   Damage:
     Base_Damage: 15
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10528,7 +10528,7 @@ loggerhead:
       
   Damage:
     Base_Damage: 12
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10612,7 +10612,7 @@ saki:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10685,7 +10685,7 @@ pureindica:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10758,7 +10758,7 @@ deathlylight:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10831,7 +10831,7 @@ M4:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10904,7 +10904,7 @@ CyberUnicorn:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10976,7 +10976,7 @@ CyberUnicorn:
       
   Damage:
     Base_Damage: 24
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 9
       Mechanics:
@@ -11078,7 +11078,7 @@ AK_47:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -11151,7 +11151,7 @@ PumpkinHead:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -11224,7 +11224,7 @@ IceDrake:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 4
       Mechanics:
@@ -11375,7 +11375,7 @@ RENETTI:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -11459,7 +11459,7 @@ HEATSTROKE:
   Damage:
     Base_Damage: 8
     Fire_Ticks: 60
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -11531,7 +11531,7 @@ THEVOICES:
       
   Damage:
     Base_Damage: 21
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 15
       Mechanics:
@@ -11636,7 +11636,7 @@ M16:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -11710,7 +11710,7 @@ CHEMTHREAT:
       
   Damage:
     Base_Damage: 25
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 32
       Mechanics:
@@ -11804,7 +11804,7 @@ ADMINRADIOGUN:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -11966,7 +11966,7 @@ PULEMYOT762:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12040,7 +12040,7 @@ MP5:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
         - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
         - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
@@ -12237,7 +12237,7 @@ DUALKODACHIS:
     
   Damage:
     Base_Damage: 12
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12296,7 +12296,7 @@ PHOTONPHANTOM:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12375,7 +12375,7 @@ GALAXYCLUSTER:
       
   Damage:
     Base_Damage: 11
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12455,7 +12455,7 @@ BP50:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12527,7 +12527,7 @@ GROZA:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12668,7 +12668,7 @@ WALKINGCONTRADICTION:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12741,7 +12741,7 @@ DP27:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12815,7 +12815,7 @@ GildedRose:
       
   Damage:
     Base_Damage: 14
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12899,7 +12899,7 @@ EnhancedRisk:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12977,7 +12977,7 @@ WELROD:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 30
       Mechanics:
@@ -13074,7 +13074,7 @@ MORS:
       
   Damage:
     Base_Damage: 52
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 67
       Mechanics:
@@ -13189,7 +13189,7 @@ LEECHEDPOISON:
       
   Damage:
     Base_Damage: 48
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 63
       Mechanics:
@@ -13298,7 +13298,7 @@ ELECTRICLOLLIPOP:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -13483,7 +13483,7 @@ SUBKELVIN:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -13713,7 +13713,7 @@ IMR:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -13786,7 +13786,7 @@ EOKA:
       
   Damage:
     Base_Damage: 14
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 17
       Mechanics:
@@ -13863,7 +13863,7 @@ HavelinaAA50:
       
   Damage:
     Base_Damage: 16
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 24
       Mechanics:
@@ -13957,7 +13957,7 @@ burnedsoul:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14030,7 +14030,7 @@ ioneruption:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14104,7 +14104,7 @@ DM7:
       
   Damage:
     Base_Damage: 15
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 27
       Mechanics:
@@ -14197,7 +14197,7 @@ XM4:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14270,7 +14270,7 @@ Fennec:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14343,7 +14343,7 @@ R70Ajax:
       
   Damage:
     Base_Damage: 7
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14416,7 +14416,7 @@ RSAInterdiction:
       
   Damage:
     Base_Damage: 24
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 48
       Mechanics:
@@ -14528,7 +14528,7 @@ MTS255:
       Mechanics:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14598,7 +14598,7 @@ HOSER:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14656,7 +14656,7 @@ ADMINMGCrossbow:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 30
       Mechanics:
@@ -14737,7 +14737,7 @@ BREACHER:
     
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14796,7 +14796,7 @@ NONCONFORMIST:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14856,7 +14856,7 @@ RAININGDEATH:
   Damage:
     Base_Damage: 20
     Base_Explosion_Damage: 80
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14977,7 +14977,7 @@ NXSHADOWCLAW:
       
   Damage:
     Base_Damage: 27
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 39
       Mechanics:
@@ -15050,7 +15050,7 @@ aegisflux:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -15123,7 +15123,7 @@ FAL:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -15196,7 +15196,7 @@ QUARKASER:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -15268,7 +15268,7 @@ KATTAMR:
       
   Damage:
     Base_Damage: 52
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 120
       Mechanics:
@@ -15366,7 +15366,7 @@ MP18:
       
   Damage:
     Base_Damage: 22
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 45
       Mechanics:
@@ -15613,7 +15613,7 @@ Specterstrike:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -15686,7 +15686,7 @@ NuclearFusion:
       
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Fire_Ticks: 200
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16008,7 +16008,7 @@ AKS_47:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16086,7 +16086,7 @@ mak90:
       Mechanics:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16162,7 +16162,7 @@ r1roughcut:
       
   Damage:
     Base_Damage: 29
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16246,7 +16246,7 @@ TEC9:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16320,7 +16320,7 @@ Type63:
       
   Damage:
     Base_Damage: 11
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16398,7 +16398,7 @@ deadlybotany:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16476,7 +16476,7 @@ nanofire:
       
   Damage:
     Base_Damage: 15
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16548,7 +16548,7 @@ strongarm:
       
   Damage:
     Base_Damage: 35
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 15
       Mechanics:
@@ -16634,7 +16634,7 @@ CrimsonDozer:
       
   Damage:
     Base_Damage: 8
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16707,7 +16707,7 @@ MG42:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16780,7 +16780,7 @@ CHOPPER:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16853,7 +16853,7 @@ PU21:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -16925,7 +16925,7 @@ SSK950:
       
   Damage:
     Base_Damage: 67
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 165
       Mechanics:
@@ -17033,7 +17033,7 @@ firestrike:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -17106,7 +17106,7 @@ raygun:
       
   Damage:
     Base_Damage: 17
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -17177,7 +17177,7 @@ scout:
       
   Damage:
     Base_Damage: 25
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 5
       Mechanics:
@@ -17253,7 +17253,7 @@ covert:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -17399,7 +17399,7 @@ guardian:
       
   Damage:
     Base_Damage: 15
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 45
       Mechanics:
@@ -17477,7 +17477,7 @@ hotshock:
       
   Damage:
     Base_Damage: 50
-    Armor_Damage: 6.75
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 80
       Mechanics:
@@ -17552,7 +17552,7 @@ TaschenpistoleM1914:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -17704,7 +17704,7 @@ AWP:
       
   Damage:
     Base_Damage: 35
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 50
       Mechanics:
@@ -17798,7 +17798,7 @@ argentserpent:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -17878,7 +17878,7 @@ NZ41:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -17951,7 +17951,7 @@ M2Browning:
       
   Damage:
     Base_Damage: 22
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18030,7 +18030,7 @@ WunderwaffeDG2:
       
   Damage:
     Base_Damage: 21474
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -18103,7 +18103,7 @@ RPK:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18175,7 +18175,7 @@ COR45:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18248,7 +18248,7 @@ ASVAL:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -18321,7 +18321,7 @@ Malphas:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18401,7 +18401,7 @@ M60:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18474,7 +18474,7 @@ M1689_Blunderbuss:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18547,7 +18547,7 @@ VLKRogue:
       
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18650,7 +18650,7 @@ vanguardlr1:
       
   Damage:
     Base_Damage: 45
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -18711,7 +18711,7 @@ yeet_dart:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18758,7 +18758,7 @@ yeet_mega_dart:
       
   Damage:
     Base_Damage: 20
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18816,7 +18816,7 @@ yeet_mega_dart:
       
   Damage:
     Base_Damage: 13
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18888,7 +18888,7 @@ valleyoutlaw:
       
   Damage:
     Base_Damage: 10
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19053,7 +19053,7 @@ ADMINarandom:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19091,7 +19091,7 @@ LETHALdeath:
       
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19148,7 +19148,7 @@ STG44:
       
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19221,7 +19221,7 @@ ALLSMILES:
       
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19308,7 +19308,7 @@ M82A1:
       
   Damage:
     Base_Damage: 30
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 30
       Mechanics:
@@ -19392,7 +19392,7 @@ ADMINgoosekiller:
       
   Damage:
     Base_Damage: 999
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 999
       Mechanics:
@@ -19459,7 +19459,7 @@ akimbostrongarm:
       
   Damage:
     Base_Damage: 35
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 15
       Mechanics:
@@ -19636,7 +19636,7 @@ herotypepower:
       
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19711,7 +19711,7 @@ slamfirestrongarm:
       
   Damage:
     Base_Damage: 35
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 15
       Mechanics:
@@ -19798,7 +19798,7 @@ LAVALACERATOR:
   Damage:
     Base_Damage: 18
     Fire_Ticks: 100
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 37
       Mechanics:
@@ -19913,7 +19913,7 @@ M1GARAND:
       
   Damage:
     Base_Damage: 9
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 13
       Mechanics:
@@ -19995,7 +19995,7 @@ DOOM1PISTOL:
       Mechanics:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20028,7 +20028,7 @@ PRIVATEEYEMELEE:
     
   Damage:
     Base_Damage: 6
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20068,7 +20068,7 @@ BUTTERFLYKNIFE:
     
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20127,7 +20127,7 @@ CRYSTALCHANDELIER:
 
   Damage:
     Base_Damage: 22
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20228,7 +20228,7 @@ AKITA:
 
   Damage:
     Base_Damage: 2
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20300,7 +20300,7 @@ holiday_workshop:
 
   Damage:
     Base_Damage: 5
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20381,7 +20381,7 @@ SO14:
 
   Damage:
     Base_Damage: 13
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20461,7 +20461,7 @@ delicate_demise:
 
   Damage:
     Base_Damage: 4
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20536,7 +20536,7 @@ reconcs6:
 
   Damage:
     Base_Damage: 15
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 15
       Mechanics:
@@ -20618,7 +20618,7 @@ ADMINSPYTF2:
 
   Damage:
     Base_Damage: 1
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20663,7 +20663,7 @@ demon_core_on_a_stick:
   Damage:
     Base_Explosion_Damage: 2000
     Base_Damage: 25
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20744,7 +20744,7 @@ Yahar_gul_1521:
 
   Damage:
     Base_Damage: 3
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20818,7 +20818,7 @@ M2000Intervention:
   Damage:
     Base_Damage: 25
     Base_Explosion_Damage: 25
-    Armor_Damage: 3.0
+    Armor_Damage: 1
     Head:
       Bonus_Damage: 76
       Mechanics:
