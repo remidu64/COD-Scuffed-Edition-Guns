@@ -1365,6 +1365,7 @@ GRENADE:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=2, pitch=0.5}
       
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 100
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
@@ -1383,6 +1384,9 @@ GRENADE:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.5
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.25
     Mechanics:
     -  "Particle{particle=DUST_COLOR_TRANSITION, color=#ff0000, fadeColor=#ff0000, repeatAmount=10, repeatInterval=2, alwaysShow=true, size=0.5, count=2} @Target{offset=~0 0 0}"
     -  "Particle{particle=DUST_COLOR_TRANSITION, color=#f65600, fadeColor=#f65600, repeatAmount=10, repeatInterval=2, alwaysShow=true, size=0.5, count=2, delayBeforePlay=10} @Target{offset=~0 0 0}"
@@ -1562,6 +1566,7 @@ IMPACTGRENADE:
         Custom_Model_Data: 3
         
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 60
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
