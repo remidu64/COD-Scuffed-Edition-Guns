@@ -1547,6 +1547,7 @@ IMPACTGRENADE:
         Off_Hand: left_click
     Projectiles_Per_Shot: 1
     Projectile_Speed: 50
+    Delay_Between_Shots: 10
     Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=2, pitch=0.5}
     
