@@ -1752,8 +1752,8 @@ SVCh54:
     - Leap{speed=-0.3} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
   

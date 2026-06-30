@@ -30,8 +30,8 @@ M200Intervention:
     - Leap{speed=-0.5} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -872,8 +872,8 @@ GORENKO:
     - Leap{speed=-0.8} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -1045,8 +1045,8 @@ DLQ33:
     - Leap{speed=-0.4} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -2650,8 +2650,8 @@ SIGNAL50:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -3070,8 +3070,8 @@ FJXImperium:
     - Leap{speed=-0.5} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
   
@@ -3177,8 +3177,8 @@ LotusFlames:
     - Leap{speed=-0.4} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -3536,8 +3536,8 @@ DeadCenter:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -4497,8 +4497,8 @@ AX50:
     - Leap{speed=-0.6} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -5535,8 +5535,8 @@ YELLOWALPHA:
     - Leap{speed=-0.6} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -6031,8 +6031,8 @@ Carrack300:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -6344,8 +6344,8 @@ BREATHTAKER:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -6649,8 +6649,8 @@ PELINGTON703:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -6952,8 +6952,8 @@ SPRA5M:
     - Leap{speed=-0.1} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -7186,8 +7186,8 @@ FUELROD:
     - Leap{speed=-0.5} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -7508,8 +7508,8 @@ HDR:
     - Leap{speed=-0.3} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -7653,8 +7653,8 @@ TOWERKEY:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -8977,8 +8977,8 @@ intimidatingfish:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -9659,8 +9659,8 @@ swissk31:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -10013,8 +10013,8 @@ InfernalFlight:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -10274,8 +10274,8 @@ ZRG20mm:
     - Leap{speed=-0.3} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -10970,8 +10970,8 @@ CyberUnicorn:
     - Leap{speed=-0.5} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -11525,8 +11525,8 @@ THEVOICES:
     - Leap{speed=-0.75} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -11855,8 +11855,8 @@ ADMINRADIOGUN:
     - Leap{speed=-0.55} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -13061,8 +13061,8 @@ MORS:
     - Leap{speed=-0.4} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -13176,8 +13176,8 @@ LEECHEDPOISON:
     - Leap{speed=-0.3} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -13372,8 +13372,8 @@ Ensanguined:
     - Leap{speed=-0.45} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -13857,8 +13857,8 @@ HavelinaAA50:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -14410,8 +14410,8 @@ RSAInterdiction:
     - Leap{speed=-0.5} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -15262,8 +15262,8 @@ KATTAMR:
     - Leap{speed=-0.4} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -16919,8 +16919,8 @@ SSK950:
     - Leap{speed=-1.5} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -17691,8 +17691,8 @@ AWP:
     - Leap{speed=-0.3} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -18961,8 +18961,8 @@ GEOTHERMALLINE:
     - Leap{speed=-0.45} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -19295,8 +19295,8 @@ M82A1:
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
     
@@ -19386,8 +19386,8 @@ ADMINgoosekiller:
     Fully_Automatic_Shots_Per_Second: 20
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
 
@@ -20121,8 +20121,8 @@ CRYSTALCHANDELIER:
     - Leap{speed=-0.48} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
 
@@ -20811,8 +20811,8 @@ M2000Intervention:
     - Leap{speed=-0.5} @Source{offset=~0 0 1}
     Offsets:
       Vive:
-        Right_Hand: 0.0 0.1 0.45
-        Left_Hand: 0.0 0.1 0.45
+        Right_Hand: ~0.0 0.1 1.1
+        Left_Hand: ~0.0 0.1 1.1
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
 
