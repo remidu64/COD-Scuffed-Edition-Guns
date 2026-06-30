@@ -20516,12 +20516,12 @@ reconcs6:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-     Base_Spread: 0.175
+     Base_Spread: 0.2
     Mechanics:
     - CustomSound{sound=recon.shoot1, noise=0.07}
     - CustomSound{sound=recon.shoot2, noise=0.07, delayBeforePlay=4}
     - CustomSound{sound=recon.shoot3, noise=0.07, delayBeforePlay=7}
-    - Leap{speed=-0.05} @Source{offset=~0 0 1}
+    - Leap{speed=-0.15} @Source{offset=~0 0 1}
     Offsets:
       Vive:
         Right_Hand: ~0 0.13 0.4
