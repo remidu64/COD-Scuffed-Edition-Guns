@@ -20516,7 +20516,7 @@ reconcs6:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-     Base_Spread: 0.3
+     Base_Spread: 0.175
     Mechanics:
     - CustomSound{sound=recon.shoot1, noise=0.07}
     - CustomSound{sound=recon.shoot2, noise=0.07, delayBeforePlay=4}
@@ -20543,13 +20543,8 @@ reconcs6:
         Default_Speed_Multiplier: 0.6
 
   Damage:
-    Base_Damage: 15
+    Base_Damage: 25
     Armor_Damage: 1
-    Head:
-      Bonus_Damage: 15
-      Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
