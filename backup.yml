@@ -8335,14 +8335,14 @@ ADMINFULLAUTOSHOTGUNLOL:
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 25
-    Projectile_Speed: 70.0
+    Projectile_Speed: 250
     Spread:
       Base_Spread: 10.0
     Mechanics:
     - Sound{sound=UI_BUTTON_CLICK, volume=0.4, pitch=2.0}
     - Sound{sound=BLOCK_NOTE_BLOCK_BASEDRUM, volume=0.4, pitch=2}
     - Leap{speed=-2.0}
-    Fully_Automatic_Shots_Per_Second: 20.0
+    Fully_Automatic_Shots_Per_Second: 40.0
     
   Projectile:
     bullet.Projectile
