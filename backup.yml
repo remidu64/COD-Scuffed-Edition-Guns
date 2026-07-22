@@ -6125,7 +6125,7 @@ PINKSTRAIN:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
-    - Leap{speed=-0.0} @Source{offset=~0 0 1}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
     Fully_Automatic_Shots_Per_Second: 11.0
     Offsets:
       Vive:
@@ -6156,6 +6156,13 @@ PINKSTRAIN:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=24}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
+
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 2
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
