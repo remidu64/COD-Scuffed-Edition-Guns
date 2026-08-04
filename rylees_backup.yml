@@ -3563,7 +3563,7 @@ HAMMERGEWEHR:
       Left_Hand: ~0 0 0
     
   Projectile:
-    bullet.hammergewehrbullet
+    hammergewehrbullet.Projectile
       
   Damage:
     Base_Damage: 1
