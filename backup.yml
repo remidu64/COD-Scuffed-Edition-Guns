@@ -12743,7 +12743,7 @@ DP27:
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Leap{speed=-0.1} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 9
+    Fully_Automatic_Shots_Per_Second: 13
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.115 0.4
@@ -12901,7 +12901,7 @@ EnhancedRisk:
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Leap{speed=-0.08} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 10
+    Fully_Automatic_Shots_Per_Second: 13
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.115 0.4
