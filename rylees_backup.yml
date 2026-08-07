@@ -4627,6 +4627,13 @@ HIGHOCTANE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=78}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=104}
 
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 3
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
+
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
