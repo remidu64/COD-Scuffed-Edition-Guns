@@ -484,7 +484,7 @@ AS44:
       
   Shoot:
     Spread:
-      Base_Spread: 1
+      Base_Spread: 0.4
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
@@ -494,7 +494,7 @@ AS44:
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Leap{speed=-0.1} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 10.0
+    Fully_Automatic_Shots_Per_Second: 15.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.225
@@ -519,19 +519,11 @@ AS44:
     Magazine_Size: 30
     Reload_Duration: 40
     Start_Mechanics:
-    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=4}
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=6}
-    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=36}
-    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=37}
-    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=38}
-    
-  Firearm_Action:
-    Type: slide
-    Close:
-      Time: 10
-      Mechanics:
-      - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2}
-      - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=3}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=7}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=15}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=23}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
