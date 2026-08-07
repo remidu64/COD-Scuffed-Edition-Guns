@@ -4129,15 +4129,7 @@ CUSTOSSANGUINIS:
       Left_Hand: ~0 0 0
     
   Projectile:
-    Projectile_Settings:
-      Type: INVISIBLE
-      Gravity: 50
-      Maximum_Travel_Distance: 400
-      Size: 0.3
-    Through:
-      Entities:
-        Allow_Any: true
-      Maximum_Through_Amount: 1
+    custosbullet.Projectile
       
   Damage:
     Base_Damage: 5
