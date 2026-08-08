@@ -1352,7 +1352,7 @@ GRENADE:
         Off_Hand: left_click
     Projectiles_Per_Shot: 1
     Projectile_Speed: 50
-    Delay_Between_Shots: 10
+    Delay_Between_Shots: 5
     Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=2, pitch=0.5}
       
@@ -1450,7 +1450,7 @@ SEMTEX:
         Off_Hand: left_click
     Projectiles_Per_Shot: 1
     Projectile_Speed: 50
-    Delay_Between_Shots: 10
+    Delay_Between_Shots: 5
     Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=2, pitch=0.5}
     
@@ -1545,7 +1545,7 @@ IMPACTGRENADE:
         Off_Hand: left_click
     Projectiles_Per_Shot: 1
     Projectile_Speed: 50
-    Delay_Between_Shots: 10
+    Delay_Between_Shots: 5
     Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=2, pitch=0.5}
     
@@ -1605,7 +1605,7 @@ M203GRENADE:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>M203 Grenade Launcher
+        Message: <gold>M203
         Dual_Wield:
           Main_Hand: <gold>M203 Grenade Launcher
           Off_Hand: <gold>M203 Grenade Launcher
