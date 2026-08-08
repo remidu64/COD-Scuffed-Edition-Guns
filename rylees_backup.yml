@@ -27,7 +27,7 @@ Lachmann556:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 140.0
     Spread:
-      Base_Spread: 0.055
+      Base_Spread: 0.2
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
@@ -45,7 +45,7 @@ Lachmann556:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 3
+    Base_Damage: 4
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -99,7 +99,7 @@ LC10:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100.0
     Spread:
-      Base_Spread: 0.07
+      Base_Spread: 0.22
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
