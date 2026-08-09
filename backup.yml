@@ -16119,6 +16119,9 @@ r1roughcut:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 29
@@ -16433,6 +16436,9 @@ nanofire:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+    Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 15
@@ -16505,6 +16511,9 @@ strongarm:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+    Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 35
@@ -16989,7 +16998,10 @@ firestrike:
       Maximum_Bounce_Amount: -1
       Blocks:
         Allow_Any: true
-        Default_Speed_Multiplier: 0.8
+        Default_Speed_Multiplier: 0.9
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.75
       
   Damage:
     Base_Damage: 20
@@ -17134,6 +17146,9 @@ scout:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 25
@@ -17210,6 +17225,9 @@ covert:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 20
@@ -17356,6 +17374,9 @@ guardian:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 15
@@ -17434,6 +17455,9 @@ hotshock:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.9
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.8
       
   Damage:
     Base_Damage: 50
@@ -18607,6 +18631,9 @@ vanguardlr1:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 45
@@ -18668,6 +18695,9 @@ yeet_dart:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 10
@@ -18715,6 +18745,9 @@ yeet_mega_dart:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 20
@@ -19416,6 +19449,9 @@ akimbostrongarm:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
       
   Damage:
     Base_Damage: 35
@@ -19662,6 +19698,9 @@ slamfirestrongarm:
       Blocks:
         Allow_Any: true
         Default_Speed_Multiplier: 0.8
+      Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
     Offsets:
       Vive:
         Right_Hand: ~0 0.135 0.3
@@ -20480,7 +20519,9 @@ reconcs6:
         Left_Hand: ~0 0.13 0.4
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
-
+Entities:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
   Projectile:
     Projectile_Settings:
       Type: ARMOR_STAND
@@ -20491,6 +20532,9 @@ reconcs6:
     Bouncy:
       Maximum_Bounce_Amount: -1
       Blocks:
+        Allow_Any: true
+        Default_Speed_Multiplier: 0.6
+      Entities:
         Allow_Any: true
         Default_Speed_Multiplier: 0.6
 
