@@ -1284,11 +1284,11 @@ STIM:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Stim Shot User x<ammo_left>
+        Message: <gold>Stim Shot
     Weapon_Item:
-      Name: <gold>Stim Shot User
+      Name: <gold>Stim Shot
       Type: STICK
-      Custom_Model_Data: 1
+      Custom_Model_Data: 2
       Max_Stack_Size: 99
       Lore:
       - <gold>Consumable
@@ -3222,7 +3222,7 @@ LightArmorPlate:
     Weapon_Item:
       Name: <gold>Light Armor Plate
       Type: phantom_membrane
-      Custom_Model_Data: 1
+      Custom_Model_Data: 2
       Max_Stack_Size: 99
       Lore:
       - <gold>Consumable
@@ -3264,7 +3264,7 @@ MediumArmorPlate:
     Weapon_Item:
       Name: <gold>Medium Armor Plate
       Type: PHANTOM_MEMBRANE
-      Custom_Model_Data: 3
+      Custom_Model_Data: 4
       Max_Stack_Size: 99
       Lore:
       - <gold>Consumable
@@ -3308,7 +3308,7 @@ HeavyArmorPlate:
     Weapon_Item:
       Name: <gold>Heavy Armor Plate
       Type: PHANTOM_MEMBRANE
-      Custom_Model_Data: 5
+      Custom_Model_Data: 6
       Max_Stack_Size: 99
       Lore:
       - <gold>Consumable
