@@ -20519,9 +20519,7 @@ reconcs6:
         Left_Hand: ~0 0.13 0.4
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
-Entities:
-        Allow_Any: true
-        Default_Speed_Multiplier: 0.6
+
   Projectile:
     Projectile_Settings:
       Type: ARMOR_STAND
