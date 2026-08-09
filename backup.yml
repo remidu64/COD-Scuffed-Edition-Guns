@@ -1289,6 +1289,7 @@ STIM:
       Name: <gold>Stim Shot User
       Type: STICK
       Custom_Model_Data: 1
+      Max_Stack_Size: 99
       Lore:
       - <gold>Consumable
     Weapon_Get_Mechanics:
@@ -1301,6 +1302,7 @@ STIM:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
     Projectile_Speed: 0
+    Consume_Item_On_Shoot: true
     Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_BELL, volume=1, pitch=2}
     - Command{command=effect give <source_name> regeneration 1 255, console=true}
@@ -1315,15 +1317,6 @@ STIM:
   Damage:
     Base_Damage: 0
     Armor_Damage: 1
-    
-  Reload:
-    Trigger:
-      Main_Hand: drop_item
-    Magazine_Size: 999999
-    Reload_Duration: 1
-    Ammo:
-      Ammos:
-        - STIM_AMMO
 
 
 
@@ -1331,11 +1324,12 @@ GRENADE:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Grenade User x<ammo_left>
+        Message: <gold>Grenade
     Weapon_Item:
-      Name: <gold>Grenade User
+      Name: <gold>Grenade
       Type: iron_nugget
       Custom_Model_Data: 4
+      Max_Stack_Size: 99
       Lore:
       - <gold>Grenade
     Weapon_Get_Mechanics:
@@ -1351,6 +1345,7 @@ GRENADE:
         Main_Hand: right_click
         Off_Hand: left_click
     Projectiles_Per_Shot: 1
+    Consume_Item_On_Shoot: true
     Projectile_Speed: 50
     Delay_Between_Shots: 5
     Mechanics:
@@ -1414,26 +1409,18 @@ GRENADE:
     Mechanics:
       - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=3}
       
-  Reload:
-    Trigger:
-      Main_Hand: drop_item
-    Magazine_Size: 999999
-    Reload_Duration: 1
-    Ammo:
-      Ammos:
-        - GRENADE_AMMO
-      
       
       
 SEMTEX:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Semtex User x<ammo_left>
+        Message: <gold>Semtex
     Weapon_Item:
-      Name: <gold>Semtex User
+      Name: <gold>Semtex
       Type: iron_nugget
       Custom_Model_Data: 2
+      Max_Stack_Size: 99
       Lore:
       - <gold>Grenade
     Weapon_Get_Mechanics:
@@ -1449,6 +1436,7 @@ SEMTEX:
         Main_Hand: right_click
         Off_Hand: left_click
     Projectiles_Per_Shot: 1
+    Consume_Item_On_Shoot: true
     Projectile_Speed: 50
     Delay_Between_Shots: 5
     Mechanics:
@@ -1508,15 +1496,6 @@ SEMTEX:
       Ticks_Between_Updates: 4
     Mechanics:
       - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=3}
-      
-  Reload:
-    Trigger:
-      Main_Hand: drop_item
-    Magazine_Size: 999999
-    Reload_Duration: 1
-    Ammo:
-      Ammos:
-        - SEMTEX_AMMO
 
 
 
@@ -1524,18 +1503,19 @@ IMPACTGRENADE:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Impact Grenade User x<ammo_left>
+        Message: <gold>Impact Grenade
     Weapon_Item:
-      Name: <gold>Impact Grenade User
+      Name: <gold>Impact Grenade
       Type: iron_nugget
       Custom_Model_Data: 3
+      Max_Stack_Size: 99
       Lore:
       - <gold>Grenade
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
     Cancel:
       Drop_Item: true
-    
+
   Shoot:
     Trigger:
       Main_Hand: right_click
@@ -1544,6 +1524,7 @@ IMPACTGRENADE:
         Main_Hand: right_click
         Off_Hand: left_click
     Projectiles_Per_Shot: 1
+    Consume_Item_On_Shoot: true
     Projectile_Speed: 50
     Delay_Between_Shots: 5
     Mechanics:
@@ -1589,15 +1570,6 @@ IMPACTGRENADE:
       Ticks_Between_Updates: 4
     Mechanics:
       - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=3}
-      
-  Reload:
-    Trigger:
-      Main_Hand: drop_item
-    Magazine_Size: 999999
-    Reload_Duration: 1
-    Ammo:
-      Ammos:
-        - IMPACT_GRENADE_AMMO
 
 
 
@@ -1842,6 +1814,7 @@ MGB:
       Name: <gold>MGB
       Type: iron_nugget
       Custom_Model_Data: 5
+      Max_Stack_Size: 99
       Lore:
       - <gold>Nuke
     Weapon_Get_Mechanics:
@@ -3245,11 +3218,12 @@ LightArmorPlate:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Light Armor Plate User x<ammo_left>
+        Message: <gold>Light Armor Plate
     Weapon_Item:
-      Name: <gold>Light Armor Plate User
+      Name: <gold>Light Armor Plate
       Type: phantom_membrane
       Custom_Model_Data: 1
+      Max_Stack_Size: 99
       Lore:
       - <gold>Consumable
     Weapon_Get_Mechanics:
@@ -3260,6 +3234,7 @@ LightArmorPlate:
   Shoot:
     Trigger:
       Main_Hand: right_click
+    Consume_Item_On_Shoot: true
     Delay_Between_Shots: 20
     Projectiles_Per_Shot: 1
     Projectile_Speed: 60.0
@@ -3278,15 +3253,6 @@ LightArmorPlate:
   Damage:
     Base_Damage: 20
     Armor_Damage: 1
-    
-  Reload:
-      Trigger:
-        Main_Hand: drop_item
-      Magazine_Size: 999999
-      Reload_Duration: 1
-      Ammo:
-        Ammos:
-          - LIGHT_ARMOR_PLATE_AMMO
 
 
 
@@ -3294,11 +3260,12 @@ MediumArmorPlate:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Medium Armor Plate User x<ammo_left>
+        Message: <gold>Medium Armor Plate
     Weapon_Item:
-      Name: <gold>Medium Armor Plate User
+      Name: <gold>Medium Armor Plate
       Type: PHANTOM_MEMBRANE
       Custom_Model_Data: 3
+      Max_Stack_Size: 99
       Lore:
       - <gold>Consumable
     Weapon_Get_Mechanics:
@@ -3310,6 +3277,7 @@ MediumArmorPlate:
     Trigger:
       Main_Hand: right_click
     Delay_Between_Shots: 20
+    Consume_Item_On_Shoot: true
     Projectiles_Per_Shot: 1
     Projectile_Speed: 60.0
     Mechanics:
@@ -3329,15 +3297,6 @@ MediumArmorPlate:
   Damage:
     Base_Damage: 20
     Armor_Damage: 1
-    
-  Reload:
-      Trigger:
-        Main_Hand: drop_item
-      Magazine_Size: 999999
-      Reload_Duration: 1
-      Ammo:
-        Ammos:
-          - MEDIUM_ARMOR_PLATE_AMMO
 
 
 
@@ -3345,11 +3304,12 @@ HeavyArmorPlate:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Heavy Armor Plate User x<ammo_left>
+        Message: <gold>Heavy Armor Plate
     Weapon_Item:
-      Name: <gold>Heavy Armor Plate User
+      Name: <gold>Heavy Armor Plate
       Type: PHANTOM_MEMBRANE
       Custom_Model_Data: 5
+      Max_Stack_Size: 99
       Lore:
       - <gold>Consumable
     Weapon_Get_Mechanics:
@@ -3361,6 +3321,7 @@ HeavyArmorPlate:
     Trigger:
       Main_Hand: right_click
     Delay_Between_Shots: 20 
+    Consume_Item_On_Shoot: true
     Projectiles_Per_Shot: 1
     Projectile_Speed: 60.0
     Mechanics:
@@ -3380,15 +3341,6 @@ HeavyArmorPlate:
   Damage:
     Base_Damage: 20
     Armor_Damage: 1
-    
-  Reload:
-      Trigger:
-        Main_Hand: drop_item
-      Magazine_Size: 999999
-      Reload_Duration: 1
-      Ammo:
-        Ammos:
-          - HEAVY_ARMOR_PLATE_AMMO
     
 
 
@@ -8462,6 +8414,7 @@ Panzerfaust30:
       Lore:
       - <gold>Launcher
       Custom_Model_Data: 12
+      Max_Stack_Size: 8
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
     Cancel:
