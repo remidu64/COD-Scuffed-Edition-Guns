@@ -5040,7 +5040,7 @@ AMPEDUP:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 13
+    Base_Damage: 8
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
