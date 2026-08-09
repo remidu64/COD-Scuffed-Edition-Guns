@@ -2950,6 +2950,13 @@ FatMan:
         Left_Hand: ~0.0 0.1225 0.525
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
+
+  Damage:
+    Base_Explosion_Damage: 100
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
     
   Projectile:
     Projectile_Settings:
