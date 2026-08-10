@@ -6280,3 +6280,167 @@ NEBULASBRUSH:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
+
+
+
+WIRETAP:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>PU-21 'Wiretap' «<ammo_left>/45»<reload>
+    Weapon_Item:
+      Name: <gold>PU-21 'Wiretap'
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>LMG
+      Custom_Model_Data: 8
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 180
+    Spread:
+      Base_Spread: 0.48
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.076} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 13
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.115 0.4
+        Left_Hand: ~0.0 0.115 0.4
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 45
+    Reload_Duration: 50
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=10}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=21}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=32}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+MakarovPM:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Makarov PM «<ammo_left>/12»<reload>
+    Weapon_Item:
+      Name: <gold>Makarov PM
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Pistol
+      Custom_Model_Data: 6
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 4
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 90
+    Spread:
+      Base_Spread: 0.11
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_IRON_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.065} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.11 0.18
+        Left_Hand: ~0.0 0.11 0.18
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 8
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 12
+    Reload_Duration: 30
+    Start_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=7}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
