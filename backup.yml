@@ -20676,7 +20676,7 @@ vanguardlr1:
         Left_Symbol: "|"
         Symbol_Amount: 25
     Delay_Between_Shots:
-      Action_Bar: "<gray>Prepare Next Shot <time><gray>s"
+      Action_Bar: "<gray>Prepare Next Shot <bar> <time><gray>s"
       Bar:
         Left_Color: "<gold>"
         Right_Color: "<gray>"
