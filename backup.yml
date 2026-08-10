@@ -20911,3 +20911,184 @@ M2000Intervention:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
+
+
+
+JUMPY8:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Jumpy-8 «<ammo_left>/1»<reload>
+    Weapon_Item:
+      Name: <gold>Jumpy-8
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Launcher
+      Custom_Model_Data: 16
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 70.0
+    Mechanics:
+    - Sound{sound=ENTITY_ARROW_SHOOT, volume=2, pitch=0.5}
+    - Leap{speed=-0.0} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1225 0.525
+        Left_Hand: ~0.0 0.1225 0.525
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Projectile:
+    Projectile_Settings:
+      Type: ARMOR_STAND
+      Gravity: 7
+      Projectile_Item_Or_Block:
+        Type: iron_nugget
+        Custom_Model_Data: 7
+
+  Damage:
+    Enable_Owner_Immunity: true
+    Base_Explosion_Damage: 0
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 1
+    Reload_Duration: 20
+    Start_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=1}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=6}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=13}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=19}
+
+  Explosion:
+    Knockback_Multiplier: 5
+    Explosion_Exposure: "OPTIMIZED"
+    Explosion_Shape: "SPHERE"
+    Explosion_Type_Data:
+      Radius: 2
+    Mechanics:
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=3}
+    Detonation:
+      Impact_When:
+        Entity: true
+        Block: true
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+BEGB3:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>BEG-B3 «<ammo_left>/3»<reload>
+    Weapon_Item:
+      Name: <gold>BEG-B3
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Launcher
+      Custom_Model_Data: 16
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 70.0
+    Spread:
+      Base_Spread: 4
+    Mechanics:
+    - Sound{sound=ENTITY_ARROW_SHOOT, volume=2, pitch=0.5}
+    - Leap{speed=-0.5} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1225 0.525
+        Left_Hand: ~0.0 0.1225 0.525
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    Burst:
+      Shots_Per_Burst: 3
+      Ticks_Between_Each_Shot: 6
+
+
+  Projectile:
+    Projectile_Settings:
+      Type: ARMOR_STAND
+      Gravity: 7
+      Projectile_Item_Or_Block:
+        Type: iron_nugget
+        Custom_Model_Data: 7
+
+  Damage:
+    Enable_Owner_Immunity: true
+    Base_Explosion_Damage: 125
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 3
+    Reload_Duration: 60
+    Start_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=1}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=6}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=13}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=21}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=26}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=33}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=41}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=46}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=53}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
+
+  Explosion:
+    Knockback_Multiplier: 2
+    Explosion_Exposure: OPTIMIZED
+    Explosion_Shape: DEFAULT
+    Explosion_Type_Data:
+        Yield: 6.5
+        Rays: 16
+    Detonation:
+      Impact_When:
+        Entity: true
+        Block: true
+    Block_Damage:
+      Default_Mode: BREAK
+      Blocks:
+        - "$WATER cancel"  # stationary_water and moving_water
+        - "$LAVA cancel"  # stationary_lava and moving_lava
+        - "$BEDROCK cancel"
+    Regeneration:
+      Ticks_Before_Start: 120
+      Max_Blocks_Per_Update: 5
+      Ticks_Between_Updates: 4
+    Mechanics:
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=3}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
