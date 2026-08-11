@@ -17781,7 +17781,7 @@ r1roughcut:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>R1 Roughcut <firearm_state> «<ammo_left>/4»<reload>
+        Message: <gold>R1 Roughcut <firearm_state> «<ammo_left>/8»<reload>
     Weapon_Item:
       Name: <gold>R1 Roughcut
       Type: IRON_HORSE_ARMOR
@@ -17796,6 +17796,7 @@ r1roughcut:
   Shoot:
     Trigger:
       Main_Hand: right_click
+    Ammo_Per_Shot: 2
     Projectiles_Per_Shot: 2
     Projectile_Speed: 100
     Spread:
@@ -17840,17 +17841,15 @@ r1roughcut:
   Reload:
     Trigger:
       Main_Hand: drop_item
-    Magazine_Size: 4
+    Magazine_Size: 8
     Ammo_Per_Reload: 1
-    Reload_Duration: 20
-    Start_Mechanics:
-    - CustomSound{sound=roughcut.reload, noise=0.1, delayBeforePlay=10}
+    Reload_Duration: 10
     Finish_Mechanics:
     - CustomSound{sound=roughcut.reload, noise=0.1}
 
   Show_Time:
     Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/4 <bar> <time><gray>s"
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
       Action_Bar_Cancelled: "<red>Reload Cancelled"
       Bar:
         Left_Color: "<gold>"
@@ -18243,7 +18242,7 @@ strongarm:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-     Base_Spread: 1.5
+     Base_Spread: 0.5
     Mechanics:
     - CustomSound{sound=strongarm.shoot, noise=0.07}
     - CustomSound{sound=strongarm.pump, noise=0.07, delayBeforePlay=6}
@@ -21513,7 +21512,7 @@ akimbostrongarm:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-     Base_Spread: 1.7
+     Base_Spread: 1
     Mechanics:
     - CustomSound{sound=strongarm.shoot, noise=0.07}
     - CustomSound{sound=strongarm.pump, noise=0.07, delayBeforePlay=13}
@@ -21596,18 +21595,6 @@ akimbostrongarm:
       Type: IRON_HORSE_ARMOR
       Custom_Model_Data: 22
     Default: 22
-    
-  Show_Time:
-    Delay_Between_Shots:
-      Boss_Bar: 
-        Message: "<gray>Prepare Next Shot <time><gray>s Left"
-        Color: RED
-        Style: PROGRESS
-    Reload:
-      Boss_Bar: 
-        Message: "<gray>Reload Dart Reserve <time><gray>s Left"
-        Color: RED
-        Style: PROGRESS
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -21806,7 +21793,7 @@ slamfirestrongarm:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-     Base_Spread: 2.7
+     Base_Spread: 1.5
     Mechanics:
     - CustomSound{sound=strongarm.pump.fast, noise=0.07}
     - CustomSound{sound=strongarm.shoot, noise=0.07, delayBeforePlay=5}
