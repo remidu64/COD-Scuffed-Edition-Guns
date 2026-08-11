@@ -16335,7 +16335,7 @@ RAININGDEATH:
     Weapon_Item:
       Name: <gold>Crossbow 'Raining Death'
       Type: IRON_HORSE_ARMOR
-      Custom_Model_Data: 15
+      Custom_Model_Data: 37
       Lore:
       - <gold>Marksman Rifle
     Weapon_Get_Mechanics:

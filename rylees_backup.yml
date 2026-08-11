@@ -4420,7 +4420,7 @@ DAWNLIGHTSCOURGE:
     Weapon_Item:
       Name: <gold>Crossbow 'Dawnlight Scourge'
       Type: IRON_HORSE_ARMOR
-      Custom_Model_Data: 15
+      Custom_Model_Data: 37
       Lore:
       - <gold>Marksman Rifle
     Weapon_Get_Mechanics:
@@ -4445,12 +4445,12 @@ DAWNLIGHTSCOURGE:
       Left_Hand: ~0 0 0
 
   Skin: 
-    Default: 15
+    Default: 37
   Hand:
     Item:
       Type: IRON_HORSE_ARMOR
-      Custom_Model_Data: 15
-    Default: 15
+      Custom_Model_Data: 37
+    Default: 37
 
   Damage:
     Base_Damage: 20
