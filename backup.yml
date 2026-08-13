@@ -5462,7 +5462,7 @@ AMPEDUP:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Diamatti 'Amped Up' «<ammo_left>/24»<reload>
+        Message: <gold>Diamatti 'Amped Up' «<ammo_left>/48»<reload>
     Weapon_Item:
       Name: <gold>Diamatti 'Amped Up'
       Type: IRON_HORSE_ARMOR
@@ -5484,6 +5484,7 @@ AMPEDUP:
   Shoot:
     Trigger:
       Main_Hand: right_click
+    Ammo_Per_Shot: 2
     Delay_Between_Shots: 7
     Projectiles_Per_Shot: 2
     Projectile_Speed: 100
@@ -5514,7 +5515,7 @@ AMPEDUP:
   Reload:
     Trigger:
       Main_Hand: drop_item
-    Magazine_Size: 24
+    Magazine_Size: 48
     Reload_Duration: 90
     Start_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=22}
@@ -5524,7 +5525,7 @@ AMPEDUP:
 
   Show_Time:
     Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/24 <bar> <time><gray>s"
+      Action_Bar: "<gray>Reloading <ammo_left>/48 <bar> <time><gray>s"
       Action_Bar_Cancelled: "<red>Reload Cancelled"
       Bar:
         Left_Color: "<gold>"
@@ -12550,7 +12551,7 @@ HEATSTROKE:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Renetti 'Heat Stroke' «<ammo_left>/50»<reload>
+        Message: <gold>Renetti 'Heat Stroke' «<ammo_left>/100»<reload>
     Weapon_Item:
       Name: <gold>Renetti 'Heat Stroke'
       Type: IRON_HORSE_ARMOR
@@ -12574,6 +12575,7 @@ HEATSTROKE:
       Base_Spread: 0.5
     Trigger:
       Main_Hand: right_click
+    Ammo_Per_Shot: 2
     Delay_Between_Shots: 9
     Projectiles_Per_Shot: 2
     Projectile_Speed: 100
@@ -12614,7 +12616,7 @@ HEATSTROKE:
   Reload:
     Trigger:
       Main_Hand: drop_item
-    Magazine_Size: 50
+    Magazine_Size: 100
     Reload_Duration: 40
     Start_Mechanics:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=7}
@@ -12625,7 +12627,7 @@ HEATSTROKE:
 
   Show_Time:
     Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
       Action_Bar_Cancelled: "<red>Reload Cancelled"
       Bar:
         Left_Color: "<gold>"
