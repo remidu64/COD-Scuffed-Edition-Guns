@@ -14582,7 +14582,7 @@ ELECTRICLOLLIPOP:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Marco 5 'Electric Lollipop' «<ammo_left>/30»<reload>
+        Message: <gold>Marco 5 'Electric Lollipop' «<ammo_left>/60»<reload>
     Weapon_Item:
       Name: <gold>Marco 5 'Electric Lollipop'
       Type: IRON_HORSE_ARMOR
@@ -14604,6 +14604,7 @@ ELECTRICLOLLIPOP:
   Shoot:
     Trigger:
       Main_Hand: right_click
+    Ammo_Per_Shot: 2
     Projectiles_Per_Shot: 2
     Projectile_Speed: 100
     Spread:
@@ -14643,7 +14644,7 @@ ELECTRICLOLLIPOP:
   Reload:
     Trigger:
       Main_Hand: drop_item
-    Magazine_Size: 30
+    Magazine_Size: 60
     Reload_Duration: 70 
     Start_Mechanics:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=13}
@@ -14654,7 +14655,7 @@ ELECTRICLOLLIPOP:
 
   Show_Time:
     Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
       Action_Bar_Cancelled: "<red>Reload Cancelled"
       Bar:
         Left_Color: "<gold>"
