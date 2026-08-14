@@ -6548,3 +6548,87 @@ GRAVEMARK357:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
+
+
+
+SUGARPOWERED:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>MP-40 'Sugar Powered' «<ammo_left>/32»<reload>
+    Weapon_Item:
+      Name: <gold>MP-40 'Sugar Powered'
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>SMG
+      Custom_Model_Data: 4
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.25, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 130
+    Spread:
+      Base_Spread: 0.32
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.105} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 12.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.105 0.275
+        Left_Hand: ~0.0 0.105 0.275
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 32
+    Reload_Duration: 40
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=7}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=15}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=23}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
+    - "Potion{potion=SPEED, level=2, time=40, delayBeforePlay=39, chance=50%}"
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true

@@ -11889,7 +11889,7 @@ M4:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 140.0
     Spread:
-      Base_Spread: 0.44999999999999996
+      Base_Spread: 0.45
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
