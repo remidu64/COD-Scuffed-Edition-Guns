@@ -11920,11 +11920,11 @@ M4:
     Magazine_Size: 30
     Reload_Duration: 35
     Start_Mechanics:
-    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=7}
-    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=6}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
-    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
   Show_Time:
     Reload:
