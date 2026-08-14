@@ -22065,7 +22065,7 @@ M1GARAND:
     Magazine_Size: 8
     Reload_Duration: 45
     Start_Mechanics:
-    - CustomSound{sound=garand.ping, noise=0.025, volume=4}
+    - CustomSound{sound=garand.ping, noise=0.025, volume=1}
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=9}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
