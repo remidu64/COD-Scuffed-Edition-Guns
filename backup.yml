@@ -10436,7 +10436,7 @@ pkm:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 8
+    Base_Damage: 6
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10519,7 +10519,7 @@ sunsethue:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 9
+    Base_Damage: 7
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -13163,7 +13163,7 @@ PULEMYOT762:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 10
+    Base_Damage: 8
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -13602,7 +13602,7 @@ GALAXYCLUSTER:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 11
+    Base_Damage: 9
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -20921,7 +20921,7 @@ valleyoutlaw:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 10
+    Base_Damage: 7
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
