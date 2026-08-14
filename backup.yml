@@ -22071,6 +22071,7 @@ M1GARAND:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
+    - Damage{damage=4, ignoreArmor=true, delayBeforePlay=44, chance=3%}
 
   Show_Time:
     Reload:
