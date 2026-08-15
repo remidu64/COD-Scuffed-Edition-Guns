@@ -9628,7 +9628,6 @@ Milano821:
       Lore:
       - <gold>SMG
       Custom_Model_Data: 4
-      Custom_Model_Data: 4
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
     Cancel:
