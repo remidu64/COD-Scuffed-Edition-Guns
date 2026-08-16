@@ -4794,6 +4794,7 @@ NIKITAAVT:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -4992,6 +4993,7 @@ VALOISREVOLVER:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -6954,6 +6956,7 @@ BREATHTAKER:
     Mechanics:
     - Push{speed=1.6} @Target{}
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -10610,6 +10613,7 @@ swissk31:
     Mechanics:
     - Push{speed=1} @Target{}
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -13249,9 +13253,10 @@ MP5:
     Base_Damage: 5
     Armor_Damage: 1
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -13332,9 +13337,10 @@ ADMIRALSPRIDE:
   Damage:
     Base_Damage: 6
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -15007,9 +15013,10 @@ cognizantrebel:
   Damage:
     Base_Damage: 6
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -17460,6 +17467,7 @@ M8FlarePistol:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
       
   Reload:
     Trigger:
@@ -17555,6 +17563,7 @@ ANM8PocketMortar:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
       
   Reload:
     Trigger:

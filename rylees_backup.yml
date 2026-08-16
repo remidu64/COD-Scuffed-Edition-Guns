@@ -3550,9 +3550,10 @@ Kogot7:
     Base_Damage: 4
     Armor_Damage: 1
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -4218,10 +4219,11 @@ PUNCHDRUNK:
     Base_Damage: 4
     Armor_Damage: 1
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Potion{potion=nausea, level=2, time=140} @Target{}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
+    - "Potion{potion=nausea, level=2, time=140} @Target{}"
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
