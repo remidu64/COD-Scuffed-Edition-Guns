@@ -6814,7 +6814,7 @@ IKEBANA:
       Type: IRON_HORSE_ARMOR
       Lore:
       - <gold>Marksman Rifle
-      Custom_Model_Data: 13
+      Custom_Model_Data: 14
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
     Cancel:
