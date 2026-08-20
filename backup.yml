@@ -1271,6 +1271,7 @@ KVBROADSIDE:
       Base_Spread: 3.1
     Trigger:
       Main_Hand: right_click
+    Delay_Between_Shots: 6
     Projectiles_Per_Shot: 6
     Projectile_Speed: 50
     Mechanics:
@@ -1278,7 +1279,6 @@ KVBROADSIDE:
     - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
     - Sound{sound=ENTITY_GHAST_SHOOT, volume=1, pitch=1}
     - Leap{speed=-0.4} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 6.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.375
@@ -1290,7 +1290,7 @@ KVBROADSIDE:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 2
+    Base_Damage: 4
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
@@ -2826,8 +2826,6 @@ SIGNAL50:
     Delay_Between_Shots: 10
     Projectiles_Per_Shot: 1
     Projectile_Speed: 1000
-    Spread:
-      Base_Spread: 0.3
     Mechanics:
     - Sound{sound=ENTITY_BLAZE_HURT, volume=1, pitch=1}
     - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
