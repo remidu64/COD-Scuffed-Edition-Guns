@@ -7594,7 +7594,7 @@ KRAITP68:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Krait P68 «<ammo_left>/12»<reload>
+        Message: <gold>Krait P68 «<ammo_left>/10»<reload>
     Weapon_Item:
       Name: <gold>Krait P68
       Type: IRON_HORSE_ARMOR
@@ -7636,7 +7636,7 @@ KRAITP68:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 7
+    Base_Damage: 8
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -7646,7 +7646,7 @@ KRAITP68:
   Reload:
     Trigger:
       Main_Hand: drop_item
-    Magazine_Size: 12
+    Magazine_Size: 10
     Reload_Duration: 26
     Start_Mechanics:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=5}
@@ -7657,7 +7657,7 @@ KRAITP68:
 
   Show_Time:
     Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
       Action_Bar_Cancelled: "<red>Reload Cancelled"
       Bar:
         Left_Color: "<gold>"
