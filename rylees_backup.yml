@@ -7542,6 +7542,14 @@ FEELINJUMPY:
         Left_Hand: ~0.0 0.11 0.18
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
+
+  Skin: 
+    Default: 6
+  Hand:
+    Item:
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 6
+    Default: 6
     
   Projectile:
     bullet.Projectile
@@ -7628,7 +7636,7 @@ KRAITP68:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 5
+    Base_Damage: 7
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
