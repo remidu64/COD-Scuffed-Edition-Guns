@@ -8765,7 +8765,7 @@ SMOLDERINGVAPORS:
     Spread:
       Base_Spread: 0.19
     Mechanics:
-    - Sound{sound=BLOCK_FIRE_EXTINGUISH, volume=0.5, pitch=1}
+    - Sound{sound=BLOCK_FIRE_EXTINGUISH, volume=1, pitch=1}
     - Leap{speed=-0.121} @Source{offset=~0 0 1}
     Fully_Automatic_Shots_Per_Second: 15.0
     Offsets:
