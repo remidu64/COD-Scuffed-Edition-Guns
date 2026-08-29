@@ -7467,15 +7467,15 @@ KASTOV545:
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
-    Projectile_Speed: 140.0
+    Projectile_Speed: 160.0
     Spread:
-      Base_Spread: 0.25
+      Base_Spread: 0.4
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Leap{speed=-0.1} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 12.0
+    Fully_Automatic_Shots_Per_Second: 11.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.225
@@ -7487,7 +7487,7 @@ KASTOV545:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 7
+    Base_Damage: 5
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
