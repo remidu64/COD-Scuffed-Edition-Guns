@@ -64,15 +64,7 @@ Lachmann556:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -146,15 +138,7 @@ LC10:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/34 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -227,15 +211,7 @@ EINHORNREVOLVING:
     Finish_Mechanics: 
     - Sound{sound=BLOCK_CHAIN_HIT, volume=1, pitch=2}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -309,15 +285,7 @@ CHROMATICHIVEMIND:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=36}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=45}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -392,15 +360,7 @@ PPS_43:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/35 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -475,15 +435,7 @@ AK_12:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -561,15 +513,7 @@ AN94:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -646,15 +590,7 @@ ESSEXMODEL07:
     Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: lever
@@ -738,15 +674,7 @@ DEGLE:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -820,15 +748,7 @@ JOKR:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=52}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   Scope:
     Trigger:
@@ -933,15 +853,7 @@ ANODIZEDALLOY:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1016,15 +928,7 @@ HOWELLAUTOMATIC:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=51}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=64}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1097,15 +1001,7 @@ JAGER45:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1180,15 +1076,7 @@ HOMECOMING:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1263,15 +1151,7 @@ SKELIX11:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1347,15 +1227,7 @@ VELOX57:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/15 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1435,15 +1307,7 @@ DEEPSPACEEXCAVATOR:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=27}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=31}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1521,15 +1385,7 @@ SG225IE:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=51}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1604,15 +1460,7 @@ HotchkissMKI:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=71}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=89}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1687,15 +1535,7 @@ Doshinegun:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1770,15 +1610,7 @@ Kompakt92:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1853,15 +1685,7 @@ HALFPIPEHANDLER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=51}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=64}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1937,15 +1761,7 @@ STERLINGL2A3:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/34 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2030,15 +1846,7 @@ SVCh54:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=81}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=89}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   Scope:
     Trigger:
@@ -2123,15 +1931,7 @@ G11:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2206,15 +2006,7 @@ LMG11:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=79}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=99}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/300 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2289,15 +2081,7 @@ LMG11:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2372,15 +2156,7 @@ A91M:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2457,15 +2233,7 @@ VSK94:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   Scope:
     Trigger:
@@ -2547,15 +2315,7 @@ THEUNMAKER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/55 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2630,15 +2390,7 @@ FIATRevelliModello1914:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=87}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=109}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2712,15 +2464,7 @@ TOZ106:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/4 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: lever
@@ -2807,15 +2551,7 @@ WiegerSTG941:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2892,15 +2628,7 @@ ZastavaM76:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   Scope:
     Trigger:
@@ -2980,15 +2708,7 @@ M45A1:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=19}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3060,15 +2780,7 @@ CHAMFRON:
     Finish_Mechanics: 
     - Sound{sound=BLOCK_CHAIN_HIT, volume=1, pitch=2}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3143,15 +2855,7 @@ FarquharHillM1918:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=50}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=63}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/19 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3226,15 +2930,7 @@ KRUMMLAUF:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=34}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=43}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3312,15 +3008,7 @@ MARBLEFOUNDATION:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3399,15 +3087,7 @@ LachmannShroud:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3482,15 +3162,7 @@ KORD6P67:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3567,15 +3239,7 @@ Kogot7:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3655,15 +3319,7 @@ KHVOSTOV7G0X:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=33}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=42}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/41 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3738,15 +3394,7 @@ G3A3:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3819,15 +3467,7 @@ M19:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=15}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/17 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3894,15 +3534,7 @@ WIST94:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/16 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3977,15 +3609,7 @@ Lachmann762:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4060,15 +3684,7 @@ HAMMERGEWEHR:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=319}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=399}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/310 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4144,15 +3760,7 @@ HAMMERGEWEHR:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
     - CustomSound{sound=misc.eagle, noise=0.07}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   Scope:
     Trigger:
@@ -4237,15 +3845,7 @@ PUNCHDRUNK:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4318,15 +3918,7 @@ SPLATTERCAST:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4401,15 +3993,7 @@ SUITPORT:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4528,15 +4112,7 @@ DAWNLIGHTSCOURGE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4611,15 +4187,7 @@ CLEAVEDARMAMENT:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=20}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=25}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4697,15 +4265,7 @@ CUSTOSSANGUINIS:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=26}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4780,15 +4340,7 @@ CLANDESTINECONCORD:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: lever
@@ -4877,15 +4429,7 @@ NECROTICRELIQUARY:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
     - Sound{sound=ENTITY_WITHER_AMBIENT, volume=1, pitch=1, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/63 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4960,15 +4504,7 @@ BLIGHTSEMBRACE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
   
   Scope:
     Trigger:
@@ -5051,15 +4587,7 @@ SACREDEMBRACE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5150,15 +4678,7 @@ ONYXWRATH:
 
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=54}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5233,15 +4753,7 @@ HIGHOCTANE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=78}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=104}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/125 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   Scope:
     Trigger:
@@ -5327,15 +4839,7 @@ VoyakKT3:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5410,15 +4914,7 @@ EXLIBRIS:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5493,15 +4989,7 @@ IRONWORKS:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=26}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=33}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5577,15 +5065,7 @@ ASH2ASH:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5664,15 +5144,7 @@ BACKSEATDRIVER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5747,15 +5219,7 @@ ROYALCOFFER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5851,15 +5315,7 @@ NOBLEKNIGHT:
     
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=75}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Scope:
     Trigger:
@@ -5942,15 +5398,7 @@ SWINDLER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6023,15 +5471,7 @@ TRUESTRIPES:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=25}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/24 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6106,15 +5546,7 @@ MP40:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6189,15 +5621,7 @@ RAM7:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6272,15 +5696,7 @@ NEBULASBRUSH:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6355,15 +5771,7 @@ WIRETAP:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6436,15 +5844,7 @@ MakarovPM:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6524,15 +5924,7 @@ GRAVEMARK357:
     Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: revolver
@@ -6620,15 +6012,7 @@ SUGARPOWERED:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
     - "Potion{potion=SPEED, level=2, time=40, delayBeforePlay=39, chance=50%}"
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6704,15 +6088,7 @@ THERMALSHROUD:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6787,15 +6163,7 @@ CHROMALITE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=16}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6883,15 +6251,7 @@ IKEBANA:
     
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=33}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: lever
@@ -6988,15 +6348,7 @@ THEBATTLEDOC:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7069,15 +6421,7 @@ KAOLIN:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=15}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/14 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7150,15 +6494,7 @@ Thronebuster:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=31}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/14 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7234,15 +6570,7 @@ SHIVERSTEEL:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=31}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/18 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7317,15 +6645,7 @@ KEELHAUL:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=28}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7400,15 +6720,7 @@ SCALEANDBONE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=33}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=42}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7483,15 +6795,7 @@ OROKU:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=67}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=84}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7573,15 +6877,7 @@ FEELINJUMPY:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/66 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7655,15 +6951,7 @@ KRAITP68:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=20}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=25}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7739,15 +7027,7 @@ GRACHTENGORDEL:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7825,15 +7105,7 @@ LAVISHOPULENCE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/54 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7929,15 +7201,7 @@ IRONRAIN:
     
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=77}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Scope:
     Trigger:
@@ -8039,15 +7303,7 @@ RW1:
     
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=28}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: lever
@@ -8139,15 +7395,7 @@ TRISHULA:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=72}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=94}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: lever
@@ -8239,15 +7487,7 @@ HammondP2016:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8334,15 +7574,7 @@ VERDANTVOW:
     
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=103}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: lever
@@ -8434,15 +7666,7 @@ VERDANTVOW:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=16}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=22}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8519,15 +7743,7 @@ HUAYCHIVO:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8615,15 +7831,7 @@ BLUESCREEN:
     
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=39}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
     
   Firearm_Action:
     Type: lever
@@ -8717,15 +7925,7 @@ BAGELANDSCHMEAR:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/55 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8798,15 +7998,7 @@ SMOLDERINGVAPORS:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/65 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8879,15 +8071,7 @@ DETERRENCEINSIGNIA:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8962,15 +8146,7 @@ RPK74M:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
 
-  Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
+
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
