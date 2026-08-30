@@ -64,8 +64,6 @@ Lachmann556:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -138,8 +136,6 @@ LC10:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -210,8 +206,6 @@ EINHORNREVOLVING:
     Reload_Duration: 22
     Finish_Mechanics: 
     - Sound{sound=BLOCK_CHAIN_HIT, volume=1, pitch=2}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -284,8 +278,6 @@ CHROMATICHIVEMIND:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=27}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=36}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=45}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -360,8 +352,6 @@ PPS_43:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -434,8 +424,6 @@ AK_12:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -513,8 +501,6 @@ AN94:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -589,8 +575,6 @@ ESSEXMODEL07:
     Ammo_Per_Reload: 1
     Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2}
-
-
     
   Firearm_Action:
     Type: lever
@@ -674,8 +658,6 @@ DEGLE:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -747,8 +729,6 @@ JOKR:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=17}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=52}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
-
-
 
   Scope:
     Trigger:
@@ -853,8 +833,6 @@ ANODIZEDALLOY:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -928,8 +906,6 @@ HOWELLAUTOMATIC:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=51}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=64}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -1000,8 +976,6 @@ JAGER45:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=12}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1076,8 +1050,6 @@ HOMECOMING:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -1150,8 +1122,6 @@ SKELIX11:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1226,8 +1196,6 @@ VELOX57:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1307,8 +1275,6 @@ DEEPSPACEEXCAVATOR:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=27}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=31}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -1385,8 +1351,6 @@ SG225IE:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=51}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -1459,8 +1423,6 @@ HotchkissMKI:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=53}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=71}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=89}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1535,8 +1497,6 @@ Doshinegun:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -1573,7 +1533,7 @@ Kompakt92:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100.0
     Spread:
-      Base_Spread: 0.09
+      Base_Spread: 0.19
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
@@ -1609,8 +1569,6 @@ Kompakt92:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=29}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1648,7 +1606,7 @@ HALFPIPEHANDLER:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 110.0
     Spread:
-      Base_Spread: 0.08
+      Base_Spread: 0.18
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
@@ -1684,8 +1642,6 @@ HALFPIPEHANDLER:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=38}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=51}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=64}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1760,8 +1716,6 @@ STERLINGL2A3:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -1846,8 +1800,6 @@ SVCh54:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=81}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=89}
 
-
-
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -1931,8 +1883,6 @@ G11:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -2005,8 +1955,6 @@ LMG11:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=59}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=79}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=99}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2081,8 +2029,6 @@ LMG11:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -2155,8 +2101,6 @@ A91M:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=32}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2232,8 +2176,6 @@ VSK94:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
-
-
 
   Scope:
     Trigger:
@@ -2315,8 +2257,6 @@ THEUNMAKER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -2390,8 +2330,6 @@ FIATRevelliModello1914:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=87}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=109}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -2463,8 +2401,6 @@ TOZ106:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=29}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
-
-
     
   Firearm_Action:
     Type: lever
@@ -2551,8 +2487,6 @@ WiegerSTG941:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -2627,8 +2561,6 @@ ZastavaM76:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
-
-
 
   Scope:
     Trigger:
@@ -2708,12 +2640,11 @@ M45A1:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=19}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
+
 
 
 CHAMFRON:
@@ -2779,8 +2710,6 @@ CHAMFRON:
     Reload_Duration: 16
     Finish_Mechanics: 
     - Sound{sound=BLOCK_CHAIN_HIT, volume=1, pitch=2}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -2855,8 +2784,6 @@ FarquharHillM1918:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=50}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=63}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -2929,8 +2856,6 @@ KRUMMLAUF:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=34}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=43}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3007,8 +2932,6 @@ MARBLEFOUNDATION:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=14}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3087,8 +3010,6 @@ LachmannShroud:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -3161,8 +3082,6 @@ KORD6P67:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3238,8 +3157,6 @@ Kogot7:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3319,8 +3236,6 @@ KHVOSTOV7G0X:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=33}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=42}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -3394,8 +3309,6 @@ G3A3:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -3467,8 +3380,6 @@ M19:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=15}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -3533,8 +3444,6 @@ WIST94:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=14}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3609,8 +3518,6 @@ Lachmann762:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -3683,8 +3590,6 @@ HAMMERGEWEHR:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=239}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=319}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=399}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3759,8 +3664,6 @@ HAMMERGEWEHR:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
     - CustomSound{sound=misc.eagle, noise=0.07}
-
-
 
   Scope:
     Trigger:
@@ -3845,8 +3748,6 @@ PUNCHDRUNK:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -3917,8 +3818,6 @@ SPLATTERCAST:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -3992,8 +3891,6 @@ SUITPORT:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4112,8 +4009,6 @@ DAWNLIGHTSCOURGE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -4186,8 +4081,6 @@ CLEAVEDARMAMENT:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=15}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=20}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=25}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4265,8 +4158,6 @@ CUSTOSSANGUINIS:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=26}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -4340,8 +4231,6 @@ CLANDESTINECONCORD:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -4429,8 +4318,6 @@ NECROTICRELIQUARY:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
     - Sound{sound=ENTITY_WITHER_AMBIENT, volume=1, pitch=1, delayBeforePlay=59}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -4504,8 +4391,6 @@ BLIGHTSEMBRACE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-
-  
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -4587,8 +4472,6 @@ SACREDEMBRACE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -4665,20 +4548,14 @@ ONYXWRATH:
     Reload_Duration: 55
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=6}
-
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=12}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=18}
-
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=24}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=30}
-
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=36}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=42}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=48}
-
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=54}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4752,8 +4629,6 @@ HIGHOCTANE:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=52}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=78}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=104}
-
-
 
   Scope:
     Trigger:
@@ -4839,8 +4714,6 @@ VoyakKT3:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -4913,8 +4786,6 @@ EXLIBRIS:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=35}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -4989,8 +4860,6 @@ IRONWORKS:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=26}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=33}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -5064,8 +4933,6 @@ ASH2ASH:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5144,8 +5011,6 @@ BACKSEATDRIVER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -5218,8 +5083,6 @@ ROYALCOFFER:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=35}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5302,21 +5165,15 @@ NOBLEKNIGHT:
     Reload_Duration: 76
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=8}
-    
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=16}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=25}
-    
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=33}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=41}
-        
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=50}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=58}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=66}
-    
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=75}
 
-
-    
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -5398,8 +5255,6 @@ SWINDLER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -5470,8 +5325,6 @@ TRUESTRIPES:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=17}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=25}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5546,8 +5399,6 @@ MP40:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -5620,8 +5471,6 @@ RAM7:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5696,8 +5545,6 @@ NEBULASBRUSH:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -5771,8 +5618,6 @@ WIRETAP:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -5843,8 +5688,6 @@ MakarovPM:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -5924,8 +5767,6 @@ GRAVEMARK357:
     Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2}
 
-
-    
   Firearm_Action:
     Type: revolver
     Open:
@@ -6012,8 +5853,6 @@ SUGARPOWERED:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
     - "Potion{potion=SPEED, level=2, time=40, delayBeforePlay=39, chance=50%}"
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -6088,8 +5927,6 @@ THERMALSHROUD:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -6162,8 +5999,6 @@ CHROMALITE:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=12}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=16}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6238,21 +6073,15 @@ IKEBANA:
     Reload_Duration: 34
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1}
-    
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=4}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=8}
-    
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=12}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=16}
-        
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=24}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=28}
-    
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=33}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -6348,8 +6177,6 @@ THEBATTLEDOC:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -6421,8 +6248,6 @@ KAOLIN:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=15}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -6493,8 +6318,6 @@ Thronebuster:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=15}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=31}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6570,8 +6393,6 @@ SHIVERSTEEL:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=31}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -6644,8 +6465,6 @@ KEELHAUL:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=16}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=28}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6720,8 +6539,6 @@ SCALEANDBONE:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=33}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=42}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -6794,8 +6611,6 @@ OROKU:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=50}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=67}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=84}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -6877,8 +6692,6 @@ FEELINJUMPY:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -6950,8 +6763,6 @@ KRAITP68:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=15}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=20}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=25}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7026,8 +6837,6 @@ GRACHTENGORDEL:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7104,8 +6913,6 @@ LAVISHOPULENCE:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=29}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7188,21 +6995,15 @@ IRONRAIN:
     Reload_Duration: 78
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=8}
-    
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=17}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=25}
-    
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=34}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=42}
-        
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=51}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=59}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=68}
-    
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=77}
 
-
-    
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -7290,21 +7091,15 @@ RW1:
     Reload_Duration: 30
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=3}
-    
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=6}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=9}
-    
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=12}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=16}
-        
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=19}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=25}
-    
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=28}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -7395,8 +7190,6 @@ TRISHULA:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=72}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=94}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -7487,8 +7280,6 @@ HammondP2016:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -7561,21 +7352,15 @@ VERDANTVOW:
     Reload_Duration: 104
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=11}
-    
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=34}
-    
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=45}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=57}
-        
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=68}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=80}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=91}
-    
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=103}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -7666,8 +7451,6 @@ VERDANTVOW:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=16}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=22}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -7743,8 +7526,6 @@ HUAYCHIVO:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -7818,21 +7599,15 @@ BLUESCREEN:
     Reload_Duration: 40
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1}
-    
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=8}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=9}
-    
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=12}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
-        
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=33}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=33}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=33}
-    
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=39}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -7925,8 +7700,6 @@ BAGELANDSCHMEAR:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -7998,8 +7771,6 @@ SMOLDERINGVAPORS:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -8070,8 +7841,6 @@ DETERRENCEINSIGNIA:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=12}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8145,8 +7914,6 @@ RPK74M:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=32}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
