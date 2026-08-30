@@ -1733,7 +1733,7 @@ Kompakt92:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100.0
     Spread:
-      Base_Spread: 0.09
+      Base_Spread: 0.19
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
@@ -1816,7 +1816,7 @@ HALFPIPEHANDLER:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 110.0
     Spread:
-      Base_Spread: 0.08
+      Base_Spread: 0.18
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
