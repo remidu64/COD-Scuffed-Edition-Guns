@@ -12338,7 +12338,7 @@ IceDrake:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 140.0
     Spread:
-      Base_Spread: 0.10999999999999999
+      Base_Spread: 0.11
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
@@ -14930,6 +14930,7 @@ superi46:
       
   Damage:
     Base_Damage: 5
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -15013,6 +15014,7 @@ cognizantrebel:
       
   Damage:
     Base_Damage: 6
+    Armor_Damage: 1
     Mechanics:
     - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
     - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
@@ -17052,11 +17054,11 @@ MAC10:
       
   Damage:
     Base_Damage: 3
+    Armor_Damage: 1
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -17136,11 +17138,11 @@ ATCFirefly:
       
   Damage:
     Base_Damage: 4
+    Armor_Damage: 1
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -17388,11 +17390,11 @@ Bechowiec1:
       
   Damage:
     Base_Damage: 3
+    Armor_Damage: 1
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
@@ -17539,7 +17541,7 @@ ANM8PocketMortar:
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
-    Projectile_Speed: 60.00
+    Projectile_Speed: 60
     Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=2, pitch=0.5}
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
