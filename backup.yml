@@ -9451,8 +9451,6 @@ pkm:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=83}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=104}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -9526,8 +9524,6 @@ sunsethue:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=83}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=104}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -9581,16 +9577,17 @@ swissk31:
       Size: 0.3
       
   Damage:
-    Base_Damage: 19
+    Base_Damage: 26
     Armor_Damage: 1
     Head:
-      Bonus_Damage: 12
+      Bonus_Damage: 19
       Mechanics:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
     Mechanics:
     - Push{speed=1} @Target{}
-    - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=2}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
@@ -9609,8 +9606,6 @@ swissk31:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=35}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=39}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -9702,8 +9697,6 @@ cr56amax:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=14}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=23}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -9814,8 +9807,6 @@ ppsh_41:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -9889,14 +9880,12 @@ m134minigun:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=111}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=139}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
-      
-      
+
+
 
 InfernalFlight:
   Info:
@@ -9974,8 +9963,6 @@ InfernalFlight:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=61}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=69}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -10069,8 +10056,6 @@ WEBSPINNER:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -10144,8 +10129,6 @@ BuckledLupara:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=10}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=14}
 
-
-    
   Firearm_Action:
     Type: pump
     Open:
@@ -10240,8 +10223,6 @@ ZRG20mm:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=70}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=79}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -10334,8 +10315,6 @@ CX_9:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=21}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=26}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -10409,8 +10388,6 @@ Schwarzwald:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=17}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -10483,8 +10460,6 @@ loggerhead:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-
-    
   Firearm_Action:
     Type: pump
     Open:
@@ -10570,8 +10545,6 @@ saki:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -10644,8 +10617,6 @@ pureindica:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=32}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
