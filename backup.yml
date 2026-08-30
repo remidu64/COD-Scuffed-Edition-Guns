@@ -21126,7 +21126,7 @@ ADMINarandom:
     
     
     
-LETHALdeath:
+ADMINSERVERKILLER:
   Info:
     Weapon_Info_Display:
       Action_Bar:
@@ -21136,6 +21136,7 @@ LETHALdeath:
       Type: IRON_HORSE_ARMOR
       Lore:
       - <light_purple><bold>THIS GUN WILL KILL SERVERS IF NOT HANDLED CORRECTLY
+      - <light_purple><bold>DEV ITEM DONT SPAM
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
     
@@ -21663,11 +21664,11 @@ bananablaster:
       
   Damage:
     Base_Damage: 3
+    Armor_Damage: 1
     Mechanics:
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - "Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=1.5}"
-        - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
     
   Reload:
     Trigger:
