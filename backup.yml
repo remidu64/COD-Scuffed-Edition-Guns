@@ -7133,21 +7133,15 @@ FUELROD:
     Reload_Duration: 70
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=8}
-    
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=15}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=23}
-    
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=38}
-        
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=46}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=54}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=61}
-    
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=69}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -7239,8 +7233,6 @@ SOVIETRED:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -7355,21 +7347,15 @@ STABISTOR:
     Reload_Duration: 55
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=6}
-    
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=12}
     - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=18}
-    
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=24}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=30}
-        
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=36}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=42}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=48}
-    
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=54}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -7471,8 +7457,6 @@ HDR:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=70}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=79}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -7618,8 +7602,6 @@ TOWERKEY:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=82}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=59}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -7756,13 +7738,13 @@ LIENNA57:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 180
     Spread:
-      Base_Spread: 1.2
+      Base_Spread: 0.7
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Leap{speed=-0.2} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 11.0
+    Fully_Automatic_Shots_Per_Second: 10.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.115 0.4
@@ -7793,13 +7775,11 @@ LIENNA57:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=59}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
-    
+
 
 
 FULLAUTOMGBLAUNCHER:
@@ -7939,8 +7919,6 @@ AK117:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -8014,8 +7992,6 @@ SCHOOLSOUT:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -8086,8 +8062,6 @@ SCHOOLSOUT:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=12}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8162,8 +8136,6 @@ HAUER77:
     Finish_Mechanics:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=2}
 
-
-    
   Firearm_Action:
     Type: pump
     Open:
@@ -8245,8 +8217,6 @@ PUNCTUREWOUND:
     Reload_Duration: 1
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_BASEDRUM, volume=0.3, pitch=2.0}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8381,8 +8351,6 @@ GLAZEMATIC:
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=20}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=39}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8537,8 +8505,6 @@ biomechatronic:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -8610,8 +8576,6 @@ biomechatronic:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=24}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -8654,7 +8618,7 @@ ISOHEMLOCK:
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Leap{speed=-0.1} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 11.0
+    Fully_Automatic_Shots_Per_Second: 10.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.225
@@ -8684,8 +8648,6 @@ ISOHEMLOCK:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=17}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -8730,7 +8692,6 @@ ADMINtheyiffinator:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
-    
 
 
 
@@ -8800,8 +8761,6 @@ Milano821:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=27}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -8860,8 +8819,6 @@ matchlock:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=29}
     - Sound{sound=BLOCK_NOTE_BLOCK_SNARE, volume=1, pitch=2.0, delayBeforePlay=59}
 
-
-    
   Projectile:
     matchlockbullet.Projectile
       
@@ -8968,8 +8925,6 @@ intimidatingfish:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=75}
     - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=84}
 
-
-    
   Firearm_Action:
     Type: lever
     Open:
@@ -9058,8 +9013,6 @@ ARCHONTYPEB:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=17}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -9133,8 +9086,6 @@ ARCHONTYPEB:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=17}
 
-
-
   WeaponMechanicsAdditions:
     Crossbow_Animation:
       Only_While_Zooming: false
@@ -9185,7 +9136,6 @@ delacremodele1936:
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
 
-    
   Projectile: 
     bullet.Projectile
       
@@ -9208,8 +9158,6 @@ delacremodele1936:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -9340,8 +9288,6 @@ baddog:
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=26}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=34}
 
-
-    
   Firearm_Action:
     Type: pump
     Open:
@@ -9431,8 +9377,6 @@ krig6:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=44}
-
-
 
   WeaponMechanicsAdditions:
     Crossbow_Animation:
@@ -10595,7 +10539,7 @@ saki:
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Leap{speed=-0.1} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 11.0
+    Fully_Automatic_Shots_Per_Second: 10.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.225
