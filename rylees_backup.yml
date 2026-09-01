@@ -9339,7 +9339,7 @@ LASRIFLE:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>SO-14 'Lasrifle' <firearm_state> «<ammo_left>/50»<reload>
+        Message: <gold>SO-14 'Lasrifle' «<ammo_left>/50»<reload>
     Weapon_Item:
       Name: <gold>SO-14 'Lasrifle'
       Type: IRON_HORSE_ARMOR
@@ -9542,6 +9542,7 @@ MG14z:
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 2
+    Ammo_Per_Shot: 2
     Projectile_Speed: 160
     Spread:
       Base_Spread: 1.4
