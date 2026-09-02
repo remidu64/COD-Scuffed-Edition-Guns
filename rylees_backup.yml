@@ -7033,7 +7033,7 @@ KAOLIN:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 85
     Spread:
-      Base_Spread: 0.08
+      Base_Spread: 0.16
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_IRON_DOOR, volume=1, pitch=2}
