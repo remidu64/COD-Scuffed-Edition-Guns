@@ -5327,7 +5327,7 @@ SILENTSTALKER:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-      Base_Spread: 0.05
+      Base_Spread: 0.13
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_IRON_DOOR, volume=1, pitch=2}
@@ -7035,7 +7035,7 @@ SULFURIC:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-      Base_Spread: 0.03
+      Base_Spread: 0.11
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_IRON_DOOR, volume=1, pitch=2}
@@ -8889,7 +8889,7 @@ SCHOOLSOUT:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-      Base_Spread: 0.03
+      Base_Spread: 0.11
     Mechanics:
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=0.5}
@@ -13507,7 +13507,7 @@ PHOTONPHANTOM:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
-      Base_Spread: 0.02
+      Base_Spread: 0.1
     Mechanics:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_IRON_DOOR, volume=1, pitch=2}
