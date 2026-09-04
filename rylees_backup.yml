@@ -9048,16 +9048,6 @@ MELTINGPOINT:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=28}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=35}
 
-    Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
-
   Show_Time:
     Reload:
       Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
@@ -9141,16 +9131,6 @@ WILDBORNFANG:
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
 
-    Show_Time:
-    Reload:
-      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
-      Action_Bar_Cancelled: "<red>Reload Cancelled"
-      Bar:
-        Left_Color: "<gold>"
-        Right_Color: "<gray>"
-        Left_Symbol: "|"
-        Symbol_Amount: 25
-
   Show_Time:
     Reload:
       Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
@@ -9230,8 +9210,7 @@ CZARINA:
     Start_Mechanics:
     - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=8}
     - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=17}
-    - Sound{sound=I Show_Time:
-    RelTEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=25}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=25}
     - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=34}
     - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=43}
 
