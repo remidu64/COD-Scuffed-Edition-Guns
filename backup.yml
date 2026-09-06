@@ -6636,7 +6636,7 @@ Marshal:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Marshal <firearm_state> «<ammo_left>/1»<reload>
+        Message: <gold>Marshal <firearm_state> «<ammo_left>/2»<reload>
     Weapon_Item:
       Name: <gold>Marshal
       Type: IRON_HORSE_ARMOR
@@ -6688,7 +6688,8 @@ Marshal:
   Reload:
     Trigger:
       Main_Hand: drop_item
-    Magazine_Size: 1
+    Magazine_Size: 2
+    Ammo_Per_Reload: 1
     Reload_Duration: 15
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1}
@@ -8776,7 +8777,7 @@ matchlock:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Marshal 'Matchlock' <firearm_state> «<ammo_left>/1»<reload>
+        Message: <gold>Marshal 'Matchlock' <firearm_state> «<ammo_left>/4»<reload>
     Weapon_Item:
       Name: <gold>Marshal 'Matchlock'
       Type: IRON_HORSE_ARMOR
@@ -8817,7 +8818,8 @@ matchlock:
   Reload:
     Trigger:
       Main_Hand: drop_item
-    Magazine_Size: 1
+    Magazine_Size: 4
+    Ammo_Per_Reload: 2
     Reload_Duration: 60
     Start_Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=29}
