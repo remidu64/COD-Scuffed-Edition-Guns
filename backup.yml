@@ -1464,9 +1464,9 @@ STIM:
     Consume_Item_On_Shoot: true
     Mechanics:
     - Sound{sound=BLOCK_NOTE_BLOCK_BELL, volume=1, pitch=2}
-    - Command{command=effect give <source_name> regeneration 1 255, console=true}
-    - Command{command=effect give <source_name> speed 3 2, console=true}
-    - Command{command=effect give <source_name> resistance 3 0, console=true}
+    - Potion{potion=SPEED, level=3, time=4, particles=HIDE} @Source{}
+    - Potion{potion=REGENERATION, level=256, time=1, particles=HIDE} @Source{}
+    - Potion{potion=RESISTANCE, level=1, time=3, particles=HIDE} @Source{}
     
   Projectile:
     Projectile_Settings:
@@ -3540,8 +3540,8 @@ LightArmorPlate:
     - Sound{sound=BLOCK_NOTE_BLOCK_BELL, volume=1, pitch=2}
     - "Command{command=effect clear <source_name> absorption, console=true}"
     - "Command{command=effect clear <source_name> slowness, console=true}"
-    - "Command{command=effect give <source_name> absorption 999999 5, console=true}"
-    - "Command{command=effect give <source_name> resistance 2 0, console=true}"
+    - Potion{potion=ABSORPTION, level=6, time=999999, particles=HIDE} @Source{}
+    - Potion{potion=RESISTANCE, level=1, time=2, particles=HIDE} @Source{}
     
   Projectile:
     Projectile_Settings:
@@ -3583,9 +3583,9 @@ MediumArmorPlate:
     - "Command{command=effect clear <source_name> absorption, console=true}"
     - "Command{command=effect clear <source_name> resistance, console=true}"
     - "Command{command=effect clear <source_name> slowness, console=true}"
-    - "Command{command=effect give <source_name> absorption 999999 11, console=true}"
-    - "Command{command=effect give <source_name> resistance 5 0, console=true}"
-    - "Command{command=effect give <source_name> slowness 5 0, console=true}"
+    - Potion{potion=SLOW, level=1, time=5, particles=HIDE} @Source{}
+    - Potion{potion=ABSORPTION, level=12, time=999999, particles=HIDE} @Source{}
+    - Potion{potion=RESISTANCE, level=1, time=5, particles=HIDE} @Source{}
     
   Projectile:
     Projectile_Settings:
@@ -3627,9 +3627,9 @@ HeavyArmorPlate:
     - "Command{command=effect clear <source_name> absorption, console=true}"
     - "Command{command=effect clear <source_name> resistance, console=true}"
     - "Command{command=effect clear <source_name> slowness, console=true}"
-    - "Command{command=effect give <source_name> absorption 999999 17, console=true}"
-    - "Command{command=effect give <source_name> resistance 10 0, console=true}"
-    - "Command{command=effect give <source_name> slowness 10 2, console=true}"
+    - Potion{potion=SLOW, level=3, time=10, particles=HIDE} @Source{}
+    - Potion{potion=ABSORPTION, level=18, time=999999, particles=HIDE} @Source{}
+    - Potion{potion=RESISTANCE, level=1, time=10, particles=HIDE} @Source{}
     
   Projectile:
     Projectile_Settings:
