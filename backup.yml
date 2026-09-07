@@ -3627,7 +3627,8 @@ HeavyArmorPlate:
     - "Command{command=effect clear <source_name> absorption, console=true}"
     - "Command{command=effect clear <source_name> resistance, console=true}"
     - "Command{command=effect clear <source_name> slowness, console=true}"
-    - "Command{command=effect give <source_name> absorption 999999 17, console=true}"
+    - "Command{command=effect give <source_name> absorptiCancel:
+      Drop_Item: trueon 999999 17, console=true}"
     - "Command{command=effect give <source_name> resistance 10 0, console=true}"
     - "Command{command=effect give <source_name> slowness 10 2, console=true}"
     
@@ -3654,6 +3655,8 @@ KaliSticks:
       - <gold>Melee
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -13453,6 +13456,8 @@ DUALKODACHIS:
       - <gold>Melee
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -16237,6 +16242,8 @@ BREACHER:
       - <gold>Melee
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -22175,6 +22182,8 @@ PRIVATEEYEMELEE:
       - how did u get this bru
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -22215,6 +22224,8 @@ BUTTERFLYKNIFE:
       - <gold>Melee
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -22819,6 +22830,8 @@ ADMINSPYTF2:
       - <gold>Melee <light_purple><bold>DEV ITEM DONT SPAM
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
 
   Melee:
     Enable_Melee: true
@@ -22857,6 +22870,8 @@ demon_core_on_a_stick:
       Custom_Model_Data: 3
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
 
   Melee:
     Enable_Melee: true
