@@ -10080,3 +10080,39 @@ MAC16:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
+
+
+
+
+Sledgehammer:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Sledgehammer
+    Weapon_Item:
+      Name: <gold>Sledgehammer
+      Type: STICK
+      Lore:
+      - <gold>Melee
+      Custom_Model_Data: 4
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+
+  Melee:
+    Enable_Melee: true
+    Melee_Hit_Delay: 12
+    Melee_Range: 4
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+
+  Damage:
+    Base_Damage: 10
+    Armor_Damage: 1
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - "Potion{potion=SLOW, level=1, time=60} @Target{}"
+    - Sound{sound=BLOCK_ANVIL_LAND, volume=1, pitch=1}
