@@ -10116,3 +10116,36 @@ Sledgehammer:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - "Potion{potion=SLOW, level=1, time=60} @Target{}"
     - Sound{sound=BLOCK_ANVIL_LAND, volume=1, pitch=1}
+
+
+
+ComicallyLargeSpoon:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Comically Large Spoon
+    Weapon_Item:
+      Name: <gold>Comically Large Spoon
+      Type: STICK
+      Lore:
+      - <gold>Melee
+      Custom_Model_Data: 5
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+
+  Melee:
+    Enable_Melee: true
+    Melee_Range: 8
+    Melee_Hit_Delay: 25
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
