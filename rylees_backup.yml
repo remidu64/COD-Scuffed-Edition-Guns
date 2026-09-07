@@ -5307,8 +5307,7 @@ VoyakKT3:
     Head:
       Bonus_Damage: 3
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -5644,8 +5643,7 @@ BACKSEATDRIVER:
     Head:
       Bonus_Damage: 4
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -6504,8 +6502,7 @@ GRAVEMARK357:
     Head:
       Bonus_Damage: 8
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8007,8 +8004,7 @@ RW1:
     Head:
       Bonus_Damage: 51
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
       - Push{speed=2.4} @Target{}
       - "Potion{potion=SLOW, level=2, time=60} @Target{}"
     Mechanics:
@@ -10370,8 +10366,7 @@ FORGEDCALAMITY:
     Head:
       Bonus_Damage: 2
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}

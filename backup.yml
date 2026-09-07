@@ -333,8 +333,7 @@ FP45:
     Head:
       Bonus_Damage: 15
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -2757,8 +2756,7 @@ FINNLMG:
     Head:
       Bonus_Damage: 8
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Backstab:
       Bonus_Damage: 8
       Mechanics:
@@ -3034,8 +3032,7 @@ Basilisk:
     Head:
       Bonus_Damage: 16
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3134,8 +3131,7 @@ Ignition:
     Head:
       Bonus_Damage: 10
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10040,8 +10036,7 @@ ARCHONTYPEB:
     Head:
       Bonus_Damage: 70
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -10362,8 +10357,7 @@ krig6:
     Head:
       Bonus_Damage: 3
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -12366,8 +12360,7 @@ IceDrake:
     Head:
       Bonus_Damage: 4
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14293,8 +14286,7 @@ WELROD:
     Head:
       Bonus_Damage: 30
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
 
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -15195,8 +15187,7 @@ EOKA:
     Head:
       Bonus_Damage: 17
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -16011,8 +16002,7 @@ MTS255:
     Head:
       Bonus_Damage: 9
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -17763,8 +17753,7 @@ mak90:
     Head:
       Bonus_Damage: 2
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18299,8 +18288,7 @@ strongarm:
     Head:
       Bonus_Damage: 15
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19014,8 +19002,7 @@ scout:
     Head:
       Bonus_Damage: 5
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19362,8 +19349,7 @@ hotshock:
     Head:
       Bonus_Damage: 80
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -21570,8 +21556,7 @@ akimbostrongarm:
     Head:
       Bonus_Damage: 15
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -21848,8 +21833,7 @@ slamfirestrongarm:
     Head:
       Bonus_Damage: 15
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -22157,8 +22141,7 @@ DOOM1PISTOL:
     Head:
       Bonus_Damage: 4
       Mechanics:
-      - CustomSound{sound=misc.tf2_die, volume=1}
-      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+      - CustomSound{sound=misc.cs_hit, volume=1}
     Armor_Damage: 1
     Mechanics:
     - Push{speed=1} @Target{}
