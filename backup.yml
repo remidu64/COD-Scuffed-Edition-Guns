@@ -3658,6 +3658,7 @@ KaliSticks:
   Melee:
     Enable_Melee: true
     Melee_Range: 4
+    Melee_Hit_Delay: 5
     
   Shoot:
     Trigger:
@@ -13459,6 +13460,7 @@ DUALKODACHIS:
   Melee:
     Enable_Melee: true
     Melee_Range: 5
+    Melee_Hit_Delay: 8
     
   Shoot:
     Trigger:
@@ -22220,6 +22222,7 @@ BUTTERFLYKNIFE:
   Melee:
     Enable_Melee: true
     Melee_Range: 5
+    Melee_Hit_Delay: 3
     
   Shoot:
     Trigger:
