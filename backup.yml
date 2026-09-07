@@ -3627,8 +3627,7 @@ HeavyArmorPlate:
     - "Command{command=effect clear <source_name> absorption, console=true}"
     - "Command{command=effect clear <source_name> resistance, console=true}"
     - "Command{command=effect clear <source_name> slowness, console=true}"
-    - "Command{command=effect give <source_name> absorptiCancel:
-      Drop_Item: trueon 999999 17, console=true}"
+    - "Command{command=effect give <source_name> absorption 999999 17, console=true}"
     - "Command{command=effect give <source_name> resistance 10 0, console=true}"
     - "Command{command=effect give <source_name> slowness 10 2, console=true}"
     
