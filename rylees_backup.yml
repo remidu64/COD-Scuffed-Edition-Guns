@@ -9133,6 +9133,8 @@ Sledgehammer:
       Custom_Model_Data: 4
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -9168,6 +9170,8 @@ ComicallyLargeSpoon:
       Custom_Model_Data: 5
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true

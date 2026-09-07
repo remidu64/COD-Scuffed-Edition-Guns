@@ -3346,6 +3346,8 @@ KaliSticks:
       - <gold>Melee
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -8278,6 +8280,8 @@ ADMINTrue189diamondsword:
       - <gold>Autoclicker go brrrrrrrrrrrrrrrrrrrr
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -12145,6 +12149,8 @@ DUALKODACHIS:
       - <gold>Melee
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -14624,6 +14630,8 @@ BREACHER:
       - <gold>Melee
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -19914,6 +19922,8 @@ PRIVATEEYEMELEE:
       - how did u get this bru
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -19954,6 +19964,8 @@ BUTTERFLYKNIFE:
       - <gold>Melee
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
     
   Melee:
     Enable_Melee: true
@@ -20492,6 +20504,8 @@ ADMINSPYTF2:
       - <gold>Melee <light_purple><bold>DEV ITEM DONT SPAM
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
 
   Melee:
     Enable_Melee: true
@@ -20530,6 +20544,8 @@ demon_core_on_a_stick:
       Custom_Model_Data: 3
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
 
   Melee:
     Enable_Melee: true
