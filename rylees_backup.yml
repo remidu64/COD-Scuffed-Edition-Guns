@@ -9197,7 +9197,7 @@ ComicallyLargeSpoonofGold:
       Type: STICK
       Lore:
       - <gold>Melee
-      - <i><gold> For all you legends
+      - <i><gold>For all you legends
       Custom_Model_Data: 6
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
