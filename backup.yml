@@ -4160,8 +4160,8 @@ Grau556:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
-    - Leap{speed=-0.15} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 17.0
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 12.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.225
@@ -4325,8 +4325,8 @@ Alabaster:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
-    - Leap{speed=-0.15} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 18.0
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 12.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.225
@@ -15359,8 +15359,8 @@ burnedsoul:
     - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
     - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
-    - Leap{speed=-0.18} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 17.0
+    - Leap{speed=-0.13} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 13.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.225
