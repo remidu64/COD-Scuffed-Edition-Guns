@@ -10435,3 +10435,698 @@ ComicallyLargeSpoonofGold:
     - Command{command=eco give <source_name> 5, console=true}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
+
+
+
+BrnoBKS:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Brno BKS «<ammo_left>/50»<reload>
+    Weapon_Item:
+      Name: <gold>Brno BKS
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>LMG
+      Custom_Model_Data: 8
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 330.0
+    Spread:
+      Base_Spread: 0.8
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.13} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 9
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.115 0.4
+        Left_Hand: ~0.0 0.115 0.4
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Projectile:
+    bullet.Projectile
+
+  Damage:
+    Base_Damage: 9
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 50
+    Reload_Duration: 95
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=18}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=37}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=56}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=75}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=94}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+raygunmark2:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Ray Gun Mark II «<ammo_left>/21»<reload>
+    Weapon_Item:
+      Name: <gold>Ray Gun Mark II
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Wonder Weapon
+      Custom_Model_Data: 24
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Delay_Between_Shots: 5
+    Projectile_Speed: 1000
+    Mechanics:
+    - CustomSound{sound=raygun.shoot, noise=0.00}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Burst:
+      Shots_Per_Burst: 3
+      Ticks_Between_Each_Shot: 2
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.105 0.25
+        Left_Hand: ~0 0.105 0.25
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Hide_Trail_For: 2
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#00ff00, fadeColor=#00ff00, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=1, count=1}"
+
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 0
+      Maximum_Travel_Distance: 400
+      Size: 0.5
+
+  Damage:
+    Base_Damage: 10
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 21
+    Reload_Duration: 85
+    Start_Mechanics:
+    - CustomSound{sound=raygun.reload, noise=0.0, volume=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/21 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+raygunmark2_v:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Ray Gun Mark II-V «<ammo_left>/100»<reload>
+    Weapon_Item:
+      Name: <gold>Ray Gun Mark II-V
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Wonder Weapon
+      - <i><gold>"I think you're going to find the Ray Gun Mark II-V
+      - <i><gold>is great for crowd control."
+      - <gold>- Rushmore
+      Custom_Model_Data: 24
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 5000
+    Mechanics:
+    - CustomSound{sound=raygun.shoot, noise=0.00}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 8
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.105 0.25
+        Left_Hand: ~0 0.105 0.25
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Hide_Trail_For: 2
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#ffd700, fadeColor=#ffdf00, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15 , noise=0.0 0.0 0.0, count=2}"
+
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 0
+      Maximum_Travel_Distance: 600
+      Size: 0.2
+    Through:
+      Entities:
+        Allow_Any: true
+      Maximum_Through_Amount: 4
+
+  Damage:
+    Base_Damage: 4
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 10
+      Mechanics:
+      - CustomSound{sound=misc.cs_hit, volume=1}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 100
+    Ammo_Per_Reload: 1
+    Reload_Duration: 2
+    Start_Mechanics:
+    - Sound{sound=BLOCK_BEACON_ACTIVATE, volume=0.1, pitch=2}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+raygunmark2_x:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Ray Gun Mark II-X«<ammo_left>/33»<reload>
+    Weapon_Item:
+      Name: <gold>Ray Gun Mark II-X
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Wonder Weapon
+      - <i><gold>"The Ray Gun Mark II-X. If you're a fan of full-auto
+      - <i><gold>rapid-fire, this is the gun for you."
+      - <gold>- Rushmore
+      Custom_Model_Data: 24
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 1000
+    Spread:
+      Base_Spread: 0.1
+    Mechanics:
+    - CustomSound{sound=raygun.shoot, noise=0.00}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 15
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.105 0.25
+        Left_Hand: ~0 0.105 0.25
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Hide_Trail_For: 2
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#1d2951, fadeColor=#1d2951, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=1, count=1}"
+
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 0
+      Maximum_Travel_Distance: 400
+      Size: 0.5
+
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 33
+    Reload_Duration: 85
+    Start_Mechanics:
+    - CustomSound{sound=raygun.reload, noise=0.0, volume=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/33 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+raygunmark2_y:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Ray Gun Mark II-Y«<ammo_left>/3»<reload>
+    Weapon_Item:
+      Name: <gold>Ray Gun Mark II-Y
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Wonder Weapon
+      - <i><gold>"In case you're wondering, that Ray Gun Mark II-Y fires a
+      - <i><gold>rather large explosive. Nice for taking out several
+      - <i><gold>targets at once."
+      - <gold>- Rushmore
+      Custom_Model_Data: 24
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Delay_Between_Shots: 12
+    Projectile_Speed: 1000
+    Mechanics:
+    - CustomSound{sound=raygun.shoot, noise=0.00}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.105 0.25
+        Left_Hand: ~0 0.105 0.25
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Hide_Trail_For: 2
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#ffa500, fadeColor=#ffa500, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=1, count=1}"
+
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 0
+      Maximum_Travel_Distance: 400
+      Size: 0.5
+
+  Explosion:
+    Knockback_Multiplier: 2.0
+    Detonation:
+      Impact_When:
+        Entity: true
+        Block: true
+    Explosion_Exposure: OPTIMIZED
+    Explosion_Shape: DEFAULT
+    Explosion_Type_Data:
+        Yield: 2.0
+        Rays: 16
+    Block_Damage:
+      Spawn_Falling_Block_Chance: 0
+      Default_Mode: BREAK
+      Blocks:
+        - "$WATER cancel"  # stationary_water and moving_water
+        - "$LAVA cancel"  # stationary_lava and moving_lava
+        - "$BEDROCK cancel"
+    Regeneration:
+      Ticks_Before_Start: 100
+      Max_Blocks_Per_Update: 5
+      Ticks_Between_Updates: 4
+    Mechanics:
+      - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=3}
+
+  Damage:
+    Base_Damage: 10
+    Base_Explosion_Damage: 20
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 3
+    Reload_Duration: 85
+    Start_Mechanics:
+    - CustomSound{sound=raygun.reload, noise=0.0, volume=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/3 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+raygunmark2_z:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Ray Gun Mark II-Z «<ammo_left>/9»<reload>
+    Weapon_Item:
+      Name: <gold>Ray Gun Mark II-Z
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Wonder Weapon
+      - <i><gold>"Hot stuff, right? The Ray Gun Mark II-Z fires a
+      - <i><gold>scatter-shot blast. Just the thing for hitting
+      - <i><gold>a wide group with a single pull of the trigger."
+      - <i><gold>- Rushmore
+      Custom_Model_Data: 24
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 3
+    Delay_Between_Shots: 5
+    Projectile_Speed: 300
+    Spread:
+      Base_Spread: 1.5
+    Mechanics:
+    - CustomSound{sound=raygun.shoot, noise=0.00}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.105 0.25
+        Left_Hand: ~0 0.105 0.25
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Hide_Trail_For: 2
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#ff03a5, fadeColor=#ff03a5, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=1, count=1}"
+
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 0
+      Maximum_Travel_Distance: 400
+      Size: 0.5
+    Through:
+      Entities:
+        Allow_Any: true
+      Maximum_Through_Amount: -1
+
+  Damage:
+    Base_Damage: 7
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 9
+    Reload_Duration: 85
+    Start_Mechanics:
+    - CustomSound{sound=raygun.reload, noise=0.0, volume=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+6P69MABlyams:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>6P69MA Blyams «<ammo_left>/3000»<reload>
+    Weapon_Item:
+      Name: <gold>6P69MA Blyams
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>LMG
+      Custom_Model_Data: 8
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 120.0
+    Spread:
+      Base_Spread: 3.3
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.005} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 37
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.115 0.4
+        Left_Hand: ~0.0 0.115 0.4
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Projectile:
+    bullet.Projectile
+
+  Damage:
+    Base_Damage: 1
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 3000
+    Reload_Duration: 340
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=67}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=135}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=203}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=271}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=339}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/3000 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+RITASROSE:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Grau 5.56 'Rita's Rose' «<ammo_left>/50»<reload>
+    Weapon_Item:
+      Name: <gold>Grau 5.56 'Rita's Rose'
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 1
+      Lore:
+      - <gold>Assault Rifle
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#C9357F, fadeColor=#0F0616, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 123.0
+    Spread:
+      Base_Spread: 0.102
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.118} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 12.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Projectile:
+    bullet.Projectile
+
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 50
+    Reload_Duration: 53
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=10}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=20}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=31}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=41}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=52}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
