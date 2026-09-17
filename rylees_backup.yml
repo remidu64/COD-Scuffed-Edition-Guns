@@ -9636,7 +9636,7 @@ raygunmark2_z:
       - <i><gold>"Hot stuff, right? The Ray Gun Mark II-Z fires a
       - <i><gold>scatter-shot blast. Just the thing for hitting
       - <i><gold>a wide group with a single pull of the trigger."
-      - <i><gold>- Rushmore
+      - <gold>- Rushmore
       Custom_Model_Data: 24
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
