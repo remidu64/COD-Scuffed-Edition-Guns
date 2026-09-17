@@ -9454,7 +9454,7 @@ raygunmark2_x:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Ray Gun Mark II-X«<ammo_left>/33»<reload>
+        Message: <gold>Ray Gun Mark II-X «<ammo_left>/33»<reload>
     Weapon_Item:
       Name: <gold>Ray Gun Mark II-X
       Type: IRON_HORSE_ARMOR
@@ -9528,7 +9528,7 @@ raygunmark2_y:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>Ray Gun Mark II-Y«<ammo_left>/3»<reload>
+        Message: <gold>Ray Gun Mark II-Y «<ammo_left>/3»<reload>
     Weapon_Item:
       Name: <gold>Ray Gun Mark II-Y
       Type: IRON_HORSE_ARMOR
