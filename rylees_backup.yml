@@ -9392,7 +9392,7 @@ raygunmark2_v:
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
-    Projectile_Speed: 5000
+    Projectile_Speed: 4000
     Mechanics:
     - CustomSound{sound=raygun.shoot, noise=0.00}
     - Leap{speed=-0.1} @Source{offset=~0 0 1}
