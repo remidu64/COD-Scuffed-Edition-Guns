@@ -18403,7 +18403,7 @@ VLKRogue:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>VLK Rogue «<ammo_left>/8»<reload>
+        Message: <gold>VLK Rogue «<ammo_left>/8»<reload> <firearm_state>
     Weapon_Item:
       Name: <gold>VLK Rogue
       Type: IRON_HORSE_ARMOR

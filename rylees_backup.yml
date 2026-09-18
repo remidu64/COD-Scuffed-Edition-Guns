@@ -4167,7 +4167,7 @@ CLANDESTINECONCORD:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>VLK Rogue 'Clandestine Concord' «<ammo_left>/12»<reload>
+        Message: <gold>VLK Rogue 'Clandestine Concord' <firearm_state> «<ammo_left>/12»<reload>
     Weapon_Item:
       Name: <gold>VLK Rogue 'Clandestine Concord'
       Type: IRON_HORSE_ARMOR
