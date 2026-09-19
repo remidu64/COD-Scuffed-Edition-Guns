@@ -4276,7 +4276,7 @@ ATLAS45:
   Shoot:
     Trigger:
       Main_Hand: right_click
-    Delay_Between_Shots: 5
+    Delay_Between_Shots: 2
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
@@ -4296,7 +4296,7 @@ ATLAS45:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 8
+    Base_Damage: 7
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
