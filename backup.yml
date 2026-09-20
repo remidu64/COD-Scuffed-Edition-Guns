@@ -4688,7 +4688,7 @@ ATLAS45:
   Shoot:
     Trigger:
       Main_Hand: right_click
-    Delay_Between_Shots: 5
+    Delay_Between_Shots: 2
     Projectiles_Per_Shot: 1
     Projectile_Speed: 100
     Spread:
@@ -4708,7 +4708,7 @@ ATLAS45:
     bullet.Projectile
       
   Damage:
-    Base_Damage: 8
+    Base_Damage: 7
     Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -19167,6 +19167,7 @@ JackalPDW:
       
   Damage:
     Base_Damage: 4
+    Armor_Damage: 1
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
@@ -20508,7 +20509,7 @@ VLKRogue:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>VLK Rogue «<ammo_left>/8»<reload>
+        Message: <gold>VLK Rogue <firearm_state> «<ammo_left>/8»<reload>
     Weapon_Item:
       Name: <gold>VLK Rogue
       Type: IRON_HORSE_ARMOR
