@@ -1990,7 +1990,7 @@ LMG11:
     Trigger:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
-    Projectile_Speed: 90
+    Projectile_Speed: 110
     Spread:
       Base_Spread: 0.13
     Mechanics:
