@@ -20257,12 +20257,6 @@ SO14:
       Right_Hand: ~0 0 0
       Left_Hand: ~0 0 0
 
-  Trail:
-    Distance_Between_Particles: 1.0
-    Particle_Chooser: LOOP
-    Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
-
   Projectile:
     Projectile_Settings:
       Type: INVISIBLE
