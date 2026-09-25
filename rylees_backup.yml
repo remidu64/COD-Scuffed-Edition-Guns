@@ -10556,3 +10556,1259 @@ JuniperLineExpress:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
+
+
+
+ZB47:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>ZB 47 «<ammo_left>/72»<reload>
+    Weapon_Item:
+      Name: <gold>ZB 47
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>SMG
+      Custom_Model_Data: 4
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+      Break_Blocks: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+
+  Shoot:
+    Spread:
+      Base_Spread: 0.33
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 110
+    Fully_Automatic_Shots_Per_Second: 10
+    Mechanics:
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=0.5, pitch=2}
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=0.5, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=0.5, pitch=2}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.105 0.275
+        Left_Hand: ~0.0 0.105 0.275
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 72
+    Reload_Duration: 80
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=15}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=31}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=47}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=63}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=79}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+CBRS3:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>CBRS-3 «<ammo_left>/60»<reload>
+    Weapon_Item:
+      Name: <gold>CBRS-3
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>SMG
+      Custom_Model_Data: 4
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 130
+    Spread:
+      Base_Spread: 0.35
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.07} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 12.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.105 0.275
+        Left_Hand: ~0.0 0.105 0.275
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 4
+    Armor_Damage: 1
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 60
+    Reload_Duration: 63
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=12}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=24}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=37}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=49}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=62}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+AK_74:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>AK-74 «<ammo_left>/30»<reload>
+    Weapon_Item:
+      Name: <gold>AK-74
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Assault Rifle
+      Custom_Model_Data: 1
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 140.0
+    Spread:
+      Base_Spread: 0.5
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 11.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 6
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 30
+    Reload_Duration: 50
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=10}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=20}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=29}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+RAIK84:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>RAI K-84 «<ammo_left>/30»<reload>
+    Weapon_Item:
+      Name: <gold>RAI K-84
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Wonder Weapon
+      Custom_Model_Data: 1
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#4B0082, fadeColor=#7F00FF, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 450.0
+    Spread:
+      Base_Spread: 0.2
+    Mechanics:
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - Sound{sound=ENTITY_GHAST_SHOOT, volume=1, pitch=1}
+    - Leap{speed=-0.06} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 5.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 1
+    Base_Explosion_Damage: 8
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Explosion:
+    Knockback_Multiplier: 1.0
+    Detonation:
+      Impact_When:
+        Entity: true
+        Block: true
+    Explosion_Exposure: NONE
+    Explosion_Shape: DEFAULT
+    Explosion_Type_Data:
+        Yield: 1.0
+        Rays: 16
+    Block_Damage:
+      Spawn_Falling_Block_Chance: 0
+      Default_Mode: BREAK
+      Blocks:
+        - "$WATER cancel"  # stationary_water and moving_water
+        - "$LAVA cancel"  # stationary_lava and moving_lava
+        - "$BEDROCK cancel"
+    Regeneration:
+      Ticks_Before_Start: 60
+      Max_Blocks_Per_Update: 5
+      Ticks_Between_Updates: 4
+    Mechanics:
+      - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 30
+    Reload_Duration: 50
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=10}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=20}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=29}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+KPAType88:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>KPA Type 88 «<ammo_left>/150»<reload>
+    Weapon_Item:
+      Name: <gold>KPA Type 88
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Assault Rifle
+      Custom_Model_Data: 1
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 140.0
+    Spread:
+      Base_Spread: 1.3
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.21} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 11.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 150
+    Reload_Duration: 120
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=23}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=47}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=71}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=95}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=119}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+SDK9mm:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>SDK 9mm «<ammo_left>/6»<reload><firearm_state> 
+    Weapon_Item:
+      Name: <gold>SDK 9mm
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 3
+      Lore:
+      - <gold>Sniper Rifle
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+  
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+  
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1 
+    Projectile_Speed: 460
+    Mechanics:
+    - Sound{sound=ENTITY_BLAZE_HURT, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - Leap{speed=-0.07} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 40
+      Maximum_Travel_Distance: 400
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 19
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 23
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - Push{speed=1} @Target{}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 6
+    Reload_Duration: 60
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=6}
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=13}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=32}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=39}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=45}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=52}
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=59}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 10
+      Mechanics:
+      - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5}
+      - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 11
+      Mechanics:
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 5.0
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+RHINO40DS:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Rhino 40DS «<ammo_left>/6»<reload>
+    Weapon_Item:
+      Name: <gold>Rhino 40DS
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Pistol
+      Custom_Model_Data: 6
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 3
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 130
+    Spread:
+      Base_Spread: 0.25
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=1}
+    - Leap{speed=-0.16} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.11 0.18
+        Left_Hand: ~0.0 0.11 0.18
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 16
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 11
+      Mechanics:
+      - CustomSound{sound=misc.cs_hit, volume=1}
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 6
+    Ammo_Per_Reload: 1
+    Reload_Duration: 14
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=12}
+    Finish_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+KIMBERK6S:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Kimber K6s «<ammo_left>/6»<reload>
+    Weapon_Item:
+      Name: <gold>Kimber K6s
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Pistol
+      Custom_Model_Data: 6
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 8
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 95
+    Spread:
+      Base_Spread: 0.3
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=1}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.11 0.18
+        Left_Hand: ~0.0 0.11 0.18
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 14
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 12
+      Mechanics:
+      - CustomSound{sound=misc.cs_hit, volume=1}
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 6
+    Reload_Duration: 30
+    Start_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=7}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+AutomaticoM1918:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Automatico M1918 «<ammo_left>/25»<reload>
+    Weapon_Item:
+      Name: <gold>Automatico M1918
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>SMG
+      Custom_Model_Data: 4
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+      Break_Blocks: true
+
+  Trail:
+    Distance_Between_Particles: 1
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.25, count=1}"
+
+  Shoot:
+    Spread:
+      Base_Spread: 0.4
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 110
+    Mechanics:
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=0.5, pitch=2}
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=0.5, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=0.5, pitch=2}
+    - Leap{speed=-0.13} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 15
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.105 0.275
+        Left_Hand: ~0.0 0.105 0.275
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 4
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 25
+    Reload_Duration: 56
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=11}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=22}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=33}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=44}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=55}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+SVT40:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>SVT-40 «<ammo_left>/10»<reload>
+    Weapon_Item:
+      Name: <gold>SVT-40
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Marksman Rifle
+      Custom_Model_Data: 13
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 550
+    Delay_Between_Shots: 3
+    Mechanics:
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - Sound{sound=ENTITY_GHAST_SHOOT, volume=1, pitch=1}
+    - Leap{speed=-0.14} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.08 0.45
+        Left_Hand: ~0 0.08 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 25
+      Maximum_Travel_Distance: 300
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 13
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 13
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 10
+    Reload_Duration: 60
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=6}
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=13}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=32}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=39}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=45}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=52}
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=59}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+AVT40:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>AVT-40 «<ammo_left>/10»<reload>
+    Weapon_Item:
+      Name: <gold>AVT-40
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Marksman Rifle
+      Custom_Model_Data: 13
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 550
+    Spread:
+      Base_Spread: 0.2
+    Mechanics:
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - Sound{sound=ENTITY_GHAST_SHOOT, volume=1, pitch=1}
+    - Leap{speed=-0.14} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 13.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.08 0.45
+        Left_Hand: ~0 0.08 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 25
+      Maximum_Travel_Distance: 300
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 9
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 5
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 10
+    Reload_Duration: 60
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=6}
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=13}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=32}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=39}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=45}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=52}
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=59}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+PP91KEDR:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>PP-91 Kedr «<ammo_left>/30»<reload>
+    Weapon_Item:
+      Name: <gold>PP-91 Kedr
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 4
+      Lore:
+      - <gold>SMG
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.25, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 90
+    Spread:
+      Base_Spread: 0.2
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.1} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 17
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 4
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 30
+    Reload_Duration: 50
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=9}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=29}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+PP9KLIN:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>PP-9 Klin «<ammo_left>/30»<reload>
+    Weapon_Item:
+      Name: <gold>PP-9 Klin
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 4
+      Lore:
+      - <gold>SMG
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.25, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 120
+    Spread:
+      Base_Spread: 0.17
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.11} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 18
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 30
+    Reload_Duration: 50
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=9}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=29}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=39}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=49}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+BEOWULFTCR:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Beowulf TCR «<ammo_left>/7»<reload>
+    Weapon_Item:
+      Name: <gold>Beowulf TCR
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Marksman Rifle
+      Custom_Model_Data: 13
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 3
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 390
+    Mechanics:
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - Sound{sound=ENTITY_GHAST_SHOOT, volume=1, pitch=1}
+    - Leap{speed=-0.14} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.08 0.45
+        Left_Hand: ~0 0.08 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 25
+      Maximum_Travel_Distance: 250
+      Size: 0.3
+
+  Damage:
+    Base_Damage: 12
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 7
+    Reload_Duration: 60
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=6}
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=13}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=32}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=39}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=45}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=52}
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=59}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+GrizzlyMKV:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Grizzly MKV «<ammo_left>/6»<reload>
+    Weapon_Item:
+      Name: <gold>Grizzly MKV
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Pistol
+      Custom_Model_Data: 6
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 7
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 120
+    Spread:
+      Base_Spread: 0.2
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_IRON_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.21} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.11 0.18
+        Left_Hand: ~0.0 0.11 0.18
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 12
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 6
+    Reload_Duration: 30
+    Start_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=7}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=14}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=21}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=29}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+VAG73:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>VAG-73 «<ammo_left>/48»<reload>
+    Weapon_Item:
+      Name: <gold>VAG-73
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Pistol
+      Custom_Model_Data: 6
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 85
+    Spread:
+      Base_Spread: 0.45
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_IRON_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.07} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 9.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.11 0.18
+        Left_Hand: ~0.0 0.11 0.18
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 4
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 48
+    Reload_Duration: 55
+    Start_Mechanics:
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=13}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=27}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=40}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=54}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
