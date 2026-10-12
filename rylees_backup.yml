@@ -14638,9 +14638,8 @@ TheCampaign:
       Type: IRON_HORSE_ARMOR
       Lore:
       - <gold>LMG
-      -
       - <i><gold>"War does not determine who is right - only who is left."
-      - - Bertrand Russell
+      - <gold>- Bertrand Russell
       Custom_Model_Data: 8
     Weapon_Get_Mechanics:
     - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
