@@ -17557,7 +17557,7 @@ AWP:
   Info:
     Weapon_Info_Display:
       Action_Bar:
-        Message: <gold>AWP<firearm_state> «<ammo_left>/5»<reload>
+        Message: <gold>AWP <firearm_state> «<ammo_left>/5»<reload>
     Weapon_Item:
       Name: <gold>AWP
       Type: IRON_HORSE_ARMOR
