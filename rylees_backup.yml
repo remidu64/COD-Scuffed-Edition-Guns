@@ -14878,3 +14878,531 @@ CHRONICUNAPOLOGETIC:
     Crossbow_Animation:
       Only_While_Zooming: false
       Helditem_Modeldata: true
+
+
+
+ODMGEAR:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Dual Kodachis 'ODM Gear'
+    Weapon_Item:
+      Name: <gold>Dual Kodachis 'ODM Gear'
+      Type: IRON_SWORD
+      Lore:
+      - <gold>Melee
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_ARROW_SHOOT, volume=1, pitch=0.5}
+    Cancel:
+      Drop_Item: true
+    
+  Melee:
+    Enable_Melee: true
+    Melee_Range: 8
+    Melee_Hit_Delay: 4
+    
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 60
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 0
+    Mechanics:
+    - Sound{sound=ENTITY_FIREWORK_ROCKET_LAUNCH, volume=3}
+    - Leap{speed=6.0} @Source{offset=~0 0 1}
+    
+  Damage:
+    Base_Damage: 12
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    Backstab:
+      Bonus_Damage: 85
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+
+
+
+VICTUSXMR:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Victus XMR <firearm_state> «<ammo_left>/5»<reload>
+    Weapon_Item:
+      Name: <gold>Victus XMR
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 3
+      Lore:
+      - <gold>Sniper Rifle
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+   
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 1000
+    Mechanics:
+    - Sound{sound=ENTITY_BLAZE_HURT, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - Leap{speed=-0.25} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 50
+      Maximum_Travel_Distance: 400
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 31
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 44
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Push{speed=2} @Target{}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 5
+    Reload_Duration: 80
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1}
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=9}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=29}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=39}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=49}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=59}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=79}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 17
+      Mechanics:
+      - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5}
+      - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 16
+      Mechanics:
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 6.0
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+THEROOK:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Victus XMR 'The Rook' <firearm_state> «<ammo_left>/5»<reload>
+    Weapon_Item:
+      Name: <gold>Victus XMR 'The Rook'
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 3
+      Lore:
+      - <gold>Sniper Rifle
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+   
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 952
+    Mechanics:
+    - Sound{sound=ENTITY_BLAZE_HURT, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - CustomSound{sound=meme.the_rook, volume=100}
+    - Leap{speed=-0.23} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 50
+      Maximum_Travel_Distance: 400
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 31
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 44
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Push{speed=2} @Target{}
+    - Command{command=eco give <source_name> 1, console=true}
+
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 5
+    Reload_Duration: 80
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1}
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=9}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=29}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=39}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=49}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=59}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=69}
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=79}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 17
+      Mechanics:
+      - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5}
+      - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 16
+      Mechanics:
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 5.0
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+BLACKCASSOWARY:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>STG44 'Black Cassowary' «<ammo_left>/45»<reload>
+    Weapon_Item:
+      Name: <gold>STG44 'Black Cassowary'
+      Type: IRON_HORSE_ARMOR
+      Lore: 
+      - <gold>Assault Rifle
+      Custom_Model_Data: 1
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 203.0
+    Spread:
+      Base_Spread: 0.99
+    Mechanics:
+    - Sound{sound=ENTITY_IRON_GOLEM_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_SKELETON_HURT, volume=1, pitch=2}
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=2}
+    - Leap{speed=-0.033} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 11
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet.Projectile
+      
+  Damage:
+    Base_Damage: 5
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 45
+    Reload_Duration: 44
+    Start_Mechanics:
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=9}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=17}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=26}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=34}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=43}
+
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 3.0
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+CORPORATETHEFT:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: "<gold>3-Line Rifle 'Corporate Theft' «<ammo_left>/5»<reload><firearm_state>"
+    Weapon_Item:
+      Name: <gold>3-Line Rifle 'Corporate Theft'
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 3
+      Lore:
+      - <gold>Sniper Rifle
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 900
+    Mechanics:
+    - Sound{sound=ENTITY_BLAZE_HURT, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - Leap{speed=-0.154} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 50
+      Maximum_Travel_Distance: 400
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 23
+    Head:
+      Bonus_Damage: 54
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    - Push{speed=1.2} @Target{}
+      
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 5
+    Reload_Duration: 30
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1, delayBeforePlay=3}
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=6}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=9}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=12}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=16}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=19}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=22}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=25}
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=29}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 11
+      Mechanics:
+      - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5}
+      - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 10
+      Mechanics:
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+      
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 3
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
+
+
+
+AGGRESSIONACT:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Kar98k 'Aggression Act' <firearm_state> «<ammo_left>/5»<reload>
+    Weapon_Item:
+      Name: <gold>Kar98k 'Aggression Act'
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Marksman Rifle
+      Custom_Model_Data: 13
+    Weapon_Get_Mechanics:
+    - Sound{sound=ENTITY_BAT_TAKEOFF, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 550
+    Mechanics:
+    - Sound{sound=ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR, volume=1, pitch=1}
+    - Sound{sound=ENTITY_GENERIC_EXPLODE, volume=1, pitch=2}
+    - Sound{sound=ENTITY_GHAST_SHOOT, volume=1, pitch=1}
+    - Leap{speed=-0.215} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0 0.08 0.45
+        Left_Hand: ~0 0.08 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 25
+      Maximum_Travel_Distance: 200
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 22
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 45
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 5
+    Reload_Duration: 41
+    Start_Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=1}
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5, delayBeforePlay=5}
+    - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=10}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=15}
+    - Sound{sound=BLOCK_WOODEN_DOOR_OPEN, volume=1, pitch=2, delayBeforePlay=20}
+    - Sound{sound=ITEM_FLINTANDSTEEL_USE, volume=1, pitch=1, delayBeforePlay=25}
+    - Sound{sound=ENTITY_PLAYER_HURT, volume=1, pitch=0.5, delayBeforePlay=30}
+    - Sound{sound=BLOCK_WOODEN_DOOR_CLOSE, volume=1, pitch=2, delayBeforePlay=35}
+    - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2, delayBeforePlay=40}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 3
+      Mechanics:
+      - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=0.5}
+      - Sound{sound=BLOCK_PISTON_CONTRACT, volume=1, pitch=2, delayBeforePlay=1}
+    Close:
+      Time: 6
+      Mechanics:
+      - Sound{sound=BLOCK_PISTON_EXTEND, volume=1, pitch=2}
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 6.0
+    Mechanics:
+    - Sound{sound=BLOCK_NOTE_BLOCK_HAT, volume=1, pitch=2}
+
+  WeaponMechanicsAdditions:
+    Crossbow_Animation:
+      Only_While_Zooming: false
+      Helditem_Modeldata: true
