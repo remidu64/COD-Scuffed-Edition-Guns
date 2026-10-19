@@ -71,7 +71,17 @@ M200Intervention:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=83}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=84}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=99}
-    
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -164,6 +174,16 @@ OTS9:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -240,6 +260,16 @@ FAMASG2:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=28}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -313,6 +343,16 @@ FP45:
     Finish_Mechanics:
     - Sound{sound=block.chain.hit, volume=1, pitch=2, delayBeforePlay=9}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -378,6 +418,16 @@ P890:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=11}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=15}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=19}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -445,6 +495,16 @@ MODM:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=36}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=38}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/35 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -518,6 +578,16 @@ AS44:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -601,6 +671,16 @@ Crossbowowo:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -672,6 +752,16 @@ SAKINMG38:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=89}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=119}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=149}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -746,6 +836,16 @@ FAMASF1:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=28}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -818,6 +918,16 @@ MB47:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=42}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/35 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -899,6 +1009,16 @@ GORENKO:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=166}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=168}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=198}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -987,6 +1107,16 @@ GORENKO:
     - Sound{sound=block.note_block.hat, volume=1, pitch=0.5, delayBeforePlay=40}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=50}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -1063,6 +1193,16 @@ DLQ33:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=33}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=33}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -1156,6 +1296,16 @@ KVBROADSIDE:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -1226,6 +1376,16 @@ X12:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=8}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=19}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/17 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -1915,6 +2075,16 @@ RPG7:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=34}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=51}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
   Explosion:
     Knockback_Multiplier: 20
@@ -2194,6 +2364,16 @@ RPG14:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=79}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Projectile:
     Projectile_Settings:
       Type: ARMOR_STAND
@@ -2299,6 +2479,16 @@ RPG14:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: pump
     Open:
@@ -2382,6 +2572,16 @@ LOCKWOOD300:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=11}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: pump
@@ -2551,6 +2751,16 @@ FINNLMG:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=72}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=94}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/75 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -2632,6 +2842,16 @@ SIGNAL50:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=70}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=82}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=94}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -2791,6 +3011,16 @@ Basilisk:
     Finish_Mechanics:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: revolver
     Open:
@@ -2880,6 +3110,16 @@ Ignition:
     Finish_Mechanics:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: revolver
     Open:
@@ -2955,6 +3195,16 @@ FatMan:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=54}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=79}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Explosion:
     Knockback_Multiplier: 50
@@ -3068,6 +3318,16 @@ FJXImperium:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=81}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=89}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -3168,6 +3428,16 @@ LotusFlames:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=30}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=35}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -3424,7 +3694,15 @@ Dignity:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
 
-
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -3508,6 +3786,16 @@ DeadCenter:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=67}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=78}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=89}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -3601,6 +3889,16 @@ M4A1:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -3673,6 +3971,16 @@ Marco5:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=17}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=26}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -3837,6 +4145,16 @@ Grau556:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=41}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=54}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -3907,6 +4225,16 @@ EX1:
     Reload_Duration: 1
     Start_Mechanics:
     - Sound{sound=block.beacon.activate, volume=0.1, pitch=2}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/240 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -3981,6 +4309,16 @@ Alabaster:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=44}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -4050,6 +4388,16 @@ Alabaster:
     Finish_Mechanics:
     - Sound{sound=block.note_block.hat, volume=1, pitch=1}
     - Sound{sound=block.note_block.snare, volume=1, pitch=2.0, delayBeforePlay=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -4132,6 +4480,16 @@ NOCLIP:
     Start_Mechanics:
     - Sound{sound=block.beacon.activate, volume=0.1, pitch=2}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/480 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -4200,6 +4558,16 @@ CQBoom:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=11}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: pump
@@ -4309,6 +4677,16 @@ ATLAS45:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=15}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=21}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -4381,6 +4759,16 @@ NIKITAAVT:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=29}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -4463,6 +4851,16 @@ AX50:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=52}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=60}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=69}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -4554,6 +4952,16 @@ VALOISREVOLVER:
     Finish_Mechanics:
     - Sound{sound=block.chain.hit, volume=1, pitch=2}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: revolver
     Open:
@@ -4635,6 +5043,16 @@ PRIVATEEYE:
     Reload_Duration: 4
     Finish_Mechanics:
     - Sound{sound=block.chain.hit, volume=1, pitch=2}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: revolver
@@ -4720,6 +5138,16 @@ KILO141:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -4798,6 +5226,16 @@ SILENTSTALKER:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -4868,6 +5306,16 @@ SILENTSTALKER:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=6}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=19}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -4943,6 +5391,16 @@ Diamatti:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/15 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -5014,6 +5472,16 @@ AMPEDUP:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=44}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=66}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=89}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/48 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Projectile:
     bullet
@@ -5097,6 +5565,16 @@ KLAUSER:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -5161,6 +5639,16 @@ ROCF2:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=6}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=19}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Explosion:
     Knockback_Multiplier: 2
@@ -5258,6 +5746,16 @@ Bren:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -5331,6 +5829,16 @@ FULLMETALVENGEANCE:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=60}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=89}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=119}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -5501,6 +6009,16 @@ YELLOWALPHA:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=139}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=159}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -5593,6 +6111,16 @@ KUROMAKU:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=29}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -5674,6 +6202,16 @@ KAR98K:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=33}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=38}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=44}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -5760,6 +6298,16 @@ FTACSIEGE:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -5833,6 +6381,16 @@ M13:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -5905,6 +6463,16 @@ SPLENDOR:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=30}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=44}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -5989,6 +6557,16 @@ Carrack300:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=60}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=69}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -6068,6 +6646,16 @@ PINKSTRAIN:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=24}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Scope:
     Trigger:
@@ -6149,6 +6737,16 @@ ARMAGUERRA43:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=26}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -6221,6 +6819,16 @@ SA87:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=24}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -6303,6 +6911,16 @@ BREATHTAKER:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=79}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -6381,6 +6999,16 @@ SULFURIC:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=10}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=19}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -6454,6 +7082,16 @@ CRONENSQUALL:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -6524,6 +7162,16 @@ X13AUTO:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=12}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/17 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -6599,6 +7247,16 @@ PELINGTON703:
     Reload_Duration: 10
     Finish_Mechanics:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -6689,6 +7347,16 @@ Marshal:
     - Sound{sound=block.note_block.hat, volume=1, pitch=1}
     - Sound{sound=block.note_block.snare, volume=1, pitch=2.0, delayBeforePlay=15}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: revolver
     Open:
@@ -6773,6 +7441,16 @@ KASTOV545:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=29}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -6912,6 +7590,16 @@ SPRA5M:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=44}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -7003,6 +7691,16 @@ SPRA5M:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=53}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=71}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=89}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/75 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -7141,6 +7839,16 @@ FUELROD:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=61}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=69}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -7232,6 +7940,16 @@ SOVIETRED:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -7355,6 +8073,16 @@ STABISTOR:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=48}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=54}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -7455,6 +8183,16 @@ HDR:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=61}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=70}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=79}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -7600,6 +8338,16 @@ TOWERKEY:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=46}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=82}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=59}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -7774,6 +8522,16 @@ LIENNA57:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/36 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -7918,6 +8676,16 @@ AK117:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -7991,6 +8759,16 @@ SCHOOLSOUT:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -8061,6 +8839,16 @@ SCHOOLSOUT:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=12}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/15 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -8134,6 +8922,16 @@ HAUER77:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=16}
     Finish_Mechanics:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=2}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: pump
@@ -8216,6 +9014,16 @@ PUNCTUREWOUND:
     Reload_Duration: 1
     Start_Mechanics:
     - Sound{sound=block.note_block.basedrum, volume=0.3, pitch=2.0}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/800 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -8352,6 +9160,16 @@ GLAZEMATIC:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=20}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -8506,6 +9324,16 @@ biomechatronic:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -8576,6 +9404,16 @@ biomechatronic:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=12}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -8649,6 +9487,16 @@ ISOHEMLOCK:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=17}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -8762,6 +9610,16 @@ Milano821:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=27}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -8820,6 +9678,16 @@ matchlock:
     Start_Mechanics:
     - Sound{sound=block.note_block.hat, volume=1, pitch=1, delayBeforePlay=29}
     - Sound{sound=block.note_block.snare, volume=1, pitch=2.0, delayBeforePlay=59}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/4 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Projectile:
     matchlockbullet
@@ -8927,6 +9795,16 @@ intimidatingfish:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=75}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=84}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -9015,6 +9893,16 @@ ARCHONTYPEB:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=17}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/13 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -9086,6 +9974,16 @@ ARCHONTYPEB:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=8}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=17}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -9159,6 +10057,16 @@ delacremodele1936:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -9289,6 +10197,16 @@ baddog:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=26}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: pump
     Open:
@@ -9378,6 +10296,16 @@ krig6:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -9451,6 +10379,16 @@ pkm:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=83}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=104}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -9523,6 +10461,16 @@ sunsethue:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=62}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=83}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=104}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -9605,6 +10553,16 @@ swissk31:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=30}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=35}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -9697,6 +10655,16 @@ cr56amax:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=14}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=18}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=23}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -9807,6 +10775,16 @@ ppsh_41:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/35 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -9879,6 +10857,16 @@ m134minigun:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=83}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=111}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=139}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/600 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -9962,6 +10950,16 @@ InfernalFlight:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=84}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=61}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=69}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -10056,6 +11054,16 @@ WEBSPINNER:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -10128,6 +11136,16 @@ BuckledLupara:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=7}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=10}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=14}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: pump
@@ -10223,6 +11241,16 @@ ZRG20mm:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=70}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=79}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -10315,6 +11343,16 @@ CX_9:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=21}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=26}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -10388,6 +11426,16 @@ Schwarzwald:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=17}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=21}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -10459,6 +11507,16 @@ loggerhead:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=12}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: pump
@@ -10545,6 +11603,16 @@ saki:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -10617,6 +11685,16 @@ pureindica:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=32}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=54}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/71 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -10691,6 +11769,16 @@ deathlylight:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -10764,6 +11852,16 @@ M4:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -10836,6 +11934,16 @@ CyberUnicorn:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -10918,6 +12026,16 @@ CyberUnicorn:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=50}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=57}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=64}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: pump
@@ -11011,6 +12129,16 @@ AK_47:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -11083,6 +12211,16 @@ PumpkinHead:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -11161,6 +12299,16 @@ IceDrake:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -11307,6 +12455,16 @@ RENETTI:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/15 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -11392,6 +12550,16 @@ HEATSTROKE:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -11473,6 +12641,16 @@ THEVOICES:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=50}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=57}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=64}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -11569,6 +12747,16 @@ M16:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -11645,6 +12833,16 @@ CHEMTHREAT:
     Ammo_Per_Reload: 1
     Finish_Mechanics:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -11803,6 +13001,16 @@ ADMINRADIOGUN:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=70}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=79}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -11895,6 +13103,16 @@ PULEMYOT762:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=83}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=104}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/75 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -11969,6 +13187,16 @@ MP5:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -12041,6 +13269,16 @@ ADMIRALSPRIDE:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -12227,6 +13465,16 @@ PHOTONPHANTOM:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/18 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -12306,6 +13554,16 @@ GALAXYCLUSTER:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=62}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=83}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=104}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/75 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Scope:
     Trigger:
@@ -12387,6 +13645,16 @@ BP50:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -12458,6 +13726,16 @@ GROZA:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=20}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -12599,6 +13877,16 @@ WALKINGCONTRADICTION:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -12672,6 +13960,16 @@ DP27:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/63 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -12744,6 +14042,16 @@ GildedRose:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=16}
     Finish_Mechanics:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=2}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: pump
@@ -12830,6 +14138,16 @@ EnhancedRisk:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=59}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=74}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/105 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -12911,6 +14229,16 @@ WELROD:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=12}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=18}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -13015,6 +14343,16 @@ MORS:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=25}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=28}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -13128,6 +14466,16 @@ LEECHEDPOISON:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=25}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=28}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -13229,6 +14577,16 @@ ELECTRICLOLLIPOP:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -13309,6 +14667,16 @@ Ensanguined:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=61}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=70}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=79}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -13403,6 +14771,16 @@ SUBKELVIN:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/71 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -13484,6 +14862,16 @@ superi46:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -13557,6 +14945,16 @@ cognizantrebel:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -13634,6 +15032,16 @@ IMR:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/36 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -13709,6 +15117,16 @@ EOKA:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=40}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=79}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -13793,6 +15211,16 @@ HavelinaAA50:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=48}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=54}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -13873,6 +15301,16 @@ burnedsoul:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -13945,6 +15383,16 @@ ioneruption:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -14029,6 +15477,16 @@ DM7:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/15 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Scope:
     Trigger:
       Main_Hand: left_click
@@ -14109,6 +15567,16 @@ XM4:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -14181,6 +15649,16 @@ Fennec:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -14255,6 +15733,16 @@ R70Ajax:
     - Sound{sound=block.chain.hit, volume=1, pitch=2, delayBeforePlay=4}
     - Sound{sound=block.chain.hit, volume=1, pitch=2, delayBeforePlay=6}
     - Sound{sound=block.chain.hit, volume=1, pitch=2, delayBeforePlay=8}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -14337,6 +15825,16 @@ RSAInterdiction:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=52}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=60}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=69}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -14432,6 +15930,16 @@ MTS255:
     Finish_Mechanics: 
     - Sound{sound=block.chain.hit, volume=1, pitch=2}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -14505,6 +16013,16 @@ HOSER:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=43}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=54}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -14574,6 +16092,16 @@ ADMINMGCrossbow:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=22}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Explosion:
     Knockback_Multiplier: 500
@@ -14705,6 +16233,16 @@ NONCONFORMIST:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -14813,6 +16351,16 @@ RAININGDEATH:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -14890,6 +16438,16 @@ NXSHADOWCLAW:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=47}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=63}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=79}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
     
     
@@ -14958,6 +16516,16 @@ aegisflux:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=29}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -15032,6 +16600,16 @@ FAL:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -15104,6 +16682,16 @@ QUARKASER:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/24 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -15186,6 +16774,16 @@ KATTAMR:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=61}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=70}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=79}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -15280,6 +16878,16 @@ MP18:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=17}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=19}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: revolver
     Open:
@@ -15366,6 +16974,16 @@ MAC10:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -15440,6 +17058,16 @@ ATCFirefly:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/34 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -15512,6 +17140,16 @@ Specterstrike:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=29}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -15587,6 +17225,16 @@ NuclearFusion:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=151}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=189}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/720 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -15661,6 +17309,16 @@ Bechowiec1:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -15725,6 +17383,16 @@ M8FlarePistol:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=17}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=52}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Explosion:
     Knockback_Multiplier: 3
@@ -15811,6 +17479,16 @@ ANM8PocketMortar:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=17}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=52}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Explosion:
     Knockback_Multiplier: 3
@@ -15909,6 +17587,16 @@ AKS_47:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -15986,6 +17674,16 @@ mak90:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -16062,6 +17760,16 @@ r1roughcut:
     Reload_Duration: 10
     Finish_Mechanics:
     - CustomSound{sound=roughcut.reload, noise=0.1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: pump
@@ -16147,6 +17855,16 @@ TEC9:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -16224,6 +17942,16 @@ Type63:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=30}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -16304,6 +18032,16 @@ deadlybotany:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=43}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -16376,6 +18114,16 @@ nanofire:
     Start_Mechanics:
     - CustomSound{sound=nanofire.reload, noise=0.1, volume=1, delayBeforePlay=5}
     - CustomSound{sound=nanofire.pump, noise=0.1, volume=1, delayBeforePlay=11}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -16455,6 +18203,16 @@ strongarm:
     Ammo_Per_Reload: 1
     Finish_Mechanics:
     - CustomSound{sound=strongarm.reload, noise=0.1, volume=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: revolver
@@ -16540,6 +18298,16 @@ CrimsonDozer:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -16612,6 +18380,16 @@ MG42:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=52}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=78}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=104}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/125 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -16686,6 +18464,16 @@ CHOPPER:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=72}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=94}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/75 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -16758,6 +18546,16 @@ PU21:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=56}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=75}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=94}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/75 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -16839,6 +18637,16 @@ SSK950:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=108}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=124}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=139}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -16939,6 +18747,16 @@ firestrike:
     - CustomSound{sound=firestrike.reload, noise=0.1, volume=1, delayBeforePlay=8}
     - CustomSound{sound=firestrike.pump, noise=0.1, volume=1, delayBeforePlay=16}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -17009,6 +18827,16 @@ raygun:
     Reload_Duration: 72
     Start_Mechanics:
     - CustomSound{sound=raygun.reload, noise=0.0, volume=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -17090,6 +18918,16 @@ scout:
     - CustomSound{sound=scout.reload, noise=0.1, volume=1, delayBeforePlay=15}
     - CustomSound{sound=scout.turn, noise=0.1, volume=1, delayBeforePlay=19}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/4 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -17162,6 +19000,16 @@ covert:
     Start_Mechanics:
     - CustomSound{sound=covert.reload, noise=0.1, volume=1, delayBeforePlay=3}
     - CustomSound{sound=covert.pump, noise=0.1, volume=1, delayBeforePlay=8}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -17236,6 +19084,16 @@ JackalPDW:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=29}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -17317,6 +19175,16 @@ guardian:
     Finish_Mechanics:
     - CustomSound{sound=guardian.reload, noise=0.1, volume=1}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -17397,6 +19265,16 @@ hotshock:
     - CustomSound{sound=hotshock.reload, noise=0.07, volume=1.5, delayBeforePlay=10}
     - CustomSound{sound=hotshock.pump, noise=0.07, volume=1.5, delayBeforePlay=97}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -17469,6 +19347,16 @@ TaschenpistoleM1914:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=21}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=27}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -17540,6 +19428,16 @@ american180:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=53}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=71}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=89}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/165 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -17620,6 +19518,16 @@ AWP:
     Reload_Duration: 74
     Start_Mechanics:
     - CustomSound{sound=awp.reload, noise=0.07}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -17711,6 +19619,16 @@ argentserpent:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
   Scope:
     Trigger:
@@ -17792,6 +19710,16 @@ NZ41:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=47}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/24 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -17864,6 +19792,16 @@ M2Browning:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=77}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=103}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=129}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/105 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -17944,6 +19882,16 @@ WunderwaffeDG2:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=103}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=129}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/3 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -18017,6 +19965,16 @@ RPK:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=55}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/75 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -18087,6 +20045,16 @@ COR45:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=8}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=19}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/17 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -18161,6 +20129,16 @@ ASVAL:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -18233,6 +20211,16 @@ Malphas:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=17}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=23}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Scope:
     Trigger:
@@ -18314,6 +20302,16 @@ M60:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=119}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=149}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/200 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -18387,6 +20385,16 @@ M1689_Blunderbuss:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=71}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=89}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -18459,6 +20467,16 @@ VLKRogue:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=35}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
   Firearm_Action:
     Type: lever
@@ -18551,8 +20569,10 @@ vanguardlr1:
     Finish_Mechanics:
     - CustomSound{sound=vanguard.take_dart, noise=0.1, volume=1}
 
-    Delay_Between_Shots:
-      Action_Bar: "<gray>Prepare Next Shot <bar> <time><gray>s"
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/15 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
       Bar:
         Left_Color: "<gold>"
         Right_Color: "<gray>"
@@ -18732,6 +20752,16 @@ yeet_mega_dart:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=93}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=124}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -18804,6 +20834,16 @@ valleyoutlaw:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=107}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=143}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=179}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/200 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Scope:
     Trigger:
@@ -18892,6 +20932,16 @@ GEOTHERMALLINE:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=46}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=52}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=59}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
   Firearm_Action:
     Type: lever
@@ -19062,6 +21112,16 @@ STG44:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=34}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=43}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -19134,6 +21194,16 @@ ALLSMILES:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=34}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=43}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Scope:
     Trigger:
@@ -19231,6 +21301,16 @@ M82A1:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=50}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=57}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=64}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
   Scope:
     Trigger:
@@ -19371,6 +21451,16 @@ akimbostrongarm:
     Ammo_Per_Reload: 1
     Finish_Mechanics:
     - CustomSound{sound=strongarm.reload, noise=0.1, volume=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
   Firearm_Action:
     Type: revolver
@@ -19467,6 +21557,16 @@ bananablaster:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/43 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -19539,6 +21639,16 @@ herotypepower:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=59}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=79}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=99}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/125 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -19618,6 +21728,16 @@ slamfirestrongarm:
     Ammo_Per_Reload: 1
     Finish_Mechanics:
     - CustomSound{sound=strongarm.reload, noise=0.1, volume=1}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
   Firearm_Action:
     Type: revolver
@@ -19712,6 +21832,16 @@ LAVALACERATOR:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=46}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=52}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=59}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
   Firearm_Action:
     Type: lever
@@ -19821,6 +21951,16 @@ M1GARAND:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
     - Damage{damage=4, ignoreArmor=true, delayBeforePlay=44, chance=3%}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
     
     Finish_Mechanics: 
     - "Damage{damage=4, ignoreArmor=true}"
@@ -20040,6 +22180,16 @@ CRYSTALCHANDELIER:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=49}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Firearm_Action:
     Type: lever
     Open:
@@ -20131,6 +22281,16 @@ AKITA:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=51}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=69}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -20203,6 +22363,16 @@ holiday_workshop:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=14}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/35 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -20283,6 +22453,16 @@ SO14:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=44}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -20353,6 +22533,16 @@ delicate_demise:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=19}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/33 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Cosmetics:
      Third_Person_Pose:
@@ -20430,8 +22620,10 @@ reconcs6:
     - CustomSound{sound=recon.reload1, noise=0.1, volume=1}
     - CustomSound{sound=recon.reload2, noise=0.1, volume=1, delayBeforePlay=15}
 
-    Delay_Between_Shots:
-      Action_Bar: "<gray>Shoot and Pump <bar> <time><gray>s"
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
       Bar:
         Left_Color: "<gold>"
         Right_Color: "<gray>"
@@ -20636,6 +22828,16 @@ Yahar_gul_1521:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=71}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=89}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Cosmetics:
      Third_Person_Pose:
       Default: BOW
@@ -20719,6 +22921,16 @@ M2000Intervention:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=193}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=221}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=249}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Firearm_Action:
     Type: lever
@@ -20831,6 +23043,16 @@ JUMPY8:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=13}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=19}
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
   Explosion:
     Knockback_Multiplier: 5
     Explosion_Exposure: "OPTIMIZED"
@@ -20921,6 +23143,16 @@ BEGB3:
     - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=46}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=53}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/3 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
   Explosion:
     Knockback_Multiplier: 2

@@ -69,6 +69,16 @@ Lachmann556:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 LC10:
@@ -141,6 +151,16 @@ LC10:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/34 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 EINHORNREVOLVING:
@@ -211,6 +231,16 @@ EINHORNREVOLVING:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -283,6 +313,16 @@ CHROMATICHIVEMIND:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -357,6 +397,16 @@ PPS_43:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/35 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 AK_12:
@@ -429,6 +479,16 @@ AK_12:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -505,6 +565,16 @@ AN94:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -593,6 +663,16 @@ ESSEXMODEL07:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 DEGLE:
@@ -662,6 +742,16 @@ DEGLE:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -767,6 +857,16 @@ JOKR:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 ANODIZEDALLOY:
@@ -837,6 +937,16 @@ ANODIZEDALLOY:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -911,6 +1021,16 @@ HOWELLAUTOMATIC:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 JAGER45:
@@ -981,6 +1101,16 @@ JAGER45:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -1055,6 +1185,16 @@ HOMECOMING:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SKELIX11:
@@ -1127,6 +1267,16 @@ SKELIX11:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -1201,6 +1351,16 @@ VELOX57:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/15 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -1280,6 +1440,16 @@ DEEPSPACEEXCAVATOR:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SG225IE:
@@ -1356,6 +1526,16 @@ SG225IE:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 HotchkissMKI:
@@ -1428,6 +1608,16 @@ HotchkissMKI:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -1502,6 +1692,16 @@ Doshinegun:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 Kompakt92:
@@ -1574,6 +1774,16 @@ Kompakt92:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -1648,6 +1858,16 @@ HALFPIPEHANDLER:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 STERLINGL2A3:
@@ -1721,6 +1941,16 @@ STERLINGL2A3:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/34 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -1812,6 +2042,16 @@ SVCh54:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 G11:
@@ -1888,6 +2128,16 @@ G11:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 LMG11:
@@ -1960,6 +2210,16 @@ LMG11:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/300 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -2034,6 +2294,16 @@ LMG11:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 A91M:
@@ -2106,6 +2376,16 @@ A91M:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -2189,6 +2469,16 @@ VSK94:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 THEUNMAKER:
@@ -2262,6 +2552,16 @@ THEUNMAKER:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/55 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 FIATRevelliModello1914:
@@ -2334,6 +2634,16 @@ FIATRevelliModello1914:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -2419,6 +2729,16 @@ TOZ106:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/4 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 WiegerSTG941:
@@ -2491,6 +2811,16 @@ WiegerSTG941:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -2574,6 +2904,16 @@ ZastavaM76:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 M45A1:
@@ -2645,6 +2985,16 @@ M45A1:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 CHAMFRON:
@@ -2715,6 +3065,16 @@ CHAMFRON:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -2789,6 +3149,16 @@ FarquharHillM1918:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/19 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 KRUMMLAUF:
@@ -2861,6 +3231,16 @@ KRUMMLAUF:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -2937,6 +3317,16 @@ MARBLEFOUNDATION:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -3015,6 +3405,16 @@ LachmannShroud:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 KORD6P67:
@@ -3087,6 +3487,16 @@ KORD6P67:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -3161,6 +3571,16 @@ Kogot7:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -3240,6 +3660,16 @@ KHVOSTOV7G0X:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/41 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 G3A3:
@@ -3313,6 +3743,16 @@ G3A3:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 M19:
@@ -3384,6 +3824,16 @@ M19:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/17 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 WIST94:
@@ -3448,6 +3898,16 @@ WIST94:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/16 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -3522,6 +3982,16 @@ Lachmann762:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 HAMMERGEWEHR:
@@ -3594,6 +4064,16 @@ HAMMERGEWEHR:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/310 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -3676,6 +4156,16 @@ HAMMERGEWEHR:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 PUNCHDRUNK:
@@ -3751,6 +4241,16 @@ PUNCHDRUNK:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SPLATTERCAST:
@@ -3821,6 +4321,16 @@ SPLATTERCAST:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -3894,6 +4404,16 @@ SUITPORT:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -4012,6 +4532,16 @@ DAWNLIGHTSCOURGE:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 CLEAVEDARMAMENT:
@@ -4084,6 +4614,16 @@ CLEAVEDARMAMENT:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -4160,6 +4700,16 @@ CUSTOSSANGUINIS:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -4246,6 +4796,16 @@ CLANDESTINECONCORD:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 NECROTICRELIQUARY:
@@ -4320,6 +4880,16 @@ NECROTICRELIQUARY:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/63 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -4401,6 +4971,16 @@ BLIGHTSEMBRACE:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SACREDEMBRACE:
@@ -4474,6 +5054,16 @@ SACREDEMBRACE:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -4553,6 +5143,16 @@ ONYXWRATH:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -4634,6 +5234,16 @@ HIGHOCTANE:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/125 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 VoyakKT3:
@@ -4710,6 +5320,16 @@ VoyakKT3:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 EXLIBRIS:
@@ -4782,6 +5402,16 @@ EXLIBRIS:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -4856,6 +5486,16 @@ IRONWORKS:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 ASH2ASH:
@@ -4929,6 +5569,16 @@ ASH2ASH:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -5006,6 +5656,16 @@ BACKSEATDRIVER:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 ROYALCOFFER:
@@ -5078,6 +5738,16 @@ ROYALCOFFER:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -5176,6 +5846,16 @@ NOBLEKNIGHT:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SWINDLER:
@@ -5249,6 +5929,16 @@ SWINDLER:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 TRUESTRIPES:
@@ -5319,6 +6009,16 @@ TRUESTRIPES:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/24 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -5393,6 +6093,16 @@ MP40:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 RAM7:
@@ -5465,6 +6175,16 @@ RAM7:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -5539,6 +6259,16 @@ NEBULASBRUSH:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 WIRETAP:
@@ -5612,6 +6342,16 @@ WIRETAP:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 MakarovPM:
@@ -5682,6 +6422,16 @@ MakarovPM:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -5772,6 +6522,16 @@ GRAVEMARK357:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SUGARPOWERED:
@@ -5845,6 +6605,16 @@ SUGARPOWERED:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -5920,6 +6690,16 @@ THERMALSHROUD:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 CHROMALITE:
@@ -5992,6 +6772,16 @@ CHROMALITE:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -6094,6 +6884,16 @@ IKEBANA:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 THEBATTLEDOC:
@@ -6170,6 +6970,16 @@ THEBATTLEDOC:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 KAOLIN:
@@ -6241,6 +7051,16 @@ KAOLIN:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/14 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 Thronebuster:
@@ -6311,6 +7131,16 @@ Thronebuster:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/14 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -6386,6 +7216,16 @@ SHIVERSTEEL:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/18 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 KEELHAUL:
@@ -6458,6 +7298,16 @@ KEELHAUL:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -6532,6 +7382,16 @@ SCALEANDBONE:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 OROKU:
@@ -6604,6 +7464,16 @@ OROKU:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -6685,6 +7555,16 @@ FEELINJUMPY:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/66 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 KRAITP68:
@@ -6756,6 +7636,16 @@ KRAITP68:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -6830,6 +7720,16 @@ GRACHTENGORDEL:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -6906,6 +7806,16 @@ LAVISHOPULENCE:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/54 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -7003,6 +7913,16 @@ IRONRAIN:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -7103,6 +8023,16 @@ RW1:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/1 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -7205,6 +8135,16 @@ TRISHULA:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 HammondP2016:
@@ -7275,6 +8215,16 @@ HammondP2016:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/12 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -7376,6 +8326,16 @@ VERDANTVOW:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 1903Hammerless:
@@ -7446,6 +8406,16 @@ VERDANTVOW:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -7520,6 +8490,16 @@ HUAYCHIVO:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -7622,6 +8602,16 @@ BLUESCREEN:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 BAGELANDSCHMEAR:
@@ -7695,6 +8685,16 @@ BAGELANDSCHMEAR:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/55 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SMOLDERINGVAPORS:
@@ -7766,6 +8766,16 @@ SMOLDERINGVAPORS:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/65 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 DETERRENCEINSIGNIA:
@@ -7836,6 +8846,16 @@ DETERRENCEINSIGNIA:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -7909,6 +8929,16 @@ RPK74M:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -7985,6 +9015,16 @@ MELTINGPOINT:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 WILDBORNFANG:
@@ -8057,6 +9097,16 @@ WILDBORNFANG:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -8131,6 +9181,16 @@ CZARINA:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 FROZENNORTH:
@@ -8203,6 +9263,16 @@ FROZENNORTH:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/125 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -8285,6 +9355,16 @@ LASRIFLE:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 MG3:
@@ -8357,6 +9437,16 @@ MG3:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/120 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -8433,6 +9523,16 @@ MG14z:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/240 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 BROWNINGHIPOWER:
@@ -8503,6 +9603,16 @@ BROWNINGHIPOWER:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/13 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -8576,6 +9686,16 @@ UDM42:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -8657,6 +9777,16 @@ CHROMOPHORE:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 FNAB43:
@@ -8730,6 +9860,16 @@ FNAB43:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 MP8013T:
@@ -8801,6 +9941,16 @@ MP8013T:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -8878,6 +10028,16 @@ MAC16:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 FSSHurricane:
@@ -8951,6 +10111,16 @@ FSSHurricane:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 ShadowSkyline:
@@ -9023,6 +10193,16 @@ ShadowSkyline:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -9100,6 +10280,16 @@ FORGEDCALAMITY:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -9283,6 +10473,16 @@ BrnoBKS:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 raygunmark2:
@@ -9354,6 +10554,16 @@ raygunmark2:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/21 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -9436,6 +10646,16 @@ raygunmark2_v:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 raygunmark2_x:
@@ -9509,6 +10729,16 @@ raygunmark2_x:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/33 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -9609,6 +10839,16 @@ raygunmark2_y:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/3 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 raygunmark2_z:
@@ -9688,6 +10928,16 @@ raygunmark2_z:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 6P69MABlyams:
@@ -9761,6 +11011,16 @@ raygunmark2_z:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/3000 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 RITASROSE:
@@ -9833,6 +11093,16 @@ RITASROSE:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -9960,6 +11230,16 @@ SteyrAMR5075:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 HKCAWS:
@@ -10033,6 +11313,16 @@ HKCAWS:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 MILLYBLOSSOM:
@@ -10105,6 +11395,16 @@ MILLYBLOSSOM:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -10203,6 +11503,16 @@ PAUZAP50:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 BandayevskyRB12:
@@ -10287,6 +11597,16 @@ BandayevskyRB12:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -10383,6 +11703,16 @@ ROBINSONSR9:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/16 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 WIMMERSPERGSPZ:
@@ -10455,6 +11785,16 @@ WIMMERSPERGSPZ:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -10557,6 +11897,16 @@ JuniperLineExpress:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 ZB47:
@@ -10631,6 +11981,16 @@ ZB47:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/72 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 CBRS3:
@@ -10704,6 +12064,16 @@ CBRS3:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 AK_74:
@@ -10776,6 +12146,16 @@ AK_74:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -10876,6 +12256,16 @@ RAIK84:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 KPAType88:
@@ -10948,6 +12338,16 @@ KPAType88:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/150 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -11050,6 +12450,16 @@ SDK9mm:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 RHINO40DS:
@@ -11126,6 +12536,16 @@ RHINO40DS:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -11204,6 +12624,16 @@ KIMBERK6S:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 AutomaticoM1918:
@@ -11277,6 +12707,16 @@ AutomaticoM1918:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -11360,6 +12800,16 @@ SVT40:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -11446,6 +12896,16 @@ AVT40:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 PP91KEDR:
@@ -11519,6 +12979,16 @@ PP91KEDR:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 PP9KLIN:
@@ -11591,6 +13061,16 @@ PP9KLIN:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -11671,6 +13151,16 @@ BEOWULFTCR:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 GrizzlyMKV:
@@ -11742,6 +13232,16 @@ GrizzlyMKV:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 VAG73:
@@ -11812,6 +13312,16 @@ VAG73:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/48 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -11886,6 +13396,16 @@ UNLEASHEDVELOCITY:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 THEOLDROAD:
@@ -11956,6 +13476,16 @@ THEOLDROAD:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -12029,6 +13559,16 @@ GRAYSKULLKEY:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/75 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -12110,6 +13650,16 @@ GulalPowder:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 MINTCHIP:
@@ -12180,6 +13730,16 @@ MINTCHIP:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/17 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -12254,6 +13814,16 @@ HexedCruelty:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 CALIBRATEDHAVOC:
@@ -12324,6 +13894,16 @@ CALIBRATEDHAVOC:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -12397,6 +13977,16 @@ G95A1:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -12475,6 +14065,16 @@ GASSERM1870:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/6 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 PB4OSA:
@@ -12549,6 +14149,16 @@ PB4OSA:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/4 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 RPK16:
@@ -12622,6 +14232,16 @@ RPK16:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/95 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 TTI2011COMBATMASTER:
@@ -12692,6 +14312,16 @@ TTI2011COMBATMASTER:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/21 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -12773,6 +14403,16 @@ C7A2:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 AF2011A1:
@@ -12844,6 +14484,16 @@ AF2011A1:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/16 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -12917,6 +14567,16 @@ AMB17:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -13012,6 +14672,16 @@ VILLAINOUSHORRORSPIRIT:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/8 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SCRAWLEDINBLOOD:
@@ -13089,6 +14759,16 @@ SCRAWLEDINBLOOD:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 STG59H:
@@ -13162,6 +14842,16 @@ STG59H:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/50 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 TKB059:
@@ -13234,6 +14924,16 @@ TKB059:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/90 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -13336,6 +15036,16 @@ VICTRIXTORMENTOV:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 SHRIKE556:
@@ -13408,6 +15118,16 @@ SHRIKE556:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/200 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -13486,6 +15206,16 @@ VPO209:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 BAMBOOBALLISTICS:
@@ -13558,6 +15288,16 @@ BAMBOOBALLISTICS:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -13632,6 +15372,16 @@ NEWSREEL:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 HELLRIEGEL1915:
@@ -13704,6 +15454,16 @@ HELLRIEGEL1915:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -13785,6 +15545,16 @@ EIDENBERGER:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/120 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 BAS_B:
@@ -13857,6 +15627,16 @@ BAS_B:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -13931,6 +15711,16 @@ SPEARLT:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/28 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 OTS12TISS:
@@ -14003,6 +15793,16 @@ OTS12TISS:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/20 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -14077,6 +15877,16 @@ Uzi:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/32 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -14159,6 +15969,16 @@ AXISMIRACLE:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/60 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -14250,6 +16070,16 @@ GZ18MARKZA:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 MISRIAH2442:
@@ -14335,6 +16165,16 @@ MISRIAH2442:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/4 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 MLE1903:
@@ -14405,6 +16245,16 @@ MLE1903:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/9 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -14478,6 +16328,16 @@ THERNAS:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/23 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -14553,6 +16413,16 @@ ISONZO:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 MONTECISMONE:
@@ -14626,6 +16496,16 @@ MONTECISMONE:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/25 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -14701,6 +16581,16 @@ TheCampaign:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/125 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -14805,6 +16695,16 @@ TOWERPOACHER:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 CHRONICUNAPOLOGETIC:
@@ -14878,6 +16778,16 @@ CHRONICUNAPOLOGETIC:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/40 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -15025,6 +16935,16 @@ VICTUSXMR:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 THEROOK:
@@ -15127,6 +17047,16 @@ THEROOK:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 BLACKCASSOWARY:
@@ -15206,6 +17136,16 @@ BLACKCASSOWARY:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/45 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
 
 
 
@@ -15307,6 +17247,16 @@ CORPORATETHEFT:
       Default: BOW
       Reload: BLOCK
 
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
 
 
 AGGRESSIONACT:
@@ -15406,3 +17356,13 @@ AGGRESSIONACT:
      Third_Person_Pose:
       Default: BOW
       Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
