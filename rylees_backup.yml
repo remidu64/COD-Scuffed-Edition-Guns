@@ -17366,3 +17366,1029 @@ AGGRESSIONACT:
         Right_Color: "<gray>"
         Left_Symbol: "|"
         Symbol_Amount: 25
+
+
+
+CANTUSRUBRA:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: "<gold>3-Line Rifle 'Cantus Rubra' «<ammo_left>/5»<reload><firearm_state>"
+    Weapon_Item:
+      Name: <gold>3-Line Rifle 'Cantus Rubra'
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 3
+      Lore:
+      - <gold>Sniper Rifle
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 300
+    Mechanics:
+    - Sound{sound=entity.blaze.hurt, volume=1, pitch=1}
+    - Sound{sound=entity.generic.explode, volume=1, pitch=2}
+    - Leap{speed=-0.55} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 50
+      Maximum_Travel_Distance: 400
+      Size: 0.3
+    Through:
+      Entities:
+        Allow_Any: true
+      Maximum_Through_Amount: 2
+      
+  Damage:
+    Base_Damage: 26
+    Head:
+      Bonus_Damage: 45
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    - Push{speed=1.2} @Target{}
+    Kill:
+      Mechanics:
+      - Potion{potion=INSTANT_HEALTH, level=1, time=0, particles=HIDE} @Source{}
+      - Potion{potion=INSTANT_HEALTH, level=2, time=0, delayBeforePlay=1, particles=HIDE} @Source{}
+      
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 5
+    Reload_Duration: 56
+    Start_Mechanics:
+    - Sound{sound=block.note_block.hat, volume=1, pitch=1, delayBeforePlay=6}
+    - Sound{sound=block.note_block.hat, volume=1, pitch=0.5, delayBeforePlay=12}
+    - Sound{sound=block.piston.contract, volume=1, pitch=2, delayBeforePlay=18}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=24}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=30}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=36}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=42}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=48}
+    - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=55}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 10
+      Mechanics:
+      - Sound{sound=block.note_block.hat, volume=1, pitch=0.5}
+      - Sound{sound=block.piston.contract, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 9
+      Mechanics:
+      - Sound{sound=block.piston.extend, volume=1, pitch=2}
+      
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 4
+    Mechanics:
+    - Sound{sound=block.note_block.hat, volume=1, pitch=2}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+GLADIUSGRAECUS:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>BAS-B 'Gladius Graecus' «<ammo_left>/30»<reload>
+    Weapon_Item:
+      Name: <gold>BAS-B 'Gladius Graecus'
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Assault Rifle
+      Custom_Model_Data: 1
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 170.0
+    Spread:
+      Base_Spread: 0.4
+    Mechanics:
+    - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
+    - Leap{speed=-0.078} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 10.0
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet
+      
+  Damage:
+    Base_Damage: 7
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 30
+    Reload_Duration: 54
+    Start_Mechanics:
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=10}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=21}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=31}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=42}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=53}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+BOONDOGGLEMK55:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Boondoggle Mk. 55 «<ammo_left>/30»<reload>
+    Weapon_Item:
+      Name: <gold>Boondoggle Mk. 55
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>SMG
+      Custom_Model_Data: 4
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+      Break_Blocks: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+
+  Shoot:
+    Spread:
+      Base_Spread: 0.44
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 120
+    Fully_Automatic_Shots_Per_Second: 12
+    Mechanics:
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=0.5, pitch=2}
+    - Sound{sound=entity.iron_golem.hurt, volume=0.5, pitch=2}
+    - Sound{sound=entity.skeleton.hurt, volume=0.5, pitch=2}
+    - Leap{speed=-0.091} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.105 0.275
+        Left_Hand: ~0.0 0.105 0.275
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet
+      
+  Damage:
+    Base_Damage: 4
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 30
+    Reload_Duration: 49
+    Start_Mechanics:
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=9}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=19}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=28}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=38}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=48}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+MAAHESHC4:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Maahes HC4 «<ammo_left>/16»<reload>
+    Weapon_Item:
+      Name: <gold>Maahes HC4
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Pistol
+      Custom_Model_Data: 6
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 7
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 120
+    Spread:
+      Base_Spread: 0.275
+    Mechanics:
+    - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=1}
+    - Leap{speed=-0.21} @Source{offset=~0 0 1}
+    Burst:
+      Shots_Per_Burst: 2
+      Ticks_Between_Each_Shot: 2
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.11 0.18
+        Left_Hand: ~0.0 0.11 0.18
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet
+      
+  Damage:
+    Base_Damage: 8
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 5
+      Mechanics:
+      - CustomSound{sound=misc.cs_hit, volume=1}
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 16
+    Reload_Duration: 74
+    Start_Mechanics:
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=18}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=36}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=54}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=73}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/16 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+STEELYGAZE:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>Lockwood 300 'Steely Gaze' <firearm_state> «<ammo_left>/2»<reload>
+    Weapon_Item:
+      Name: <gold>Lockwood 300 'Steely Gaze'
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Shotgun
+      Custom_Model_Data: 9
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Ammo_Per_Shot: 2
+    Projectiles_Per_Shot: 14
+    Projectile_Speed: 25.0
+    Spread:
+      Base_Spread: 1.84
+    Mechanics:
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=0.5}
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=0.5}
+    - Leap{speed=-0.212} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.085 0.45
+        Left_Hand: ~0.0 0.085 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet
+      
+  Damage:
+    Base_Damage: 9
+    Armor_Damage: 1
+    Mechanics:
+    - Command{command=eco give <source_name> 1, console=true}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 2
+    Reload_Duration: 35
+    Start_Mechanics:
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=1}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=11}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=22}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
+
+  Firearm_Action:
+    Type: pump
+    Open:
+      Time: 5
+      Mechanics:
+      - Sound{sound=block.note_block.hat, volume=1, pitch=0.5}
+      - Sound{sound=block.piston.contract, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 5
+      Mechanics:
+      - Sound{sound=block.piston.extend, volume=1, pitch=2}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/2 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+AEK973:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>AEK-973 «<ammo_left>/30»<reload>
+    Weapon_Item:
+      Name: <gold>AEK-973
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Assault Rifle
+      Custom_Model_Data: 1
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.25, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 7
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 150.0
+    Spread:
+      Base_Spread: 0.3
+    Mechanics:
+    - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
+    - Leap{speed=-0.06} @Source{offset=~0 0 1}
+    Burst:
+      Shots_Per_Burst: 3
+      Ticks_Between_Each_Shot: 1
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.225
+        Left_Hand: ~0.0 0.1 0.225
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet
+      
+  Damage:
+    Base_Damage: 6
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 30
+    Reload_Duration: 60
+    Start_Mechanics:
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=11}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=23}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=35}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=47}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/30 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+DVL10:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>DVL-10 «<ammo_left>/10»<reload><firearm_state> 
+    Weapon_Item:
+      Name: <gold>DVL-10
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 3
+      Lore:
+      - <gold>Sniper Rifle
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+  
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+  
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1 
+    Projectile_Speed: 730
+    Mechanics:
+    - Sound{sound=entity.blaze.hurt, volume=1, pitch=1}
+    - Sound{sound=entity.generic.explode, volume=1, pitch=2}
+    - Leap{speed=-0.085} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 40
+      Maximum_Travel_Distance: 400
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 24
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 37
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - Push{speed=1.8} @Target{}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 10
+    Reload_Duration: 56
+    Start_Mechanics:
+    - Sound{sound=block.note_block.hat, volume=1, pitch=1, delayBeforePlay=6}
+    - Sound{sound=block.note_block.hat, volume=1, pitch=0.5, delayBeforePlay=12}
+    - Sound{sound=block.piston.contract, volume=1, pitch=2, delayBeforePlay=18}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=24}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=30}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=36}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=42}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=48}
+    - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=55}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 8
+      Mechanics:
+      - Sound{sound=block.note_block.hat, volume=1, pitch=0.5}
+      - Sound{sound=block.piston.contract, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 12
+      Mechanics:
+      - Sound{sound=block.piston.extend, volume=1, pitch=2}
+      
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 5.0
+    Mechanics:
+    - Sound{sound=block.note_block.hat, volume=1, pitch=2}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/10 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+OVL3:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>OVL-3 «<ammo_left>/5»<reload><firearm_state> 
+    Weapon_Item:
+      Name: <gold>OVL-3
+      Type: IRON_HORSE_ARMOR
+      Custom_Model_Data: 3
+      Lore:
+      - <gold>Sniper Rifle
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+  
+  Trail:
+    Distance_Between_Particles: 1.0
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.3, noise=0.02 0.02 0.02, count=2}"
+  
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1 
+    Projectile_Speed: 1075
+    Mechanics:
+    - Sound{sound=entity.blaze.hurt, volume=1, pitch=1}
+    - Sound{sound=entity.generic.explode, volume=1, pitch=2}
+    - Leap{speed=-0.28} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.1 0.45
+        Left_Hand: ~0.0 0.1 0.45
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    Projectile_Settings:
+      Type: INVISIBLE
+      Gravity: 40
+      Maximum_Travel_Distance: 400
+      Size: 0.3
+      
+  Damage:
+    Base_Damage: 41
+    Armor_Damage: 1
+    Head:
+      Bonus_Damage: 22
+      Mechanics:
+      - CustomSound{sound=misc.tf2_die, volume=1}
+      - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE}]} @Target{}
+    Mechanics:
+    - Push{speed=2.34} @Target{}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 5
+    Reload_Duration: 74
+    Start_Mechanics:
+    - Sound{sound=block.note_block.hat, volume=1, pitch=1, delayBeforePlay=8}
+    - Sound{sound=block.note_block.hat, volume=1, pitch=0.5, delayBeforePlay=16}
+    - Sound{sound=block.piston.contract, volume=1, pitch=2, delayBeforePlay=24}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=32}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=40}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=48}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=56}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=64}
+    - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=73}
+
+  Firearm_Action:
+    Type: lever
+    Open:
+      Time: 12
+      Mechanics:
+      - Sound{sound=block.note_block.hat, volume=1, pitch=0.5}
+      - Sound{sound=block.piston.contract, volume=1, pitch=2, delayBeforePlay=2}
+    Close:
+      Time: 22
+      Mechanics:
+      - Sound{sound=block.piston.extend, volume=1, pitch=2}
+      
+  Scope:
+    Trigger:
+      Main_Hand: left_click
+    Zoom_Amount: 6.0
+    Mechanics:
+    - Sound{sound=block.note_block.hat, volume=1, pitch=2}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/5 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+MG82:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>MG 82 «<ammo_left>/100»<reload>
+    Weapon_Item:
+      Name: <gold>MG 82
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>LMG
+      Custom_Model_Data: 8
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 170
+    Spread:
+      Base_Spread: 0.91
+    Mechanics:
+    - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
+    - Leap{speed=-0.086} @Source{offset=~0 0 1}
+    Fully_Automatic_Shots_Per_Second: 15
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.115 0.4
+        Left_Hand: ~0.0 0.115 0.4
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet
+      
+  Damage:
+    Base_Damage: 4
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 100
+    Reload_Duration: 120
+    Start_Mechanics:
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=47}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=71}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=95}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=119}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/100 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+BASTIDOL:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>MAC-10 'Bast Idol' «<ammo_left>/48»<reload>
+    Weapon_Item:
+      Name: <gold>MAC-10 'Bast Idol'
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>SMG
+      Custom_Model_Data: 4
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+      Break_Blocks: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+
+  Shoot:
+    Spread:
+      Base_Spread: 0.4
+    Trigger:
+      Main_Hand: right_click
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 125
+    Fully_Automatic_Shots_Per_Second: 19
+    Mechanics:
+    - Sound{sound=entity.zombie.attack_wooden_door, volume=0.5, pitch=2}
+    - Sound{sound=entity.iron_golem.hurt, volume=0.5, pitch=2}
+    - Sound{sound=entity.skeleton.hurt, volume=0.5, pitch=2}
+    - Leap{speed=-0.06} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.105 0.275
+        Left_Hand: ~0.0 0.105 0.275
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet
+      
+  Damage:
+    Base_Damage: 3
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 48
+    Reload_Duration: 21
+    Start_Mechanics:
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=4}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=8}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=12}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=16}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=20}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/48 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
+
+
+
+ASP:
+  Info:
+    Weapon_Info_Display:
+      Action_Bar:
+        Message: <gold>ASP «<ammo_left>/7»<reload>
+    Weapon_Item:
+      Name: <gold>ASP
+      Type: IRON_HORSE_ARMOR
+      Lore:
+      - <gold>Pistol
+      Custom_Model_Data: 6
+    Weapon_Get_Mechanics:
+    - Sound{sound=entity.bat.takeoff, volume=1, pitch=1}
+    Cancel:
+      Drop_Item: true
+
+  Trail:
+    Distance_Between_Particles: 1.0
+    Hide_Trail_For: 0.5
+    Particle_Chooser: LOOP
+    Particles:
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFFF00, fadeColor=#FF0000, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.15, count=1}"
+      
+  Shoot:
+    Trigger:
+      Main_Hand: right_click
+    Delay_Between_Shots: 1
+    Projectiles_Per_Shot: 1
+    Projectile_Speed: 105
+    Spread:
+      Base_Spread: 0.21
+    Mechanics:
+    - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.zombie.attack_iron_door, volume=1, pitch=2}
+    - Leap{speed=-0.07} @Source{offset=~0 0 1}
+    Offsets:
+      Vive:
+        Right_Hand: ~0.0 0.11 0.18
+        Left_Hand: ~0.0 0.11 0.18
+      Right_Hand: ~0 0 0
+      Left_Hand: ~0 0 0
+    
+  Projectile:
+    bullet
+      
+  Damage:
+    Base_Damage: 7
+    Armor_Damage: 1
+    Mechanics:
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - CustomSound{sound=misc.hitmarker, volume=1}
+    - Command{command=eco give <source_name> 1, console=true}
+    
+  Reload:
+    Trigger:
+      Main_Hand: drop_item
+    Magazine_Size: 7
+    Reload_Duration: 25
+    Start_Mechanics:
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=6}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=12}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=18}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=24}
+
+  Cosmetics:
+     Third_Person_Pose:
+      Default: BOW
+      Reload: BLOCK
+
+  Show_Time:
+    Reload:
+      Action_Bar: "<gray>Reloading <ammo_left>/7 <bar> <time><gray>s"
+      Action_Bar_Cancelled: "<red>Reload Cancelled"
+      Bar:
+        Left_Color: "<gold>"
+        Right_Color: "<gray>"
+        Left_Symbol: "|"
+        Symbol_Amount: 25
