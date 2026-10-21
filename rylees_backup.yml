@@ -5581,8 +5581,9 @@ VoyakKT3:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 165.0
     Mechanics:
+    - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
     - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
-    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=0.5}
     - Leap{speed=-0.12} @Source{offset=~0 0 1}
     Fully_Automatic_Shots_Per_Second: 11
     Offsets:
@@ -5937,8 +5938,9 @@ BACKSEATDRIVER:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 170.0
     Mechanics:
+    - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
+    - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
     - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
-    - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=0.5}
     - Leap{speed=-0.09} @Source{offset=~0 0 1}
     Fully_Automatic_Shots_Per_Second: 11
     Offsets:
