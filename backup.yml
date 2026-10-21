@@ -25,6 +25,8 @@ M200Intervention:
       Main_Hand: right_click
     Projectiles_Per_Shot: 1
     Projectile_Speed: 1000
+    Spread:
+      Base_Spread: 0.0
     Mechanics:
     - CustomSound{sound=intervention.shoot, volume=1}
     - Leap{speed=-0.5} @Source{offset=~0 0 1}
@@ -55,6 +57,7 @@ M200Intervention:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Push{speed=1} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
   Reload:
     Trigger:
@@ -103,8 +106,12 @@ M200Intervention:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -161,6 +168,7 @@ OTS9:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -186,8 +194,12 @@ OTS9:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -247,6 +259,7 @@ FAMASG2:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -272,8 +285,12 @@ FAMASG2:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
 
@@ -333,6 +350,7 @@ FP45:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
   Reload:
     Trigger:
@@ -355,8 +373,12 @@ FP45:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -406,6 +428,7 @@ P890:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -431,8 +454,12 @@ P890:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
 
@@ -483,6 +510,7 @@ MODM:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -508,8 +536,12 @@ MODM:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
 
@@ -566,6 +598,7 @@ AS44:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -591,8 +624,12 @@ AS44:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
 
@@ -683,8 +720,12 @@ Crossbowowo:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
 
 SAKINMG38:
@@ -738,6 +779,7 @@ SAKINMG38:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -765,8 +807,12 @@ SAKINMG38:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
 
@@ -821,6 +867,7 @@ FAMASF1:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -848,8 +895,12 @@ FAMASF1:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
 
@@ -904,6 +955,7 @@ MB47:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -931,8 +983,12 @@ MB47:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
         
 
 GORENKO:
@@ -991,6 +1047,7 @@ GORENKO:
     Mechanics:
     - Push{speed=2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -1041,8 +1098,12 @@ GORENKO:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -1095,6 +1156,7 @@ GORENKO:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -1119,8 +1181,12 @@ GORENKO:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -1175,6 +1241,7 @@ DLQ33:
     Mechanics:
     - Push{speed=1} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -1225,8 +1292,12 @@ DLQ33:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -1281,6 +1352,7 @@ KVBROADSIDE:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -1308,8 +1380,12 @@ KVBROADSIDE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -1363,6 +1439,7 @@ X12:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -1389,8 +1466,12 @@ X12:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -1497,6 +1578,7 @@ GRENADE:
     Base_Explosion_Damage: 100
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -1588,6 +1670,7 @@ SEMTEX:
     Base_Explosion_Damage: 80
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -1684,6 +1767,7 @@ IMPACTGRENADE:
     Base_Explosion_Damage: 60
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
       
@@ -1749,6 +1833,7 @@ M203GRENADE:
     Base_Explosion_Damage: 100
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -1792,8 +1877,12 @@ M203GRENADE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -1816,6 +1905,7 @@ M203SEMTEX:
     Base_Explosion_Damage: 80
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
       
@@ -1866,8 +1956,12 @@ M203SEMTEX:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -1890,6 +1984,7 @@ M203IMPACTGRENADE:
     Base_Explosion_Damage: 60
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -1941,8 +2036,12 @@ M203IMPACTGRENADE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -2062,6 +2161,7 @@ RPG7:
     Base_Explosion_Damage: 100
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
       
@@ -2113,8 +2213,12 @@ RPG7:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
 
 
@@ -2137,6 +2241,7 @@ ADMINadios:
     Enable_Owner_Immunity: true
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -2246,6 +2351,7 @@ NAILGUN:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -2260,8 +2366,12 @@ NAILGUN:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -2299,6 +2409,7 @@ FLAMINGTHROWINGKNIFE:
     Fire_Ticks: 80
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
 
@@ -2325,6 +2436,7 @@ RPG14:
     Enable_Owner_Immunity: true
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -2409,8 +2521,12 @@ RPG14:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -2465,6 +2581,7 @@ RPG14:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -2503,8 +2620,12 @@ RPG14:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -2559,6 +2680,7 @@ LOCKWOOD300:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -2597,8 +2719,12 @@ LOCKWOOD300:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -2736,6 +2862,7 @@ FINNLMG:
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE, Fade_Color=RED}]} @Target{}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -2763,8 +2890,12 @@ FINNLMG:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -2824,6 +2955,7 @@ SIGNAL50:
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE, Fade_Color=RED}]} @Target{}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
 
@@ -2874,8 +3006,12 @@ SIGNAL50:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -2923,6 +3059,7 @@ SpyraTwo:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -2937,8 +3074,12 @@ SpyraTwo:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 Basilisk:
@@ -2997,6 +3138,7 @@ Basilisk:
       - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3035,8 +3177,12 @@ Basilisk:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -3096,6 +3242,7 @@ Ignition:
       - CustomSound{sound=misc.cs_hit, volume=1}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3134,8 +3281,12 @@ Ignition:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -3174,6 +3325,7 @@ FatMan:
     Base_Explosion_Damage: 100
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3298,6 +3450,7 @@ FJXImperium:
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE, Fade_Color=RED}]} @Target{}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3349,8 +3502,12 @@ FJXImperium:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -3409,6 +3566,7 @@ LotusFlames:
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE, Fade_Color=RED}]} @Target{}
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -3460,8 +3618,12 @@ LotusFlames:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -3624,6 +3786,7 @@ KaliSticks:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
 
@@ -3679,6 +3842,7 @@ Dignity:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3706,8 +3870,12 @@ Dignity:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -3768,6 +3936,7 @@ DeadCenter:
     Mechanics:
     - Push{speed=1.2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3818,8 +3987,12 @@ DeadCenter:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -3874,6 +4047,7 @@ M4A1:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3901,8 +4075,12 @@ M4A1:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -3957,6 +4135,7 @@ Marco5:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -3984,8 +4163,12 @@ Marco5:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4130,6 +4313,7 @@ Grau556:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -4157,8 +4341,12 @@ Grau556:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4214,6 +4402,7 @@ EX1:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -4238,8 +4427,12 @@ EX1:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4294,6 +4487,7 @@ Alabaster:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -4321,8 +4515,12 @@ Alabaster:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4376,6 +4574,7 @@ Alabaster:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -4413,8 +4612,12 @@ Alabaster:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4468,6 +4671,7 @@ NOCLIP:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
@@ -4492,8 +4696,12 @@ NOCLIP:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4608,8 +4816,12 @@ CQBoom:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4664,6 +4876,7 @@ ATLAS45:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -4689,8 +4902,12 @@ ATLAS45:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4747,6 +4964,7 @@ NIKITAAVT:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -4772,8 +4990,12 @@ NIKITAAVT:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4835,6 +5057,7 @@ AX50:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -4883,8 +5106,12 @@ AX50:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -4942,6 +5169,7 @@ VALOISREVOLVER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -4975,8 +5203,12 @@ VALOISREVOLVER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5034,6 +5266,7 @@ PRIVATEEYE:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -5067,8 +5300,12 @@ PRIVATEEYE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5125,6 +5362,7 @@ KILO141:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -5150,8 +5388,12 @@ KILO141:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5213,6 +5455,7 @@ SILENTSTALKER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -5238,8 +5481,12 @@ SILENTSTALKER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5295,6 +5542,7 @@ SILENTSTALKER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -5319,8 +5567,12 @@ SILENTSTALKER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5379,6 +5631,7 @@ Diamatti:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -5403,8 +5656,12 @@ Diamatti:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5493,11 +5750,16 @@ AMPEDUP:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5553,6 +5815,7 @@ KLAUSER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -5577,8 +5840,12 @@ KLAUSER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5628,6 +5895,7 @@ ROCF2:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
   Reload:
     Trigger:
@@ -5675,8 +5943,12 @@ ROCF2:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5733,6 +6005,7 @@ Bren:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -5758,8 +6031,12 @@ Bren:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5817,6 +6094,7 @@ FULLMETALVENGEANCE:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -5842,8 +6120,12 @@ FULLMETALVENGEANCE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -5898,6 +6180,7 @@ ADMINjustno:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Explosion:
     Cluster_Bomb:
@@ -5992,6 +6275,7 @@ YELLOWALPHA:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6040,8 +6324,12 @@ YELLOWALPHA:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6098,6 +6386,7 @@ KUROMAKU:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6123,8 +6412,12 @@ KUROMAKU:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6186,6 +6479,7 @@ KAR98K:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6227,8 +6521,12 @@ KAR98K:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6285,6 +6583,7 @@ FTACSIEGE:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6310,8 +6609,12 @@ FTACSIEGE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6368,6 +6671,7 @@ M13:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6393,8 +6697,12 @@ M13:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6451,6 +6759,7 @@ SPLENDOR:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6476,8 +6785,12 @@ SPLENDOR:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6540,6 +6853,7 @@ Carrack300:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6576,8 +6890,12 @@ Carrack300:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6634,6 +6952,7 @@ PINKSTRAIN:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6666,8 +6985,12 @@ PINKSTRAIN:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6724,6 +7047,7 @@ ARMAGUERRA43:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6749,8 +7073,12 @@ ARMAGUERRA43:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6807,6 +7135,7 @@ SA87:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6832,8 +7161,12 @@ SA87:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6894,6 +7227,7 @@ BREATHTAKER:
     - Push{speed=1.6} @Target{}
     - Sound{sound=entity.arrow.shoot, volume=1, pitch=2}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -6930,8 +7264,12 @@ BREATHTAKER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -6987,6 +7325,7 @@ SULFURIC:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7011,8 +7350,12 @@ SULFURIC:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7069,6 +7412,7 @@ CRONENSQUALL:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7094,8 +7438,12 @@ CRONENSQUALL:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7151,6 +7499,7 @@ X13AUTO:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7175,8 +7524,12 @@ X13AUTO:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7238,6 +7591,7 @@ PELINGTON703:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7279,8 +7633,12 @@ PELINGTON703:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7336,6 +7694,7 @@ Marshal:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7371,8 +7730,12 @@ Marshal:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7429,6 +7792,7 @@ KASTOV545:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7454,8 +7818,12 @@ KASTOV545:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7573,6 +7941,7 @@ SPRA5M:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7621,8 +7990,12 @@ SPRA5M:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7679,6 +8052,7 @@ SPRA5M:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7704,8 +8078,12 @@ SPRA5M:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7870,8 +8248,12 @@ FUELROD:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -7928,6 +8310,7 @@ SOVIETRED:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -7953,8 +8336,12 @@ SOVIETRED:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -8056,6 +8443,7 @@ STABISTOR:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -8104,8 +8492,12 @@ STABISTOR:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -8167,6 +8559,7 @@ HDR:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -8215,8 +8608,12 @@ HDR:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -8322,6 +8719,7 @@ TOWERKEY:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -8370,8 +8768,12 @@ TOWERKEY:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -8509,6 +8911,7 @@ LIENNA57:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -8534,8 +8937,12 @@ LIENNA57:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -8663,6 +9070,7 @@ AK117:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -8688,8 +9096,12 @@ AK117:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -8746,6 +9158,7 @@ SCHOOLSOUT:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -8771,8 +9184,12 @@ SCHOOLSOUT:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -8828,6 +9245,7 @@ SCHOOLSOUT:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -8852,8 +9270,12 @@ SCHOOLSOUT:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -8911,6 +9333,7 @@ HAUER77:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -8947,8 +9370,12 @@ HAUER77:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9005,6 +9432,7 @@ PUNCTUREWOUND:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -9027,8 +9455,12 @@ PUNCTUREWOUND:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9149,6 +9581,7 @@ GLAZEMATIC:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -9173,8 +9606,12 @@ GLAZEMATIC:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9217,6 +9654,7 @@ Panzerfaust30:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Projectile:
     Projectile_Settings:
@@ -9252,8 +9690,12 @@ Panzerfaust30:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9311,6 +9753,7 @@ biomechatronic:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -9336,8 +9779,12 @@ biomechatronic:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9393,6 +9840,7 @@ biomechatronic:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -9417,8 +9865,12 @@ biomechatronic:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9475,6 +9927,7 @@ ISOHEMLOCK:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -9500,8 +9953,12 @@ ISOHEMLOCK:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9541,6 +9998,7 @@ ADMINtheyiffinator:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
 
 
@@ -9597,6 +10055,7 @@ Milano821:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -9622,8 +10081,12 @@ Milano821:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9700,6 +10163,7 @@ matchlock:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Firearm_Action:
     Type: revolver
@@ -9715,8 +10179,12 @@ matchlock:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9778,6 +10246,7 @@ intimidatingfish:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -9826,8 +10295,12 @@ intimidatingfish:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9881,6 +10354,7 @@ ARCHONTYPEB:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -9905,8 +10379,12 @@ ARCHONTYPEB:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -9963,6 +10441,7 @@ ARCHONTYPEB:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
   Reload:
     Trigger:
@@ -9987,8 +10466,12 @@ ARCHONTYPEB:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10045,6 +10528,7 @@ delacremodele1936:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10070,8 +10554,12 @@ delacremodele1936:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10185,6 +10673,7 @@ baddog:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10221,8 +10710,12 @@ baddog:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10283,6 +10776,7 @@ krig6:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10308,8 +10802,12 @@ krig6:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10366,6 +10864,7 @@ pkm:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10391,8 +10890,12 @@ pkm:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10449,6 +10952,7 @@ sunsethue:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10474,8 +10978,12 @@ sunsethue:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10537,6 +11045,7 @@ swissk31:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10585,8 +11094,12 @@ swissk31:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10643,6 +11156,7 @@ cr56amax:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10668,8 +11182,12 @@ cr56amax:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10762,6 +11280,7 @@ ppsh_41:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10787,8 +11306,12 @@ ppsh_41:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10845,6 +11368,7 @@ m134minigun:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10870,8 +11394,12 @@ m134minigun:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -10934,6 +11462,7 @@ InfernalFlight:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -10982,8 +11511,12 @@ InfernalFlight:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11040,6 +11573,7 @@ WEBSPINNER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - "Potion{potion=SLOWNESS, level=2, time=60} @Target{}"
     
   Reload:
@@ -11066,8 +11600,12 @@ WEBSPINNER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11124,6 +11662,7 @@ BuckledLupara:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11161,8 +11700,12 @@ BuckledLupara:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11224,6 +11767,7 @@ ZRG20mm:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11272,8 +11816,12 @@ ZRG20mm:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11330,6 +11878,7 @@ CX_9:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11355,8 +11904,12 @@ CX_9:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11413,6 +11966,7 @@ Schwarzwald:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11438,8 +11992,12 @@ Schwarzwald:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11496,6 +12054,7 @@ loggerhead:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11532,8 +12091,12 @@ loggerhead:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11590,6 +12153,7 @@ saki:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11615,8 +12179,12 @@ saki:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11673,6 +12241,7 @@ pureindica:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11698,8 +12267,12 @@ pureindica:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11756,6 +12329,7 @@ deathlylight:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11781,8 +12355,12 @@ deathlylight:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11839,6 +12417,7 @@ M4:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11864,8 +12443,12 @@ M4:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -11922,6 +12505,7 @@ CyberUnicorn:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -11947,8 +12531,12 @@ CyberUnicorn:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -12010,6 +12598,7 @@ CyberUnicorn:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -12058,8 +12647,12 @@ CyberUnicorn:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -12116,6 +12709,7 @@ AK_47:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -12141,8 +12735,12 @@ AK_47:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -12199,6 +12797,7 @@ PumpkinHead:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -12224,8 +12823,12 @@ PumpkinHead:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -12286,6 +12889,7 @@ IceDrake:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - "Potion{potion=slowness, level=2, time=100} @Target{}"
     
   Reload:
@@ -12312,8 +12916,12 @@ IceDrake:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -12442,6 +13050,7 @@ RENETTI:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -12467,8 +13076,12 @@ RENETTI:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -12537,6 +13150,7 @@ HEATSTROKE:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -12562,8 +13176,12 @@ HEATSTROKE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -12625,6 +13243,7 @@ THEVOICES:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -12673,8 +13292,12 @@ THEVOICES:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -12734,6 +13357,7 @@ M16:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -12759,8 +13383,12 @@ M16:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -12823,6 +13451,7 @@ CHEMTHREAT:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - "Potion{potion=POISON, level=2, time=40} @Target{}"
     
   Reload:
@@ -12865,8 +13494,12 @@ CHEMTHREAT:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -12922,6 +13555,7 @@ ADMINRADIOGUN:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - "Potion{potion=WITHER, level=100, time=40} @Target{}"
     - "Potion{potion=POISON, level=100, time=40} @Target{}"
 
@@ -12983,6 +13617,7 @@ ADMINRADIOGUN:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - Push{speed=1.2} @Target{}
       
   Reload:
@@ -13032,8 +13667,12 @@ ADMINRADIOGUN:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -13090,6 +13729,7 @@ PULEMYOT762:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13115,8 +13755,12 @@ PULEMYOT762:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -13174,6 +13818,7 @@ MP5:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13199,8 +13844,12 @@ MP5:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -13257,6 +13906,7 @@ ADMIRALSPRIDE:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13282,8 +13932,12 @@ ADMIRALSPRIDE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -13307,6 +13961,7 @@ ADMINallahakbar:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Shoot:
     Trigger:
@@ -13394,6 +14049,7 @@ DUALKODACHIS:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     Backstab:
       Bonus_Damage: 150
       Mechanics:
@@ -13453,6 +14109,7 @@ PHOTONPHANTOM:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13484,8 +14141,12 @@ PHOTONPHANTOM:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -13542,6 +14203,7 @@ GALAXYCLUSTER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13574,8 +14236,12 @@ GALAXYCLUSTER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -13632,6 +14298,7 @@ BP50:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13657,8 +14324,12 @@ BP50:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -13714,6 +14385,7 @@ GROZA:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13739,8 +14411,12 @@ GROZA:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -13765,6 +14441,7 @@ ADMINPEARLHARBOR:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Shoot:
     Trigger:
@@ -13864,6 +14541,7 @@ WALKINGCONTRADICTION:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13889,8 +14567,12 @@ WALKINGCONTRADICTION:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -13947,6 +14629,7 @@ DP27:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -13972,8 +14655,12 @@ DP27:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -14031,6 +14718,7 @@ GildedRose:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -14067,8 +14755,12 @@ GildedRose:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -14125,6 +14817,7 @@ EnhancedRisk:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -14157,8 +14850,12 @@ EnhancedRisk:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -14218,6 +14915,7 @@ WELROD:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -14254,8 +14952,12 @@ WELROD:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -14327,6 +15029,7 @@ MORS:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -14375,8 +15078,12 @@ MORS:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -14448,6 +15155,7 @@ LEECHEDPOISON:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - "Potion{potion=POISON, level=5, time=60} @Target{}"
     
   Reload:
@@ -14497,8 +15205,12 @@ LEECHEDPOISON:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -14556,6 +15268,7 @@ ELECTRICLOLLIPOP:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Hand:
     Item:
@@ -14589,8 +15302,12 @@ ELECTRICLOLLIPOP:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -14650,6 +15367,7 @@ Ensanguined:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - Push{speed=1.4} @Target{}
       
   Reload:
@@ -14699,8 +15417,12 @@ Ensanguined:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -14757,6 +15479,7 @@ SUBKELVIN:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - "Potion{potion=slowness, level=1, time=60} @Target{}"
     
   Reload:
@@ -14790,8 +15513,12 @@ SUBKELVIN:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -14849,6 +15576,7 @@ superi46:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -14874,8 +15602,12 @@ superi46:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -14933,6 +15665,7 @@ cognizantrebel:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -14958,8 +15691,12 @@ cognizantrebel:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15019,6 +15756,7 @@ IMR:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15044,8 +15782,12 @@ IMR:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15106,6 +15848,7 @@ EOKA:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15130,8 +15873,12 @@ EOKA:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15193,6 +15940,7 @@ HavelinaAA50:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - Push{speed=1} @Target{}
       
   Reload:
@@ -15230,8 +15978,12 @@ HavelinaAA50:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15288,6 +16040,7 @@ burnedsoul:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15313,8 +16066,12 @@ burnedsoul:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15371,6 +16128,7 @@ ioneruption:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15396,8 +16154,12 @@ ioneruption:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15460,6 +16222,7 @@ DM7:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15496,8 +16259,12 @@ DM7:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15554,6 +16321,7 @@ XM4:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15579,8 +16347,12 @@ XM4:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15637,6 +16409,7 @@ Fennec:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15662,8 +16435,12 @@ Fennec:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15720,6 +16497,7 @@ R70Ajax:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15746,8 +16524,12 @@ R70Ajax:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15809,6 +16591,7 @@ RSAInterdiction:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15857,8 +16640,12 @@ RSAInterdiction:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -15920,6 +16707,7 @@ MTS255:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -15942,8 +16730,12 @@ MTS255:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -16000,6 +16792,7 @@ HOSER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16025,8 +16818,12 @@ HOSER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -16073,6 +16870,7 @@ ADMINMGCrossbow:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Scope:
     Trigger:
@@ -16161,6 +16959,7 @@ BREACHER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
       
       
@@ -16220,6 +17019,7 @@ NONCONFORMIST:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16245,8 +17045,12 @@ NONCONFORMIST:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -16290,6 +17094,7 @@ RAININGDEATH:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - "Potion{potion=slowness, level=2, time=50} @Target{}"
 
   Projectile:
@@ -16363,8 +17168,12 @@ RAININGDEATH:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -16426,6 +17235,7 @@ NXSHADOWCLAW:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16504,6 +17314,7 @@ aegisflux:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16529,8 +17340,12 @@ aegisflux:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -16587,6 +17402,7 @@ FAL:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16612,8 +17428,12 @@ FAL:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -16670,6 +17490,7 @@ QUARKASER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16695,8 +17516,12 @@ QUARKASER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -16758,6 +17583,7 @@ KATTAMR:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16806,8 +17632,12 @@ KATTAMR:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -16861,6 +17691,7 @@ MP18:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16902,8 +17733,12 @@ MP18:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -16961,6 +17796,7 @@ MAC10:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -16986,8 +17822,12 @@ MAC10:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -17045,6 +17885,7 @@ ATCFirefly:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17070,8 +17911,12 @@ ATCFirefly:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -17128,6 +17973,7 @@ Specterstrike:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17153,8 +17999,12 @@ Specterstrike:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -17212,6 +18062,7 @@ NuclearFusion:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17237,8 +18088,12 @@ NuclearFusion:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
 
@@ -17296,6 +18151,7 @@ Bechowiec1:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17321,8 +18177,12 @@ Bechowiec1:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -17372,6 +18232,7 @@ M8FlarePistol:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
   Reload:
     Trigger:
@@ -17411,8 +18272,12 @@ M8FlarePistol:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -17468,6 +18333,7 @@ ANM8PocketMortar:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
   Reload:
     Trigger:
@@ -17516,8 +18382,12 @@ ANM8PocketMortar:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
     
     
@@ -17574,6 +18444,7 @@ AKS_47:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17599,8 +18470,12 @@ AKS_47:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -17661,6 +18536,7 @@ mak90:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17686,8 +18562,12 @@ mak90:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -17751,6 +18631,7 @@ r1roughcut:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17784,8 +18665,12 @@ r1roughcut:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -17842,6 +18727,7 @@ TEC9:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17867,8 +18753,12 @@ TEC9:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -17926,6 +18816,7 @@ Type63:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -17955,8 +18846,12 @@ Type63:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18015,6 +18910,7 @@ deadlybotany:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - "Potion{potion=WITHER, level=2, time=140} @Target{}"
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18044,8 +18940,12 @@ deadlybotany:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18105,6 +19005,7 @@ nanofire:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18127,8 +19028,12 @@ nanofire:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18194,6 +19099,7 @@ strongarm:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18227,8 +19133,12 @@ strongarm:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -18285,6 +19195,7 @@ CrimsonDozer:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18310,8 +19221,12 @@ CrimsonDozer:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18368,6 +19283,7 @@ MG42:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18393,8 +19309,12 @@ MG42:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18451,6 +19371,7 @@ CHOPPER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18476,8 +19397,12 @@ CHOPPER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18533,6 +19458,7 @@ PU21:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -18559,8 +19485,12 @@ PU21:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18621,6 +19551,7 @@ SSK950:
     - Push{speed=5} @Target{}
     - Sound{sound=entity.arrow.shoot, volume=1, pitch=2}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18669,8 +19600,12 @@ SSK950:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18737,6 +19672,7 @@ firestrike:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -18759,8 +19695,12 @@ firestrike:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18819,6 +19759,7 @@ raygun:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18840,8 +19781,12 @@ raygun:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -18907,6 +19852,7 @@ scout:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -18930,8 +19876,12 @@ scout:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
         
         
         
@@ -18990,6 +19940,7 @@ covert:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -19013,8 +19964,12 @@ covert:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
         
 
         
@@ -19071,6 +20026,7 @@ JackalPDW:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -19097,8 +20053,12 @@ JackalPDW:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -19164,6 +20124,7 @@ guardian:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -19187,8 +20148,12 @@ guardian:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -19255,6 +20220,7 @@ hotshock:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -19277,8 +20243,12 @@ hotshock:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -19334,6 +20304,7 @@ TaschenpistoleM1914:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -19359,8 +20330,12 @@ TaschenpistoleM1914:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -19416,6 +20391,7 @@ american180:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -19441,8 +20417,12 @@ american180:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -19510,6 +20490,7 @@ AWP:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Push{speed=2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -19549,8 +20530,12 @@ AWP:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -19606,6 +20591,7 @@ argentserpent:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -19639,8 +20625,12 @@ argentserpent:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -19697,6 +20687,7 @@ NZ41:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -19722,8 +20713,12 @@ NZ41:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -19780,6 +20775,7 @@ M2Browning:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -19805,8 +20801,12 @@ M2Browning:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -19868,6 +20868,7 @@ WunderwaffeDG2:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -19894,8 +20895,12 @@ WunderwaffeDG2:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -19952,6 +20957,7 @@ RPK:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -19977,8 +20983,12 @@ RPK:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -20034,6 +21044,7 @@ COR45:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -20058,8 +21069,12 @@ COR45:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -20115,6 +21130,7 @@ ASVAL:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -20141,8 +21157,12 @@ ASVAL:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -20199,6 +21219,7 @@ Malphas:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -20231,8 +21252,12 @@ Malphas:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -20289,6 +21314,7 @@ M60:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -20314,8 +21340,12 @@ M60:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -20372,6 +21402,7 @@ M1689_Blunderbuss:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -20397,8 +21428,12 @@ M1689_Blunderbuss:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -20455,6 +21490,7 @@ VLKRogue:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -20492,8 +21528,12 @@ VLKRogue:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -20558,6 +21598,7 @@ vanguardlr1:
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     
   Reload:
@@ -20581,8 +21622,12 @@ vanguardlr1:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
         
         
         
@@ -20633,6 +21678,7 @@ yeet_dart:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
         
         
         
@@ -20683,6 +21729,7 @@ yeet_mega_dart:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
         
         
         
@@ -20740,6 +21787,7 @@ yeet_mega_dart:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -20764,8 +21812,12 @@ yeet_mega_dart:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -20822,6 +21874,7 @@ valleyoutlaw:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -20854,8 +21907,12 @@ valleyoutlaw:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -20916,6 +21973,7 @@ GEOTHERMALLINE:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Push{speed=1.2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
   Reload:
     Trigger:
@@ -20964,8 +22022,12 @@ GEOTHERMALLINE:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -21004,6 +22066,7 @@ ADMINarandom:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Push{speed=999999} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
     
     
@@ -21043,6 +22106,7 @@ ADMINSERVERKILLER:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Push{speed=2147483647} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
     
     
@@ -21099,6 +22163,7 @@ STG44:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -21124,8 +22189,12 @@ STG44:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -21182,6 +22251,7 @@ ALLSMILES:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -21214,8 +22284,12 @@ ALLSMILES:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -21285,6 +22359,7 @@ M82A1:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Push{speed=2} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
   Reload:
     Trigger:
@@ -21321,8 +22396,12 @@ M82A1:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -21374,6 +22453,7 @@ ADMINgoosekiller:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Push{speed=10000} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
       
       
       
@@ -21442,6 +22522,7 @@ akimbostrongarm:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -21485,8 +22566,12 @@ akimbostrongarm:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
         
         
         
@@ -21544,6 +22629,7 @@ bananablaster:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -21569,8 +22655,12 @@ bananablaster:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -21627,6 +22717,7 @@ herotypepower:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -21652,8 +22743,12 @@ herotypepower:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -21719,6 +22814,7 @@ slamfirestrongarm:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -21752,8 +22848,12 @@ slamfirestrongarm:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
       
       
       
@@ -21816,6 +22916,7 @@ LAVALACERATOR:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -21864,8 +22965,12 @@ LAVALACERATOR:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -21937,6 +23042,7 @@ M1GARAND:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
   Reload:
     Trigger:
@@ -21967,8 +23073,12 @@ M1GARAND:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
     
     
     
@@ -22025,6 +23135,7 @@ DOOM1PISTOL:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     
     
     
@@ -22059,6 +23170,7 @@ PRIVATEEYEMELEE:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     Backstab:
       Bonus_Damage: 150
       Mechanics:
@@ -22102,6 +23214,7 @@ BUTTERFLYKNIFE:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     Backstab:
       Bonus_Damage: 500
       Mechanics:
@@ -22162,6 +23275,7 @@ CRYSTALCHANDELIER:
     - Push{speed=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
 
   Reload:
@@ -22211,8 +23325,12 @@ CRYSTALCHANDELIER:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -22269,6 +23387,7 @@ AKITA:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -22293,8 +23412,12 @@ AKITA:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -22351,6 +23474,7 @@ holiday_workshop:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -22376,8 +23500,12 @@ holiday_workshop:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -22436,6 +23564,7 @@ SO14:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -22465,8 +23594,12 @@ SO14:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -22522,6 +23655,7 @@ delicate_demise:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -22546,8 +23680,12 @@ delicate_demise:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -22610,6 +23748,7 @@ reconcs6:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -22644,8 +23783,12 @@ reconcs6:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -22687,6 +23830,7 @@ ADMINSPYTF2:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     Backstab:
       Bonus_Damage: 500
       Mechanics:
@@ -22732,6 +23876,7 @@ demon_core_on_a_stick:
     Armor_Damage: 1
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
 
@@ -22815,6 +23960,7 @@ Yahar_gul_1521:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -22840,8 +23986,12 @@ Yahar_gul_1521:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -22877,6 +24027,8 @@ M2000Intervention:
     Mechanics:
     - CustomSound{sound=intervention.shoot, volume=1}
     - Leap{speed=-0.5} @Source{offset=~0 0 1}
+    Spread:
+      Base_Spread: 0.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 1.1
@@ -22905,6 +24057,7 @@ M2000Intervention:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Push{speed=1} @Target{}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -22980,8 +24133,12 @@ M2000Intervention:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -23031,6 +24188,7 @@ JUMPY8:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -23068,8 +24226,12 @@ JUMPY8:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
 
 
 
@@ -23124,6 +24286,7 @@ BEGB3:
     - CustomSound{sound=misc.hitmarker, volume=1}
     - CustomSound{sound=misc.hitmarker, volume=1}
     - Command{command=eco give <source_name> 1, console=true}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=1} @Target{}
 
   Reload:
     Trigger:
@@ -23180,5 +24343,9 @@ BEGB3:
 
   Cosmetics:
      Third_Person_Pose:
-      Default: BOW
-      Reload: BLOCK
+       Default: BOW
+       Reload: BLOCK
+     Bullet_Zip:
+       Maximum_Distance: 3
+       Sounds:
+       - CustomSound{sound=misc.zip, volume=1, noise=0.1}
