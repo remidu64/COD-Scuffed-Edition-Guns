@@ -11162,13 +11162,13 @@ cr56amax:
     Trigger:
       Main_Hand: drop_item
     Magazine_Size: 30
-    Reload_Duration: 24
+    Reload_Duration: 37
     Start_Mechanics:
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=5}
-    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=9}
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=14}
-    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=18}
-    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=23}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=7}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=14}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=21}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=28}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=36}
 
   Show_Time:
     Reload:
@@ -11972,13 +11972,13 @@ Schwarzwald:
     Trigger:
       Main_Hand: drop_item
     Magazine_Size: 10
-    Reload_Duration: 22
+    Reload_Duration: 35
     Start_Mechanics:
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=4}
-    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=8}
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=13}
-    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=17}
-    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=21}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=6}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=13}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=20}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=27}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=34}
 
   Show_Time:
     Reload:
