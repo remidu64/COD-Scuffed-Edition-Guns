@@ -20936,11 +20936,11 @@ RRCSMultimach:
     Distance_Between_Particles: 1.0
     Particle_Chooser: LOOP
     Particles:
-      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFEE8C, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.5, noise=0.02 0.02 0.02, count=2}"
+      -  "Particle{particle=DUST_COLOR_TRANSITION, color=#FFEE8C, fadeColor=#FFEE8C, repeatAmount=1, repeatInterval=1, alwaysShow=true, size=0.5, noise=0.02 0.02 0.02, count=2}"
       
   Shoot:
     Trigger:
-      Main_Hand: right_click
+      Main_Hand: right_clickS
     Projectiles_Per_Shot: 1
     Projectile_Speed: 750
     Mechanics:
