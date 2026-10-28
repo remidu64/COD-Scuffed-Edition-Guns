@@ -20940,7 +20940,7 @@ RRCSMultimach:
       
   Shoot:
     Trigger:
-      Main_Hand: right_clickS
+      Main_Hand: right_click
     Projectiles_Per_Shot: 1
     Projectile_Speed: 750
     Mechanics:
