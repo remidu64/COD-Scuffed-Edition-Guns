@@ -4867,13 +4867,13 @@ CLEAVEDARMAMENT:
     Trigger:
       Main_Hand: drop_item
     Magazine_Size: 30
-    Reload_Duration: 26
+    Reload_Duration: 42
     Start_Mechanics:
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=5}
-    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=10}
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=15}
-    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=20}
-    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=25}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=8}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=16}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=24}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=32}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=41}
 
   Cosmetics:
      Third_Person_Pose:
@@ -7359,13 +7359,13 @@ THEBATTLEDOC:
     Trigger:
       Main_Hand: drop_item
     Magazine_Size: 30
-    Reload_Duration: 30
+    Reload_Duration: 48
     Start_Mechanics:
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=1}
-    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=7}
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=15}
-    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
-    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=9}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=18}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=28}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=47}
 
   Cosmetics:
      Third_Person_Pose:

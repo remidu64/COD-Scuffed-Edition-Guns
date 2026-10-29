@@ -16327,13 +16327,13 @@ XM4:
     Trigger:
       Main_Hand: drop_item
     Magazine_Size: 30
-    Reload_Duration: 30
+    Reload_Duration: 48
     Start_Mechanics:
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=1}
-    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=7}
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=15}
-    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
-    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=9}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=18}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=28}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=47}
 
   Show_Time:
     Reload:
@@ -19201,13 +19201,13 @@ CrimsonDozer:
     Trigger:
       Main_Hand: drop_item
     Magazine_Size: 30
-    Reload_Duration: 30
+    Reload_Duration: 48
     Start_Mechanics:
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=1}
-    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=7}
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=15}
-    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=22}
-    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=29}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=9}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=18}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=28}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=37}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=47}
 
   Show_Time:
     Reload:
