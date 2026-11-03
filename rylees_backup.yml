@@ -20766,6 +20766,7 @@ SOLTAMK6:
       
   Damage:
     Enable_Owner_Immunity: false
+    Base_Damage: 1
     Base_Explosion_Damage: 130
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}

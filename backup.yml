@@ -1830,6 +1830,7 @@ M203GRENADE:
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=6}
       
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 100
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
@@ -1902,6 +1903,7 @@ M203SEMTEX:
       Drop_Item: true
       
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 80
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
@@ -1981,6 +1983,7 @@ M203IMPACTGRENADE:
       Drop_Item: true
       
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 60
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
@@ -2158,6 +2161,7 @@ RPG7:
       
   Damage:
     Enable_Owner_Immunity: true
+    Base_Damage: 1
     Base_Explosion_Damage: 100
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
@@ -2432,6 +2436,7 @@ RPG14:
       Drop_Item: true
       
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 100
     Enable_Owner_Immunity: true
     Mechanics:
@@ -3322,6 +3327,7 @@ FatMan:
       Left_Hand: ~0 0 0
 
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 100
     Mechanics:
     - Command{command=eco give <source_name> 1, console=true}
@@ -5890,6 +5896,7 @@ ROCF2:
    
   Damage:
     Enable_Owner_Immunity: true
+    Base_Damage: 1
     Base_Explosion_Damage: 10
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -8971,6 +8978,7 @@ FULLAUTOMGBLAUNCHER:
     - Sound{sound=entity.arrow.shoot, volume=2, pitch=0.5}
     
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 2000
     
   Projectile:
@@ -9649,6 +9657,7 @@ Panzerfaust30:
       Left_Hand: ~0 0 0
     
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 80
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -14436,6 +14445,7 @@ ADMINPEARLHARBOR:
       Drop_Item: true
       
   Damage:
+    Base_Damage: 1
     Base_Explosion_Damage: 60
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18227,6 +18237,7 @@ M8FlarePistol:
       
   Damage:
     Enable_Owner_Immunity: true
+    Base_Damage: 1
     Base_Explosion_Damage: 60
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -18328,6 +18339,7 @@ ANM8PocketMortar:
       
   Damage:
     Enable_Owner_Immunity: true
+    Base_Damage: 1
     Base_Explosion_Damage: 100
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -24281,6 +24293,7 @@ BEGB3:
 
   Damage:
     Enable_Owner_Immunity: true
+    Base_Damage: 1
     Base_Explosion_Damage: 125
     Mechanics:
     - CustomSound{sound=misc.hitmarker, volume=1}
