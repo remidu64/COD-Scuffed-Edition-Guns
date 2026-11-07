@@ -5149,11 +5149,11 @@ NECROTICRELIQUARY:
     Magazine_Size: 63
     Reload_Duration: 60
     Start_Mechanics:
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=9}
-    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=19}
-    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=29}
-    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=39}
-    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=11}
+    - Sound{sound=block.wooden_door.open, volume=1, pitch=2, delayBeforePlay=23}
+    - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=35}
+    - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=47}
+    - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
     Finish_Mechanics:
     - Sound{sound=entity.wither.ambient, volume=1, pitch=1}
 
