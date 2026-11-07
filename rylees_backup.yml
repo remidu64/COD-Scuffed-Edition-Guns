@@ -5155,7 +5155,7 @@ NECROTICRELIQUARY:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=39}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=49}
     Finish_Mechanics:
-    - Sound{sound=entity.wither.ambient, volume=1, pitch=1, delayBeforePlay=59}
+    - Sound{sound=entity.wither.ambient, volume=1, pitch=1, delayBeforePlay=10}
 
   Cosmetics:
      Third_Person_Pose:
