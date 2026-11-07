@@ -6983,7 +6983,7 @@ SUGARPOWERED:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
     Finish_Mechanics:
-    - "Potion{potion=SPEED, level=2, time=40, chance=50%}"
+    - "Potion{potion=SPEED, level=2, time=40, chance=50%} @Source{}"
 
   Cosmetics:
      Third_Person_Pose:
@@ -23614,7 +23614,8 @@ VITAEDEVOURER:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=35}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=47}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=59}
-    - "Potion{potion=INSTANT_HEALTH, level=10, time=0, delayBeforePlay=59, chance=5%, particles=HIDE} @Source{}"
+    Finish_Mechanics:
+    - "Potion{potion=INSTANT_HEALTH, level=10, time=0, chance=5%, particles=HIDE} @Source{}"
 
   Show_Time:
     Reload:
@@ -23791,7 +23792,8 @@ LYCANECLIPSE:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=18}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=24}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=31}
-    - CustomSound{sound=misc.wolf_howl, noise=0.07, delayBeforePlay=31}
+    Finish_Mechanics:
+    - CustomSound{sound=misc.wolf_howl, noise=0.07}
 
   Show_Time:
     Reload:
@@ -24795,7 +24797,7 @@ COFFEECRAZE:
       Mechanics:
       - CustomSound{sound=misc.tf2_die, volume=1}
       - Firework{effects=[{shape=STAR, color=RED, trail=TRUE, flicker=TRUE, Fade_Color=RED}]} @Target{}
-      - "Potion{potion=SPEED, level=3, time=80, chance=20%} @Source{}"
+      - "Potion{potion=SPEED, level=3, time=80, chance=20%, particles=HIDE} @Source{}"
     Mechanics:
     - Push{speed=1.4} @Target{}
     - CustomSound{sound=misc.hitmarker, volume=1}
@@ -24818,7 +24820,8 @@ COFFEECRAZE:
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=70}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=80}
     - Sound{sound=block.piston.extend, volume=1, pitch=2, delayBeforePlay=91}
-    - "Potion{potion=SPEED, level=2, time=100, delayBeforePlay=91, chance=10%}"
+    Finish_Mechanics:
+    - "Potion{potion=SPEED, level=2, time=100, chance=10%, particles=HIDE} @Source{}"
 
   Show_Time:
     Reload:
