@@ -23068,7 +23068,8 @@ M1GARAND:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=26}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=35}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=44}
-    - Damage{damage=4, ignoreArmor=true, delayBeforePlay=44, chance=3%}
+    Finish_Mechanics:
+    - Damage{damage=4, ignoreArmor=true, chance=3%}
 
   Show_Time:
     Reload:
