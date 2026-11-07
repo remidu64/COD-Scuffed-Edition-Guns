@@ -1208,13 +1208,13 @@ HOMECOMING:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 150.0
     Spread:
-      Base_Spread: 0.06
+      Base_Spread: 0.22
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
     - Sound{sound=entity.zombie.attack_wooden_door, volume=1, pitch=2}
     - Leap{speed=-0.075} @Source{offset=~0 0 1}
-    Fully_Automatic_Shots_Per_Second: 16.0
+    Fully_Automatic_Shots_Per_Second: 13.0
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1 0.225
