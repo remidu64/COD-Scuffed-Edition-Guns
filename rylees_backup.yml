@@ -6982,7 +6982,8 @@ SUGARPOWERED:
     - Sound{sound=item.flintandsteel.use, volume=1, pitch=1, delayBeforePlay=23}
     - Sound{sound=entity.player.hurt, volume=1, pitch=0.5, delayBeforePlay=31}
     - Sound{sound=block.wooden_door.close, volume=1, pitch=2, delayBeforePlay=39}
-    - "Potion{potion=SPEED, level=2, time=40, delayBeforePlay=39, chance=50%}"
+    Finish_Mechanics:
+    - "Potion{potion=SPEED, level=2, time=40, chance=50%}"
 
   Cosmetics:
      Third_Person_Pose:
