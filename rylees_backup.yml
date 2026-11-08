@@ -824,6 +824,8 @@ JOKR:
     Projectile_Speed: 60.0
     Spread:
       Base_Spread: 0.2
+      Modify_Spread_When:
+        Zooming: -100%
     Offsets:
       Vive:
         Right_Hand: ~0.0 0.1225 0.525
@@ -4346,6 +4348,8 @@ HAMMERGEWEHR:
     Projectile_Speed: 190.0
     Spread:
       Base_Spread: 0.3
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -5208,6 +5212,8 @@ BLIGHTSEMBRACE:
     Projectile_Speed: 160.0
     Spread:
       Base_Spread: 0.4
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -5486,6 +5492,8 @@ HIGHOCTANE:
     Projectile_Speed: 230
     Spread:
       Base_Spread: 1.05
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -14377,6 +14385,8 @@ GulalPowder:
     Projectile_Speed: 252
     Spread:
       Base_Spread: 0.23
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -15175,6 +15185,8 @@ C7A2:
     Projectile_Speed: 155.0
     Spread:
       Base_Spread: 0.41
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -16382,6 +16394,8 @@ EIDENBERGER:
     Projectile_Speed: 100
     Spread:
       Base_Spread: 0.7
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -18060,6 +18074,8 @@ BLACKCASSOWARY:
     Projectile_Speed: 203.0
     Spread:
       Base_Spread: 0.99
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -22109,6 +22125,8 @@ SARB15JAKL:
     Projectile_Speed: 140.0
     Spread:
       Base_Spread: 0.415
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -24318,6 +24336,8 @@ SCRUBBRUSH:
     Projectile_Speed: 200
     Spread:
       Base_Spread: 0.46
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -24414,6 +24434,8 @@ POWDERIZER:
     Projectile_Speed: 140.0
     Spread:
       Base_Spread: 0.5
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}

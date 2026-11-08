@@ -6937,6 +6937,8 @@ PINKSTRAIN:
     Projectile_Speed: 140.0
     Spread:
       Base_Spread: 0.2
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -14098,6 +14100,8 @@ PHOTONPHANTOM:
     Projectile_Speed: 100
     Spread:
       Base_Spread: 0.1
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.zombie.attack_iron_door, volume=1, pitch=2}
@@ -14190,6 +14194,8 @@ GALAXYCLUSTER:
     Projectile_Speed: 280.0
     Spread:
       Base_Spread: 0.95
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -14805,6 +14811,8 @@ EnhancedRisk:
     Projectile_Speed: 180
     Spread:
       Base_Spread: 1.0
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -15467,6 +15475,8 @@ SUBKELVIN:
     Projectile_Speed: 100
     Spread:
       Base_Spread: 0.14
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -20578,6 +20588,8 @@ argentserpent:
   Shoot:
     Spread:
       Base_Spread: 0.08
+      Modify_Spread_When:
+        Zooming: -60%
     Trigger:
       Main_Hand: right_click
     Delay_Between_Shots: 4
@@ -21210,6 +21222,8 @@ Malphas:
     Projectile_Speed: 300
     Spread:
       Base_Spread: 0.05
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -21864,6 +21878,8 @@ valleyoutlaw:
     Projectile_Speed: 150
     Spread:
       Base_Spread: 1.25
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
@@ -22241,6 +22257,8 @@ ALLSMILES:
     Projectile_Speed: 142
     Spread:
       Base_Spread: 0.5
+      Modify_Spread_When:
+        Zooming: -60%
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
