@@ -21317,7 +21317,7 @@ M60:
     Projectiles_Per_Shot: 1
     Projectile_Speed: 210
     Spread:
-      Base_Spread: 0.3
+      Base_Spread: 0.77
     Mechanics:
     - Sound{sound=entity.iron_golem.hurt, volume=1, pitch=2}
     - Sound{sound=entity.skeleton.hurt, volume=1, pitch=2}
